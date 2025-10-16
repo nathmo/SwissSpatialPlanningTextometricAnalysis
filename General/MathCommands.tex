@@ -1,0 +1,259 @@
+% Define theorems, etc
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{xca}[theorem]{Exercise}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+
+% fix spacing with \left and \right
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+\renewcommand{\vec}[1]{{\bm{#1}}}
+\newcommand{\mat}[1]{\mathbf{#1}}
+\newcommand{\T}{\mathsf{T}}
+\newcommand{\comp}{\mathsf{c}}
+\newcommand{\dummy}{\mkern1mu\cdot\mkern1mu}
+\newcommand\given[1][]{\:\ifnum\currentgrouptype=16\middle\fi|\:}
+\newcommand\stcolon[1][]{\:\colon\:}
+\newcommand\stbar\given
+\makeatletter
+\def\st{\@ifstar\stbar\stcolon} % for text mode
+\def\mathst{\text{st}} % define separately for math mode
+\makeatother
+% \def\st{\@ifstar\stbar\stcolon}
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\curly{\{}{\}}
+\DeclarePairedDelimiter\paren{(}{)}
+\DeclarePairedDelimiter\sq{[}{]}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\newcommand*\rottext[1]{\rotatebox{75}{#1}} % Define rotation command
+
+
+% \let\oldcurly\curly
+% \def\curly{\@ifstar{\oldcurly}{\oldcurly*}}
+
+% \let\oldparen\paren
+% \def\paren{\@ifstar{\oldparen}{\oldparen*}}
+
+% \let\oldsq\sq
+% \def\sq{\@ifstar{\oldsq}{\oldsq*}}
+
+% \let\oldabs\abs
+% \def\abs{\@ifstar{\oldabs}{\oldabs*}}
+
+% \let\oldnorm\norm
+% \def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+
+% \let\oldang\ang
+% \def\ang{\@ifstar{\oldang}{\oldang*}}
+
+% \let\oldceil\ceil
+% \def\ceil{\@ifstar{\oldceil}{\oldceil*}}
+
+\newcommand{\ds}{\displaystyle}
+
+% \let\oldint\int
+% \renewcommand{\int}{\oldint\limits}
+
+\DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
+
+\newcommand*{\hermconj}{^*}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\com}{com}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\HCF}{HCF}
+\DeclareMathOperator{\Img}{Im}
+\DeclareMathOperator{\supp}{supp}
+
+\newcommand{\matL}{\mat{L}}
+\newcommand{\matG}{\mat{G}}
+%\newcommand{\matLc}{\mathbfcal{L}}
+\newcommand{\matC}{\mat{C}}
+
+\newcommand{\w}{\omega}
+
+\newcommand{\Null}{\mathcal{N}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Y}{\mathcal{Y}}
+\newcommand{\Hil}{\mathcal{H}}
+% \newcommand{\U}{\mathcal{U}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\native}{\mathcal{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\rmO}{\mathrm{O}}
+\newcommand{\Poly}{\mathcal{P}}
+\newcommand{\sensing}{\mathcal{V}}
+\newcommand{\subj}{\mathrm{s.t.}}
+\newcommand{\pv}{\mathrm{p.v.}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\Tor}{\mathbb{T}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Sph}{\mathbb{S}}
+\newcommand{\datafit}{G}
+\newcommand{\Rad}{\mathfrak{R}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\J}{\mathcal{J}}
+\newcommand{\M}{\mathcal{M}}
+%\newcommand{\Loss}{\mathcal{L}}
+\newcommand{\Lc}{\mathcal{L}}
+\newcommand{\cyl}{{\Sph^{d-1} \times \R}}
+\newcommand{\ramp}{\Lambda}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\esssup}{ess\,sup}
+\DeclareMathOperator{\spn}{span}
+% \DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\Ex}{\mathscr{E}}
+\DeclareMathOperator{\LOp}{L}
+\DeclareMathOperator{\KOp}{K}
+\DeclareMathOperator{\GOp}{G}
+\DeclareMathOperator{\ROp}{R}
+\DeclareMathOperator{\TOp}{T}
+\DeclareMathOperator{\HOp}{H}
+\DeclareMathOperator{\BOp}{B}
+\DeclareMathOperator{\FOp}{F}
+\DeclareMathOperator{\DOp}{D}
+\DeclareMathOperator{\COp}{C}
+\DeclareMathOperator{\POp}{P}
+\DeclareMathOperator{\D}{\mathcal{D}}
+\newcommand{\imag}{{\mkern 2 mu}\mathrm{j}}
+% \newcommand{\imag}{\mathrm{i}}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\ReLU}{ReLU}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\Lip}{Lip}
+
+\newcommand{\cl}{\overline}
+
+
+
+\let\P\relax
+\DeclareMathOperator{\P}{P}
+\newcommand{\even}{\mathrm{even}}
+\newcommand{\odd}{\mathrm{odd}}
+\newcommand{\iso}{\mathrm{iso}}
+\newcommand{\rad}{\mathrm{rad}}
+\newcommand{\loc}{\mathrm{loc}}
+\newcommand{\Liz}{\mathrm{Liz}}
+\newcommand{\temp}{\mathrm{temp}}
+\newcommand{\new}{\mathrm{new}}
+\newcommand{\op}{\mathrm{op}}
+\newcommand{\opt}{\mathrm{opt}}
+
+
+\newcommand{\RKHS}{\mathrm{RKHS}}
+\newcommand{\kernel}{\mathrm{kernel}}
+\newcommand{\nn}{\mathrm{nn}}
+
+\newcommand{\PRad}{\P_{\RadonOp}}
+
+%\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\Id}{I}
+\DeclareMathOperator{\I}{\mat{I}}
+
+\DeclareMathOperator{\BL}{BL}
+
+\DeclareMathOperator{\TV}{TV}
+\DeclareMathOperator{\BV}{BV}
+\DeclareMathOperator{\RTV}{\RadonOp\TV}
+\DeclareMathOperator{\RBV}{\RadonOp\BV}
+
+\newcommand\evalBracket[1]{{\left[#1\vphantom{\Big|}\right|}}
+\newcommand\evalNoBracket[1]{{\left.\kern-\nulldelimiterspace#1\vphantom{\big|}\right|}}
+\def\eval{\@ifstar\evalBracket\evalNoBracket}
+
+% \let\bar\overline
+
+
+\newcommand{\cembed}{\overset{\mathclap{\text{c.}}}{\hookrightarrow}}
+\newcommand{\dembed}{\overset{\mathclap{\text{d.}}}{\hookrightarrow}}
+
+\newcommand{\Sch}{\mathcal{S}}
+\newcommand{\SchRad}{\mathcal{S}_{\RadonOp}}
+\newcommand{\XRad}{\X_{\RadonOp}}
+\newcommand{\DRad}{\D_{\RadonOp}}
+\newcommand{\DRadB}{\D_{\RadonOp, \vec{\eta}}}
+
+\newcommand{\1}{\mathds{1}}
+
+\newcommand{\pd}[2][]{\dfrac{\partial#1}{\partial#2}}
+\newcommand{\dd}{\,\mathrm d}
+\def\d{\mathrm d}
+\newcommand{\de}[2][]{\dfrac{\mathrm d{#1}}{\mathrm d{#2}}}
+
+\DeclareMathOperator{\RadonOp}{\mathscr{R}}
+\newcommand{\Radon}[1]{\RadonOp\left\{#1\right\}}
+\newcommand{\DualRadon}[1]{\RadonOp^*\left\{#1\right\}}
+
+\DeclareMathOperator{\HilbertOp}{\mathscr{H}}
+\newcommand{\Hilbert}[1]{\HilbertOp\left\{#1\right\}}
+
+\DeclareMathOperator{\FourierOp}{\mathscr{F}}
+\newcommand{\Fourier}[2][]{\FourierOp_{#1}\left\{#2\right\}}
+\newcommand{\InvFourier}[2][]{\FourierOp^{-1}_{#1}\left\{#2\right\}}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\newcommand{\fixme}[1]{\textcolor{red}{\textsf{FIXME}: #1}}
+%\newcommand{\todo}[1]{\textcolor{blue}{\textsf{TODO}: #1}}
+
+\renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
+
+\def \Rad{\mathfrak{R}}
+\def\E{{\mathbb E}}
+%\def\P{{\mathbb P}}
+\newcommand{\bx}{\vec{x}}
+\newcommand{\btheta}{\vec{\theta}}
+
+\usepackage{scalerel,stackengine}
+\stackMath
+\newcommand\reallywidehat[1]{%
+\savestack{\tmpbox}{\stretchto{%
+  \scaleto{%
+    \scalerel*[\widthof{\ensuremath{#1}}]{\kern.1pt\mathchar"0362\kern.1pt}%
+    {\rule{0ex}{\textheight}}%WIDTH-LIMITED CIRCUMFLEX
+  }{\textheight}% 
+}{2.4ex}}%
+\stackon[-6.9pt]{#1}{\tmpbox}%
+}
+
+\newcommand{\brows}[1]{%
+  \begin{bmatrix}
+  \begin{array}{@{\protect\rotvert\;}c@{\;\protect\rotvert}}
+  #1
+  \end{array}
+  \end{bmatrix}
+}
+\newcommand{\rotvert}{\rotatebox[origin=c]{90}{$\vert$}}
+\newcommand{\rowsvdots}{\multicolumn{1}{@{}c@{}}{\vdots}}
+
+
+\def\Xint#1{\mathchoice
+{\XXint\displaystyle\textstyle{#1}}%
+{\XXint\textstyle\scriptstyle{#1}}%
+{\XXint\scriptstyle\scriptscriptstyle{#1}}%
+{\XXint\scriptscriptstyle\scriptscriptstyle{#1}}%
+\!\int}
+\def\XXint#1#2#3{{\setbox0=\hbox{$#1{#2#3}{\int}$ }
+\vcenter{\hbox{$#2#3$ }}\kern-.6\wd0}}
+\def\avint{\Xint-}
+

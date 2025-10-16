@@ -1,0 +1,117 @@
+% Give your report a title
+% \newcommand\reporttitle{Stylized approximations of curves and of 1-dimensional manifolds using splines}
+
+% Insert authors and student numbers here
+\newcommand\reportauthors{
+Nathann Morand (296190)
+}
+
+% Add the name of your tutor (for DBL) or any other text.
+
+% Date and location (default: current date and Eindhoven)
+\newcommand\placeanddate{
+Lausanne, \today
+}
+
+
+% Sets up hyperlinks in the document to be colored
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue,
+    urlcolor = blue,
+    citecolor = blue
+}
+\urlstyle{same} % Defines settings for link and reference formatting
+
+
+\makeatletter 
+\newcommand\semiHuge{\@setfontsize\semiHuge{22.72}{27.38}}
+\newcommand\semihuge{\@setfontsize\semihuge{18.93}{23.45}}
+\newcommand\semiLARGE{\@setfontsize\semiLARGE{15.77}{19.90}}
+\newcommand\semiLarge{\@setfontsize\semiLarge{13.15}{15.87}}% 15.18?
+\newcommand\semilarge{\@setfontsize\semilarge{11.46}{13.80}}
+\newcommand\seminormal{\@setfontsize\seminormal{10.46}{12.77}}
+\makeatother 
+
+% Format titles
+\titleformat*{\section}{\semihuge\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+% \titleformat*{\section}{\semiHuge\bfseries}
+% \titleformat*{\subsection}{\semihuge\bfseries}
+% \titleformat*{\subsubsection}{\Large\bfseries}
+% \titleformat*{\paragraph}{\large\bfseries}
+% \titleformat*{\subparagraph}{\large\bfseries}
+
+% Change bullet style for level 1, 2 and 3 respectively for itemize
+% \renewcommand{\labelitemi}{\scriptsize\textcolor{red}{$\bullet$}}% level 1
+% \renewcommand{\labelitemii}{\scriptsize\textcolor{red}{$\square$}}% level 2
+% \renewcommand{\labelitemiii}{\textcolor{red}{$\circ$}}% level 3
+
+% \renewcommand{\labelitemi}{\small\textcolor{red}{\ding{70}}} % level 1
+% \renewcommand{\labelitemii}{\small\textcolor{red}{\ding{71}}}% level 2
+% \renewcommand{\labelitemiii}{\tiny\textcolor{red}{\ding{71}}}% level 3
+
+% Change bullet style for level 1, 2 and 3 respectively for enumerate
+% \renewcommand{\labelenumi}{\textbf{\textcolor{red}{\arabic*.}}}% level 1
+% \renewcommand{\labelenumii}{\textbf{\textcolor{red}{[\alph*]}}}% level 2
+% \renewcommand{\labelenumiii}{\textbf{\textcolor{red}{\roman*.}}}% level 3
+
+% Have reference labels be linked to section (section 3 will have fig. 3.1 etc.)
+\counterwithin{equation}{section} % For equations
+\counterwithin{figure}{section} % For figures
+\counterwithin{table}{section} % For tables
+
+% Creates a beautiful header/footer
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt} %Largeur ligne
+\lhead{\includegraphics[height = 8pt]{Figures/epfl_red.png} }
+\rhead{\leftmark}
+\renewcommand{\footrulewidth}{0.4pt}
+\cfoot{Page \thepage}
+
+\fancypagestyle{alim}{\renewcommand{\headrulewidth}{0.4pt} %Largeur ligne
+\lhead{\includegraphics[height = 8pt]{Figures/0. General/epfl_red.png} }
+\rhead{\leftmark}
+\renewcommand{\footrulewidth}{0.4pt}
+\cfoot{ }}
+
+
+% Formats section, subsection and subsubsection titles respectively 
+%\titleformat{\section}{\sffamily\color{red}\Large\bfseries}{\thesection\enskip\color{gray}\textbar\enskip}{0cm}{} % Formats section titles
+
+%\titleformat{\subsection}{\sffamily\color{red}\large\bfseries}{\thesubsection\enskip\color{gray}\textbar\enskip}{0cm}{} % Formats subsection titles
+
+%\titleformat{\subsubsection}{\sffamily\color{red}\bfseries}{\thesubsubsection\enskip\color{gray}\textbar\enskip}{0cm}{} % Formats subsubsection titles
+
+
+% Change distance between section header and text
+%\titlespacing{\section}{0em}{0em}{1em}
+%\titlespacing{\subsection}{0em}{0.5em}{0em}
+%\titlespacing{\subsubsection}{0em}{1em}{0em}
+%\titlespacing{\paragraph}{0em}{1em}{1em}
+
+% Formats captions
+\DeclareCaptionFont{red}{\color{red}}
+\DeclareCaptionFont{blue}{\color{blue}}
+% \captionsetup{labelfont={blue,bf}}
+\captionsetup{labelfont={blue}}
+
+
+\usepackage[skip=6pt]{parskip}
+
+
+% Removes indent when starting a new paragraph
+\setlength\parindent{0pt}
+
+% Limits the ToC to sections and subsections (no subsubsec.)
+%\setcounter{tocdepth}{2}
+
+% Color equation 
+\usepackage{mathtools}
+% \newtagform{blackred}[\textcolor{red}]{\color{black}(}{)}
+
+% \usetagform{blackred}
+\newtagform{blackblue}[\textcolor{blue}]{\color{black}(}{)}
+
+\usetagform{blackblue}

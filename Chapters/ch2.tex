@@ -1,0 +1,88 @@
+\section{Conceptual Framework & Key Definitions}
+The text you shared lays out **motility** and **viscosity** as paired concepts to think about mobility in society—kind of like forces in physics, but applied to humans, institutions, and infrastructure. Let’s unpack them.
+
+**Motility** (from Kaufmann):
+It’s the *capacity of an actor to be mobile*. Not just whether buses exist or whether you own a car, but whether you, as a person or group, have the skills, dispositions, projects, and willingness to actually *use* mobility.
+
+* At the individual level: do you know how to navigate transport systems, can you afford them, are you inclined to move, do you have social networks that encourage mobility?
+* At the collective level (e.g. a company): can the organization reposition itself, optimize resources across borders, or physically relocate?
+
+So motility is a blend of *aptitude + disposition + imagination*. It’s the “potential energy” of mobility residing in the subject.
+
+**Viscosity** (from Doherty):
+This describes the *frictions and resistances in the context* that shape how motility is expressed.
+
+* At the spatial level: poor transport infrastructure, long distances, expensive housing, limited services.
+* At the institutional level: school enrolment rules, workplace expectations, visa regulations.
+* At the social level: cultural expectations about moving or staying put, family obligations.
+
+Viscosity makes mobility harder or easier depending on how “thick” the environment is with obstacles or enablers. The metaphor is well-chosen: in a fluid, high viscosity slows movement, low viscosity lets it flow freely.
+
+**Together**:
+Mobility = Motility (capacity of the subject) × Context (viscosity or potential of the environment).
+
+An individual can have high motility (lots of skills, resources, desire to move), but if the viscosity is high (say, no transport links, rigid institutions), their actual mobility is low. Conversely, a context might offer low viscosity (excellent trains, flexible rules), but if someone’s motility is low (fear of moving, lack of resources, limited know-how), they still won’t move.
+
+This pairing forces analysts and policymakers to stop reducing mobility to “supply and demand of transport” or “income differences.” Instead, it frames mobility as an *emergent property* of people’s capacities colliding with contextual resistances.
+
+It’s almost like an engineering equation hidden inside sociology: mobility emerges only when both *motility is sufficient* and *viscosity is not overwhelming*.
+
+Where it gets interesting is that both factors evolve over time. Someone can “train” their motility (learning languages, getting comfortable with commuting), while viscosity can increase or decrease (a new train line lowers it, stricter visa rules raise it).
+
+This means mobility is dynamic, path-dependent, and unevenly distributed.
+
+Would you like me to map this onto something concrete—say, how these concepts could explain why Neodrive (your ultralight vehicle project) might succeed or struggle depending on both user motility and urban viscosity?
+
+
+
+
+
+
+Nice—if you’ve already got a TXM corpus (so: full-text documents, probably policy, planning, or government reports), the game is to come up with *linguistic proxies* for motility and viscosity, since planners don’t always use those exact words.
+
+Here’s how I’d set up the queries:
+
+**Direct conceptual terms (rare, but worth testing first):**
+
+* `"motilité"` (since Kaufmann coined it at EPFL, it *might* actually show up in planning or academic-influenced texts).
+* `"viscosité"` (less common in planning, but Doherty’s work might have diffused).
+
+**Motility proxies (capacity of individuals/households to be mobile):**
+
+* `"aptitudes à la mobilité"`
+* `"compétences de mobilité"`
+* `"choix résidentiels"`
+* `"mode de vie"`
+* `"accessibilité individuelle"`
+* `"capacité de déplacement"`
+* `"mobilité sociale"` (but beware—this often means *social mobility* in the income/class sense).
+
+**Viscosity proxies (constraints, friction, institutional rules, context barriers):**
+
+* `"contraintes de mobilité"`
+* `"barrières à la mobilité"`
+* `"freins à la mobilité"`
+* `"inégalités territoriales"`
+* `"potentiel d’accueil"` (Kaufmann’s synonym for viscosity in planning terms)
+* `"accessibilité aux services"`
+* `"aménagement du territoire"` (look at co-occurrences with “mobilité”).
+* `"infrastructures de transport"` + “contraintes” or “limitations”.
+
+**Combinatorial queries (TXM lets you check co-occurrence / collocation):**
+
+* `"mobilité" & "contraintes"`
+* `"mobilité" & "accessibilité"`
+* `"mobilité" & "territoire"`
+* `"mobilité" & "inégalités"`
+* `"mobilité" & "vie quotidienne"`
+
+That way, you’re basically seeing if policy documents discuss mobility not just as infrastructure provision (new roads, bus lines), but in relation to the *agency of people* and the *resistances of context*.
+
+A neat trick in TXM:
+
+* Use **keyword-in-context (KWIC)** searches for “mobilité” and check what adjectives cluster around it. If you see words like *contraintes*, *potentiel*, *accessibilité*, *choix*, you’re already in the motility/viscosity territory.
+* Use **co-occurrence analysis** on “mobilité” with a window of 5–10 words to catch phrases like *mobilité contrainte*, *mobilité choisie*, *mobilité entravée*.
+
+This gives you empirical grounding: if the canton’s documents talk mobility mostly as *flows and infrastructure*, motility/viscosity are absent. If they emphasize *capacities, inequalities, frictions, and choices*, then the concepts are implicitly there.
+
+Do you want me to suggest an exact TXM query syntax (like `[lemma="mobilité"] []{0,5} [lemma="contrainte"]`) so you can drop it in directly?

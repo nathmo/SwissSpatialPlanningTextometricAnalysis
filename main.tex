@@ -1,0 +1,79 @@
+\documentclass[a4paper, 11 pt]{article}
+\input{General/Preamble} % Loads in the preamble 
+\input{General/Settings} % Loads in user defined settings
+\input{General/MathCommands} % Loads in user defined math commands
+
+\begin{document}
+
+%%% PAGE DE GARDE
+\thispagestyle{empty}
+\begin{center}
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+    
+    \textsc{\LARGE École Polytechnique Fédérale de Lausanne}\\[0.5cm]
+    \includegraphics[width=5cm]{Figures/epfl_red.png}\\[0.5cm]
+    \LARGE{\textsc{Robotique, 2025-26}}\\[0.5cm]
+    \huge{\textbf{Semester Project}}
+    
+    \HRule \\[0.4cm]
+    {\huge \bfseries Textometric analysis of Swiss spatial planning policies}\\[0.1cm]
+    \HRule \\[0.5cm]
+    \LARGE{\textsc{Urban Sociology Laboratory} \\
+    \text{27.08.2025 - 12.12.2025}}\\[0.5cm]
+    
+    \vspace{5mm}
+    %\includegraphics[scale=0.6]{images/pageDeGarde.png}\\
+    \vspace{15mm}
+    
+    \begin{minipage}{2in} \Large
+    \textbf{Author:}\\
+    Nathann \textsc{Morand}\\
+    Robotics M.Sc.
+    \end{minipage}
+    \hfill
+    \begin{minipage}{2.5in} \Large
+    \textbf{Supervisors:}\\
+    Prof. Vincent \textsc{Kaufmann} \\
+    Jules \textsc{Grandvillemin} \\
+    \end{minipage}
+\end{center}
+%%%
+
+%%% ABSTRACT, PROJECT ASSIGNMENT
+{ % create local environment
+\fancyhead[R]{\textsc{PROJECT ASSIGNMENT, ABSTRACT}}
+
+\newpage
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+\newpage
+}
+%%%
+%%% TABLE OF CONTENTS
+\newpage
+\renewcommand{\contentsname}{Table of Contents} 
+{
+  \hypersetup{linkcolor=black}
+  \tableofcontents
+}
+\newpage
+%%%
+
+% Creates the introduction, starting page numbering
+\include{Chapters/ch1} 
+\include{Chapters/ch2}
+\include{Chapters/ch3}
+\include{Chapters/ch4}
+\include{Chapters/ch5}
+\include{Chapters/ch6}
+\include{Chapters/ch7}
+\include{Chapters/append}
+
+% Add appendices here, if there are any
+
+\newpage
+\bibliographystyle{plain} 
+\bibliography{References}
+
+\end{document}
