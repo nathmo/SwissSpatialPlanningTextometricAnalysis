@@ -1,0 +1,288 @@
+list,lemma,count
+lemmesMotilite,enclavement,0
+lemmesMotilite,aptitude mobilité,0
+lemmesMotilite,aptitude déplacement,0
+lemmesMotilite,aptitude trajet,0
+lemmesMotilite,aptitude mouvement,0
+lemmesMotilite,aptitude transport,0
+lemmesMotilite,aptitude circulation,0
+lemmesMotilite,aptitude spatial,0
+lemmesMotilite,autonomie mobilité,0
+lemmesMotilite,autonomie déplacement,0
+lemmesMotilite,autonomie trajet,0
+lemmesMotilite,autonomie mouvement,0
+lemmesMotilite,autonomie transport,0
+lemmesMotilite,autonomie circulation,0
+lemmesMotilite,habitude mobilité,0
+lemmesMotilite,habitude déplacement,0
+lemmesMotilite,habitude trajet,0
+lemmesMotilite,habitude mouvement,0
+lemmesMotilite,habitude transport,0
+lemmesMotilite,habitude circulation,0
+lemmesMotilite,capital mobilité,0
+lemmesMotilite,capital déplacement,0
+lemmesMotilite,capital trajet,0
+lemmesMotilite,capital mouvement,0
+lemmesMotilite,capital transport,2
+lemmesMotilite,capital circulation,0
+lemmesMotilite,expérience mobilité,0
+lemmesMotilite,expérience déplacement,0
+lemmesMotilite,expérience trajet,0
+lemmesMotilite,expérience mouvement,0
+lemmesMotilite,expérience transport,0
+lemmesMotilite,expérience circulation,0
+lemmesMotilite,savoir circulatoire,0
+lemmesMotilite,représentation spatial,12
+lemmesMotilite,représentation espace,3
+lemmesMotilite,orientation spatial,0
+lemmesMotilite,aptitude orientation,0
+lemmesMotilite,capacité orientation,0
+lemmesMotilite,maîtriser orientation,0
+lemmesMotilite,maîtriser transport,10
+lemmesMotilite,adaptation spatial,4
+lemmesMotilite,littératie urbain,0
+lemmesMotilite,apprentissage mobilité,0
+lemmesMotilite,apprentissage déplacement,0
+lemmesMotilite,apprentissage trajet,0
+lemmesMotilite,apprentissage mouvement,0
+lemmesMotilite,apprentissage transport,0
+lemmesMotilite,apprentissage circulation,0
+lemmesMotilite,stratégie mobilité,171
+lemmesMotilite,stratégie déplacement,0
+lemmesMotilite,stratégie trajet,0
+lemmesMotilite,stratégie mouvement,0
+lemmesMotilite,stratégie transport,74
+lemmesMotilite,stratégie circulation,0
+lemmesMotilite,souplesse comportemental,0
+lemmesMotilite,ressource transport,3
+lemmesMotilite,ressource mobilité,9
+lemmesMotilite,ressource déplacement,0
+lemmesMotilite,ressource trajet,0
+lemmesMotilite,ressource mouvement,0
+lemmesMotilite,ressource circulation,0
+lemmesMotilite,disponibilité mobilité,0
+lemmesMotilite,disponibilité déplacement,0
+lemmesMotilite,disponibilité trajet,0
+lemmesMotilite,disponibilité mouvement,0
+lemmesMotilite,disponibilité transport,4
+lemmesMotilite,disponibilité circulation,0
+lemmesMotilite,équipement véhicule,2
+lemmesMotilite,accès véhicule,4
+lemmesMotilite,capacité véhicule,0
+lemmesMotilite,budget temps,0
+lemmesMotilite,budget mobilité,0
+lemmesMotilite,budget déplacement,0
+lemmesMotilite,budget trajet,0
+lemmesMotilite,budget mouvement,0
+lemmesMotilite,budget transport,0
+lemmesMotilite,budget circulation,0
+lemmesMotilite,facteur économique mobilité,0
+lemmesMotilite,facteur économique déplacement,0
+lemmesMotilite,coût accès véhicule,0
+lemmesMotilite,coût accès transport,0
+lemmesMotilite,inégalité accès,0
+lemmesMotilite,mobilité contraint,0
+lemmesMotilite,déplacement contraindre,0
+lemmesMotilite,trajet contraindre,0
+lemmesMotilite,mouvement contraindre,0
+lemmesMotilite,transport contraindre,2
+lemmesMotilite,mobilité choisir,0
+lemmesMotilite,déplacement choisir,0
+lemmesMotilite,trajet choisir,0
+lemmesMotilite,mouvement choisir,0
+lemmesMotilite,transport choisir,2
+lemmesMotilite,pouvoir mobilité,25
+lemmesMotilite,pouvoir déplacement,23
+lemmesMotilite,pouvoir trajet,3
+lemmesMotilite,pouvoir mouvement,4
+lemmesMotilite,pouvoir transport,54
+lemmesMotilite,pouvoir circulation,1
+lemmesMotilite,proximité service,93
+lemmesMotilite,proximité transport,40
+lemmesMotilite,intégration transport,3
+lemmesMotilite,intégration mobilité,1
+lemmesMotilite,centralité spatial,0
+lemmesMotilite,mobilité potentiel,13
+lemmesMotilite,déplacement potentiel,10
+lemmesMotilite,trajet potentiel,0
+lemmesMotilite,mouvement potentiel,1
+lemmesMotilite,transport potentiel,26
+lemmesMotilite,mobilité latent,0
+lemmesMotilite,déplacement latent,0
+lemmesMotilite,trajet latent,0
+lemmesMotilite,mouvement latent,0
+lemmesMotilite,transport latent,0
+lemmesMotilite,porter spatial,0
+lemmesMotilite,mobilité professionnel,0
+lemmesMotilite,déplacement professionnel,2
+lemmesMotilite,trajet professionnel,0
+lemmesMotilite,mobilité éducatif,0
+lemmesMotilite,déplacement éducatif,0
+lemmesMotilite,trajet éducatif,0
+lemmesMotilite,mobilité social,2
+lemmesMotilite,déplacement social,0
+lemmesMotilite,trajet social,0
+lemmesMotilite,disposition mobilité,1
+lemmesMotilite,disposition déplacement,5
+lemmesMotilite,disposition trajet,0
+lemmesMotilite,disposition mouvement,0
+lemmesMotilite,disposition transport,3
+lemmesMotilite,valeur symbolique mobilité,0
+lemmesMotilite,valeur symbolique déplacement,0
+lemmesMotilite,valeur symbolique trajet,0
+lemmesMotilite,valeur symbolique mouvement,0
+lemmesMotilite,valeur symbolique transport,0
+lemmesMotilite,valeur symbolique circulation,0
+lemmesMotilite,norme mobilité,0
+lemmesMotilite,norme déplacement,0
+lemmesMotilite,norme trajet,3
+lemmesMotilite,norme mouvement,0
+lemmesMotilite,norme transport,1
+lemmesMotilite,norme circulation,0
+lemmesMotilite,identité mobile,0
+lemmesMotilite,ancrage identitaire,0
+lemmesMotilite,mobilité quotidien,7
+lemmesMotilite,déplacement quotidien,55
+lemmesMotilite,trajet quotidien,12
+lemmesMotilite,mouvement quotidien,0
+lemmesMotilite,transport quotidien,3
+lemmesMotilite,mobilité intergénérationnel,0
+lemmesMotilite,déplacement intergénérationnel,0
+lemmesMotilite,trajet intergénérationnel,0
+lemmesMotilite,mobilité numérique,3
+lemmesMotilite,déplacement numérique,0
+lemmesMotilite,transport numérique,3
+lemmesMotilite,application transport,0
+lemmesMotilite,application mobilité,1
+lemmesMotilite,compétence numérique navigation,0
+lemmesMotilite,capacité télé-substitution,0
+lemmesMotilite,capacité télétravail,0
+lemmesMotilite,capacité substitution,0
+lemmesMotilite,propension explorer,0
+lemmesMotilite,capacité explorer,0
+lemmesMotilite,attitude mobilité,0
+lemmesMotilite,attitude déplacement,0
+lemmesMotilite,attitude trajet,0
+lemmesMotilite,attitude mouvement,0
+lemmesMotilite,attitude transport,0
+lemmesMotilite,préférence spatial,3
+lemmesMotilite,préférence modal,0
+lemmesMotilite,tolérance distance,0
+lemmesMotilite,confort mobilité,0
+lemmesMotilite,confort déplacement,0
+lemmesMotilite,confort trajet,0
+lemmesMotilite,confort mouvement,0
+lemmesMotilite,confort transport,4
+lemmesMotilite,confort circulation,0
+lemmesMotilite,perception risque,0
+lemmesMotilite,motivation mobilité,0
+lemmesMotilite,motivation déplacement,0
+lemmesMotilite,motivation trajet,0
+lemmesMotilite,motivation mouvement,0
+lemmesMotilite,motivation transport,0
+lemmesMotilite,motivation circulation,0
+lemmesMotilite,motivation modal,0
+lemmesMotilite,désir mouvement,0
+lemmesMotilite,désir mobilité,0
+lemmesMotilite,désir déplacement,0
+lemmesMotilite,désir trajet,0
+lemmesMotilite,désir transport,0
+lemmesMotilite,anxiété déplacement,0
+lemmesMotilite,anxiété mobilité,0
+lemmesMotilite,anxiété trajet,0
+lemmesMotilite,anxiété mouvement,0
+lemmesMotilite,anxiété transport,0
+lemmesMotilite,imaginaire mobilité,0
+lemmesMotilite,imaginaire déplacement,0
+lemmesMotilite,imaginaire trajet,0
+lemmesMotilite,imaginaire mouvement,0
+lemmesMotilite,imaginaire transport,0
+lemmesMotilite,valeur voyage,0
+lemmesMotilite,valeur mobilité,5
+lemmesMotilite,valeur déplacement,1
+lemmesMotilite,valeur trajet,2
+lemmesMotilite,valeur mouvement,0
+lemmesMotilite,valeur transport,8
+lemmesMotilite,culture mobilité,6
+lemmesMotilite,culture déplacement,0
+lemmesMotilite,culture trajet,0
+lemmesMotilite,culture mouvement,0
+lemmesMotilite,culture transport,0
+lemmesMotilite,mobilité vivre,0
+lemmesMotilite,déplacement vivre,0
+lemmesMotilite,trajet vivre,0
+lemmesMotilite,mouvement vivre,0
+lemmesMotilite,temps vivre,3
+lemmesMotilite,habitus mobilité,0
+lemmesMotilite,habitus déplacement,0
+lemmesMotilite,habitus trajet,0
+lemmesMotilite,habitus mouvement,0
+lemmesTemps,amélioration,271
+lemmesTemps,améliorer,270
+lemmesTemps,annonce,3
+lemmesTemps,attente,46
+lemmesTemps,bruire,20
+lemmesTemps,boire,29
+lemmesTemps,cadence,68
+lemmesTemps,confort,16
+lemmesTemps,congestion,5
+lemmesTemps,cout,0
+lemmesTemps,coût,224
+lemmesTemps,desserte,344
+lemmesTemps,distance,124
+lemmesTemps,durée,55
+lemmesTemps,éclairage,12
+lemmesTemps,efficacité,144
+lemmesTemps,embarquement,1
+lemmesTemps,ergonomie,0
+lemmesTemps,expérience,19
+lemmesTemps,fiabilité,9
+lemmesTemps,fiable,3
+lemmesTemps,fluidité,11
+lemmesTemps,gain,7
+lemmesTemps,heure,78
+lemmesTemps,kilomètre,95
+lemmesTemps,kms,0
+lemmesTemps,marche,18
+lemmesTemps,métro,11
+lemmesTemps,minute,25
+lemmesTemps,optimal,115
+lemmesTemps,optimisation,34
+lemmesTemps,paiement,18
+lemmesTemps,perception,4
+lemmesTemps,percevoir,16
+lemmesTemps,percevoir,16
+lemmesTemps,performance,17
+lemmesTemps,ponctualité,1
+lemmesTemps,ponctuel,25
+lemmesTemps,praticité,0
+lemmesTemps,propreté,1
+lemmesTemps,ralentissement,3
+lemmesTemps,rapidité,4
+lemmesTemps,régularité,0
+lemmesTemps,ressentir,3
+lemmesTemps,retard,5
+lemmesTemps,rythme,24
+lemmesTemps,saturation,6
+lemmesTemps,sécurité,266
+lemmesTemps,stress,1
+lemmesTemps,temps,158
+lemmesTemps,TP,273
+lemmesTemps,tram,33
+lemmesTemps,tramway,9
+lemmesTemps,vélo,206
+lemmesTemps,vitesse,45
+lemmesTemps,voiture,56
+lemmesTemps,agréable vivre,5
+lemmesTemps,faciliter usage,10
+lemmesTemps,favoriser usage,35
+lemmesTemps,qualité service,12
+lemmesTemps,qualité vie,558
+lemmesTemps,satisfaction besoin,11
+lemmesTemps,satisfaction usager,0
+lemmesTemps,transport collectif,289
+lemmesTemps,transport commun,32
+lemmesTemps,transport public,3696
+lemmesTemps,vie agréable,6
+lemmesTemps,vie être agréable,0
+lemmesTemps,vie plus agréable,0

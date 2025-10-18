@@ -1,10 +1,10 @@
-agréable à vivre
+agréable vivre
 amélioration
 améliorer
 annonce
 attente
-bruit
-bus
+bruire
+boire
 cadence
 confort
 congestion
@@ -35,7 +35,7 @@ optimisation
 paiement
 perception
 percevoir
-perçu
+percevoir
 performance
 ponctualité
 ponctuel
@@ -46,7 +46,7 @@ qualité vie
 ralentissement
 rapidité
 régularité
-ressenti
+ressentir
 retard
 rythme
 satisfaction besoin
