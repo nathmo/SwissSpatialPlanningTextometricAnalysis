@@ -5,7 +5,7 @@ from tqdm import tqdm
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "..", "dataset"))
+DATA_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "FR"))
 OUTPUT_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "pos_lists"))
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
