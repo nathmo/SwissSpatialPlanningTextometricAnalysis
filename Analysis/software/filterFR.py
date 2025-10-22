@@ -6,7 +6,7 @@ import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "FR"))
-OUTPUT_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "pos_lists"))
+OUTPUT_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "pos_listsFR"))
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # Reference word lists

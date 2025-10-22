@@ -31,3 +31,20 @@ TXM use the treetagger module to tag each word in the corpus. (https://www.cis.u
 I used the French and German module for the French and German dataset.
 
 From there I made a custom python script to process the data.
+
+
+# TODO 
+thomas mail
+dataset previous
+analysis allemand
+PCA / AFC
+
+
+etat de l'art, montrer qu'on sais que c'est important de prendre en compte tout les notions du temps / motilité, expliqué 
+
+méthode, parler de l'origine du dataset, du ping pong avec confederation, de la loi
+
+méthode, parler de ce que j'ai trouver
+
+resultat : dire que le conpcet de temps est pas pris en compte
+faire recherche comparative voir si ya des différence entre version et canton / langue
