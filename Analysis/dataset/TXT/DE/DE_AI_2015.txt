@@ -1,0 +1,4090 @@
+Strategie Energie AI
+
+Bericht zu den Grundlagen
+
+Von der Standeskommission erlassen am:
+
+02. September 2014
+
+Vom Grossen Rat genehmigt am:
+
+30. März 2015
+
+Vom Bundesrat genehmigt am:
+
+04. September 2015
+
+Auftraggeber:
+Bau- und Umweltdepartement Kanton Appenzell I.Rh.
+Bearbeitung: Strittmatter Partner AG St. Gallen,
+
+Stand 14.8.2014
+
+2
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+INHALTSVERZEICHNIS
+Seite
+0.
+
+FÜR DEN EILIGEN LESER .............................................................4
+
+0.1
+
+Auftrag und Inhalt
+
+4
+
+0.2
+
+Potenziale und ihre Beurteilung
+
+4
+
+0.3
+
+Strategie Energie AI
+
+5
+
+0.4
+
+Umsetzung / Massnahmenplanung
+
+8
+
+1.
+
+AUSGANGSLAGE ..........................................................................9
+
+1.1
+
+Energiestrategie 2050 des Bundesrates
+
+9
+
+1.2
+
+Auftrag
+
+10
+
+1.3
+
+Eingrenzung des Themas
+
+11
+
+1.4
+
+Kantonalrechtliche Vorgaben
+
+11
+
+1.5
+
+Zielsetzung
+
+12
+
+2.
+
+AKTUELLE ENERGIESITUATION IM KANTON ...........................14
+
+2.1
+
+Energieverbrauch
+
+14
+
+2.2
+
+Organisation der Energieversorgung
+
+16
+
+3.
+
+ABSEHBARE ENTWICKLUNGEN ................................................17
+
+4.
+
+POTENZIALE DER ERNEUERBAREN ENERGIEN .....................19
+
+4.1
+
+Wasserkraft
+
+20
+
+4.2
+
+Energieholz
+
+23
+
+4.3
+
+Sonnenenergie
+
+27
+
+4.4
+
+Biomasse
+
+31
+
+4.5
+
+Windkraft
+
+34
+
+4.6
+
+Umweltwärme
+
+36
+
+5.
+
+WÜRDIGUNG GESAMTPOTENZIALE .........................................38
+
+5.1
+
+Elektrizität
+
+38
+
+5.2
+
+Wärme
+
+39
+
+5.3
+
+Schlussfolgerungen
+
+41
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+6.
+
+STRATEGIE ENERGIE AI ............................................................ 44
+
+6.1
+
+Allgemeines
+
+44
+
+6.2
+
+Leitideen, Strategien (S) und Handlungsfelder (H)
+
+45
+
+7.
+
+UMSETZUNG / MASSNAHMENPLANUNG .................................. 50
+
+7.1
+
+Allgemeines
+
+50
+
+7.2
+
+Information / Beratung
+
+50
+
+7.3
+
+Photovoltaik und Wärmeproduktion
+
+50
+
+7.4
+
+Unterstützung durch Raumplanung
+
+51
+
+7.5
+
+Weitere Massnahmen
+
+52
+
+ANHANG ............................................................................................. 53
+1.
+
+Verwendete Grundlagen
+
+53
+
+2.
+
+Wasserkraftpotenziale Kanton AI
+
+55
+
+3.
+
+Gewässerökomorphologie Kanton AI
+
+58
+
+4.
+
+Raster für Grobbeurteilung
+
+60
+
+3
+
+Strategie Energie AI:
+
+0.
+
+FÜR DEN EILIGEN LESER
+
+0.1
+
+Auftrag und Inhalt
+
+Bericht zu den Grundlagen
+
+Ausstieg aus der Kernenergie als Auftrag
+Durch den von Bundesrat und Parlament beschlossenen
+schrittweisen Ausstieg aus der Kernenergie ist auch der Kanton
+Appenzell I.Rh. gefordert. Neben dem rationellen Energieverbrauch steht vor allem die verstärkte Nutzung erneuerbarer
+Energien im Fokus.
+Energiestrategie AI
+Mit dem vorliegenden Bericht werden die bekannten Potenziale
+der erneuerbaren Energien im Kanton (Produktion von Elektrizität und Wärme) abgeschätzt und einer Grobbeurteilung unterzogen. Gestützt darauf wird eine für den Kanton Appenzell I.Rh.
+mögliche sowie wirtschaftlich und ökologisch sinnvolle Energiestrategie formuliert.
+Nicht Ausschluss sondern Priorisierung
+Da sich die Technologien und Energiesysteme stetig und rasch
+weiterentwickeln, sind die strategischen Ziele und Vorgaben so
+formuliert, dass sie diesem Umstand Rechnung tragen. Zum
+heutigen Zeitpunkt werden daher keine Energieträger bzw. keine Technologien grundsätzlich ausgeschlossen. Es werden aus
+heutiger Sicht aber differenzierte Aussagen zu einzelnen Energieträgern und Anlagetypen gemacht und Prioritäten gesetzt.
+Unter Berücksichtigung der personellen und finanziellen Ressourcen des Kantons werden die konkret zu ergreifenden Massnahmen bestimmt.
+
+0.2
+
+Potenziale und ihre Beurteilung
+Das Potenzial ist nur eine Seite
+Für die Beurteilung der Potenziale der erneuerbaren Energien
+wird auf die bekannten Potenziale je Energieträger abgestellt.
+Was realistischer Weise erschlossen werden kann bzw. soll,
+ergibt sich aufgrund einer umfassenden Interessenabwägung.
+Dabei spielen die Grösse des jeweiligen Potenzials, die Rahmenbedingungen (rechtlich, wirtschaftlich, technisch, gesellschaftlich / sozial im Sinne der Akzeptanz, etc.) sowie das Konfliktpotenzial (Landschaft, Ökologie, Umfeld / Siedlung, etc.) eine wesentliche Rolle.
+Das Potenzial ist erheblich, aber nicht uneingeschränkt nutzbar
+Der jährliche Strombedarf und der jährliche Wärmebedarf im
+Kanton Appenzell Innerrhoden werden auf je rund 100 GWh
+geschätzt (+ / - 10 %). Werden alle bekannten Energiepotenziale (bestehendes Potenzial und Zubaupotenzial) zur Strom- und
+
+4
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Wärmeproduktion zusammengefasst, lässt sich eine Abdeckung des Gesamtbedarfs von rund 125 % im Bereich Elektrizität und von rund 215 % im Bereich Wärme mit erneuerbaren
+Energien erreichen.
+Das bekannte Potenzial an erneuerbaren Energien (Strom und
+Wärme) im Kanton Appenzell I.Rh. kann, bezogen auf den Bedarf des Kantons, grundsätzlich als erheblich bezeichnet werden. Unter Beachtung von landschaftlichen, naturräumlichen
+sowie siedlungstechnischen und wirtschaftlichen Gegebenheiten (Einwohnerdichten, Nutzungszuordnung, Schutzziele, Wirtschaftlichkeit, entgegenstehende Interessen wie Tourismus,
+etc.) sind die bekannten Potenziale jedoch nicht uneingeschränkt realisierbar.
+Photovoltaik und Kleinanlagen zur Wärmeerzeugung schneiden
+am besten ab
+Im Bereich der Elektrizität können unter den heute geltenden
+Rahmenbedingungen und den bekannten Konfliktpotenzialen
+lediglich die Photovoltaik-Anlagen ohne Ergreifung von zusätzlichen Massnahmen positiv beurteilt werden.
+Bei den übrigen Anlagen / Energieträgern kann allenfalls durch
+eine Verbesserung der Rahmenbedingungen oder durch eine
+Reduktion des Konfliktpotenzials eine bessere Einstufung angestrebt werden.
+Im Bereich der Wärme zeigt sich, dass ausser bei der Biomasse eine bei den Kleinanlagen durchwegs positive Gesamtbeurteilung resultiert. Das Potenzial der nachhaltigen Wärmenutzung ist im Kanton daher gross. Bei verbesserten Rahmenbedingungen ist auch die Biomasse bezüglich Wärme ein Interessanter Energieträger.
+
+0.3
+
+Strategie Energie AI
+Aufgrund der Potenzialabschätzungen, den kantonalen Rahmenbedingungen und den tangierten Interessen ist die Strategie Energie AI auf folgende Aspekte ausgerichtet:
+- landschafts- und umweltschonende,
+- effiziente,
+- potenzialgerechte,
+- konfliktarme,
+- qualitativ hochwertige,
+- langfristig optimale
+Nutzung der erneuerbaren sowie Substitution der fossilen
+Energieträger.
+
+5
+
+6
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Daraus ergeben sich folgende Leitideen und Strategien:
+Leitidee 1:
+Das Einsparpotenzial optimieren und im Bereich der Energieeffizienz sowie des Energiesparens (Gebäude und Mobilität) weitergehende Anstrengungen unternehmen.
+S1 Durch eine Vorbildfunktion der öffentlichen Hand zur Nachahmung motivieren.
+S2 Durch Ausbau der Anreiz- und Fördersysteme die Sanierung des Gebäudeparks sowie bei Neubauten das "Nullenergie-Haus" bzw. das "Plusenergie-Haus" forcieren und
+ökologische Mobilität fördern.
+S3 Durch gesetzliche Vorgaben zum Energiesparen und zur
+Effizienzsteigerung verpflichten.
+
+Leitidee 2:
+Durch eine weitsichtige Energiepolitik die Erhaltung der appenzellischen Natur- und Kulturlandschaft als vorrangiges öffentliches Interesse sicherstellen.
+S4 Neue, grössere Produktionsanlagen zur Energieerzeugung
+(z. B. Holzheizkraftwerk, Biogasanlage) prioritär auf geeignete und gut erschlossene Bauzonen ausrichten.
+S5 Durch Information und Absprachen mit den Nachbarkantonen, Energieversorgern und potenziellen Investoren auf
+raum- und umweltverträgliche Lösungen hinarbeiten.
+S6 Durch die vorausschauende Definition der von Produktionsanlagen einzuhaltenden Anforderungen die Planbarkeit
+und Rechtssicherheit erhöhen.
+
+Leitidee 3:
+Durch Kohärenz der strategischen Zielsetzungen des Kantons
+die erwünschten Effekte der Strategie Energie AI verstärken.
+S7 Andere Politikbereiche im Kanton wie Raumordnungs- oder
+Finanz- und Steuerpolitik berücksichtigen energiepolitische
+Zielsetzungen bzw. sind auf diese abgestimmt.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Leitidee 4:
+Durch eine markante Steigerung des Anteils an erneuerbaren
+Energien, die negativen Auswirkungen des Verbrauchs fossiler
+Energieträger reduzieren sowie eine hohe Versorgungssicherheit gewährleisten.
+S8 Durch Schaffung guter Rahmenbedingungen und Abbau
+von Hemmnissen private Initiativen fördern.
+
+Leitidee 5:
+Durch eine auf das Potenzial, die Rahmenbedingungen und
+das Konfliktpotenzial abgestimmte Prioritätensetzung die gesamtwirtschaftlich und zeitlich optimale Nutzung der erneuerbaren Energieträger fördern.
+S9 Förderung bzw. Ausbau erneuerbarer Energieträger nach
+Prioritäten
+S10 Durch die Förderung der Energieproduktion aus erneuerbaren Energieträgern im Kanton Appenzell I.Rh. im Sinne der
+vorgeschlagenen Interessenabwägung und Gesamtbeurteilung den raschen Zubau unterstützen.
+
+Leitidee 6:
+Die Realisierung von Bauten und Anlagen zur Energieerzeugung, zum Energietransport und zur Energiespeicherung ermöglichen, jedoch auf eine qualitativ hochwertige Ausführung
+bzw. Einpassung hinwirken.
+S11 Durch eine qualitativ hochwertige Ausführung von Bauten
+und Anlagen zur Energieerzeugung insbesondere von
+Sonnenenergie (innerhalb und ausserhalb der Bauzonen)
+das heimatliche Orts- und Landschaftsbild respektieren.
+S12 Die gestützt auf eine Priorisierung der Energieträger bzw.
+der eingesetzten Energiesysteme und Technologien notwendigen Transport- und Speichersysteme vorausschauend und zeitgerecht planen bzw. räumlich sicherstellen.
+
+7
+
+8
+
+Strategie Energie AI:
+
+0.4
+
+Bericht zu den Grundlagen
+
+Umsetzung / Massnahmenplanung
+Um den Leitideen und Strategien zum Durchbruch zu verhelfen,
+sind konkrete Massnahmen zu ergreifen. Diese haben folgende
+Aspekte zu berücksichtigen:
+- Priorität gemäss Gesamtbeurteilung;
+- Umsetzbarkeit / Umsetzungshorizont;
+- Kosten / Nutzenverhältnis.
+Gestützt darauf stehen vier Massnahmenbereiche im Fokus:
+1.
+
+Information und Beratung
+
+Der Umbau der Energiepolitik kann nicht nur verordnet, sondern muss durch eine Bewusstseinsänderung auch durch die
+breite Bevölkerung getragen werden.
+- Ausweitung des Informations- und Beratungsauftrages, Stärkung der Energieberatung
+2.
+
+Photovoltaik und Wärmeproduktion
+
+Gestützt auf die Potenzialabschätzung und die Gesamtbeurteilung sind im Kanton Appenzell I.Rh. prioritär PhotovoltaikAnlagen und im Bereich Wärme Sonnenenergie, Energieholz
+und Umweltwärme zu fördern.
+- Aufbau einer Informationsdrehscheibe
+- Ausweitung des Förderprogramms Energie AI
+3.
+
+Unterstützung durch raumplanerische Massnahmen
+
+Die Raumplanung soll insbesondere über Standortentscheide
+und die Koordination mit anderen Nutzungen einen Beitrag zur
+sinnvollen Nutzung von erneuerbaren Energien leisten.
+- Positiv- bzw. Negativplanung für Energieproduktionsanlagen
+- Kriterienkataloge zur Interessenabwägung
+- Energieplanung auf "Bezirks- / Gemeindestufe"
+4.
+
+Weitere Massnahmen
+
+Bei den weiteren Massnahmen erscheint es zentral, dass das
+gesamte staatliche Handeln in sich konsistent ist.
+- Überprüfung des bestehenden Förder- und Subventionssystems, sowie der Steuergesetzgebung auf falsche Anreize
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+1.
+
+AUSGANGSLAGE
+
+1.1
+
+Energiestrategie 2050 des Bundesrates
+Bundesrat und Parlament haben 2011 den schrittweisen Ausstieg aus der Kernenergie beschlossen. Ziel der schweizerischen Energiepolitik ist der nachhaltige Umgang mit Energie
+und die langfristige Sicherung der Stromversorgung. Grundlage
+dafür bildet die Energiestrategie 2050 des Bundesrates vom
+April 2012. Neben dem rationellen Energieverbrauch (Steigerung der Energieeffizienz in Gebäuden, bei Geräten und im
+Verkehr) steht vor allem die verstärkte Nutzung erneuerbarer
+Energien im Fokus des Umbaus der Schweizer Energieversorgung.
+Bis 2050 soll die Stromproduktion aus erneuerbaren Energieträgern auf 24.22 TWh erhöht werden. Mit dem ersten Massnahmenpaket sollen die Potenziale der erneuerbaren Energien
+bis 2050 erschlossen und gefördert werden. Bei der Raumplanung sollen geeignete Standorte für die Nutzung von erneuerbaren Energien ausgeschieden und bezeichnet werden. Der
+Bund soll dabei eine koordinative Rolle übernehmen. Auf Bundesebene soll die Nutzung von erneuerbaren Energien als
+wichtiges nationales Interesse gesetzlich festgeschrieben werden.
+Energiestrategie 2050 und Entwurf Energiegesetz
+(Totalrevision)
+Ende September 2012 hat der Bundesrat die Vernehmlassung
+zum eingangs erwähnten ersten Massnahmenpaket zur Energiestrategie 2050 sowie zum Entwurf des Energiegesetzes,
+welches infolge der Energiestrategie 2050 einer Totalrevision
+unterzogen wird, eröffnet. Nach einer Überarbeitung der Vorlage hat der Bundesrat im Spetember 2013 die Botschaft zum
+ersten Massnahmenpaket verabschiedet.
+Neu sind im Energiegesetz die Ziele für den Ausbau der Elektrizität aus erneuerbaren Energien verankert. Angestrebt wird
+eine durchschnittliche inländische Produktion, ausgenommen
+aus Wasserkraft, von 14.5 TWh im Jahr 2035. Bei der Produktion von Elektrizität aus Wasserkraft wird ein Ausbau angestrebt,
+mit dem die durchschnittliche Jahreserzeugung bei mind. 37.4
+TWh im Jahr 2035 liegt. Anhand einer "Produktion pro Einwohner" lassen sich für den Kanton Appenzell I.Rh. folgende Gesamtelektrizitätsmengen für das Jahr 2035 ableiten:
+- Elektrizitätsproduktion ausgenommen Wasserkraft:
+29.0 GWh
+- Elektrizitätproduktion aus Wasserkraft: 74.8 GWh
+- Gesamtelektrizitätsproduktion: 103.8 GWh
+
+9
+
+10
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Das nachfolgend in Kapitel 4 ff. ausgewiesene und erläuterte
+bekannte Gesamtpotenzial zur Elektrizitätsproduktion aus erneuerbaren Energien beträgt im Vergleich dazu rund 130 GWh
+pro Jahr.
+Im Entwurf zum Energiegesetz wird zudem ein Auftrag an die
+Raumplanung zum Ausbau erneuerbarer Energien formuliert.
+Die Kantone sollen mit einer gemeinsamen Planung für die gesamte Schweiz Gebiete und Gewässerstrecken bezeichnen, die
+sich für die Nutzung erneuerbarer Energien eignen. Die Planung soll im Sinne einer landesweiten Gesamtsicht erfolgen.
+Die Kantone sollen dafür sorgen, dass die für die Nutzung geeigneten Gebiete und Gewässerstrecken im Richtplan festgelegt werden, insbesondere für die Wasser- und die Windkraft.
+Die Festlegungen werden schliesslich in den Nutzungsplänen
+zu konkretisieren sein (Gemeinden).
+Der Energieproduktion mittels der erneuerbaren Energiequellen
+und deren Ausbau wird ein nationales Interesse zugesprochen.
+So sollen neue Anlagen ab einer bestimmten Grösse und Bedeutung von einem nationalen Interesse sein, das gleich- oder
+höherwertig im Sinne von Art. 6 Abs. 2 des Bundesgesetzes
+über den Natur- und Heimatschutz (NHG) ist. In diesen Fällen
+darf ein Abweichen von der ungeschmälerten Erhaltung eines
+Objekts in einem Inventar nach Art. 5 NHG in Erwägung gezogen werden.
+
+1.2
+
+Auftrag
+Für den Kanton Appenzell I.Rh. stellt sich die grundsätzliche
+Frage, wie er sich in diesem Umfeld energiepolitisch verhalten
+soll, was möglich sowie wirtschaftlich und ökologisch sinnvoll
+ist. Themen wie:
+- Potenziale der erneuerbaren Energien,
+- Priorisierung der Energieträger,
+- Bewertung von Nutzungs- und Schutzaspekten,
+- räumliche Festlegungen bzw. Bezeichnung von Ausschlussgebieten,
+müssen aufgearbeitet, im Rahmen einer umfassenden Interessenabwägung beurteilt und schlussendlich einem begründeten
+Entscheid zugeführt werden.
+Das Bau- und Umweltdepartement erarbeitet eine entsprechende Vorlage in Beachtung der nationalen Neuausrichtung
+der Energiepolitik. Diese soll auf den aktuell verfügbaren Daten
+basieren und eine pragmatische und gesamtheitliche Betrachtung ermöglichen.
+
+Strategie Energie AI:
+
+1.3
+
+Bericht zu den Grundlagen
+
+Eingrenzung des Themas
+Das Themenfeld Energie / Energiepolitik ist ein vielschichtiges
+und komplexes Gebiet. Bei der Formulierung einer Energiestrategie geht es einerseits um den effizienten Einsatz der Energieträger und anderseits um den Ersatz fossiler durch erneuerbare
+Energieträger.
+Das Effizienzpotenzial liegt dabei insbesondere im Gebäudepark, bei industriellen Prozessen, bei elektrischen Geräten und
+Anlagen sowie in der Mobilität. Letztere Bereiche werden im
+vorliegenden Bericht nicht bzw. nur am Rande behandelt (z. B.
+Mobilität und effiziente Raumstrukturen). Sie sind Gegenstand
+v. a. von gesetzlichen Bestimmungen, Förderprogrammen und
+Ausrüstungsvorschriften, etc.
+Vorliegend geht es um die Produktion von Elektrizität und
+Wärme sowie um den Wärmebedarf (Prozesswärme, Gebäude)
+bzw. den Ersatz fossiler durch erneuerbare Energieträger in
+diesen Bereichen.
+
+1.4
+
+Kantonalrechtliche Vorgaben
+
+1.4.1
+
+Kantonales Energiegesetz / Energieverordnung
+Das Energiegesetz (EnerG) vom 29. April 2001 (mit verschiedenen Revisionen) gibt den rechtlichen Rahmen für das Handeln des Kantons vor. Es schafft Rahmenbedingungen für die
+sparsame und rationelle Energienutzung sowie die Nutzung erneuerbarer Energien. Bauten und Anlagen sowie damit zusammenhängende Ausstattungen und Ausrüstungen sind so zu
+planen, auszuführen und zu betreiben, dass die Energie sparsam und rationell genutzt wird (Art. 1 EnerG, Zweck). Der öffentlichen Hand kommt bei der Energienutzung eine Vorbildfunktion zu (Art. 2 EnerG).
+Insbesondere durch die Bestimmungen zu Energiesparmassnahmen bei Bauten und Anlagen (Art. 6 ff. EnerG) wird im Gesetzt eine "strategische Stossrichtung" vorgegeben, z. B. durch:
+- Anwendung des jeweiligen Stands der Technik auf Wärmeund Kälteschutz sowie haustechnische Anlagen (Art. 6
+EnerG);
+- Mindestanteil erneuerbarer Energien bei Neubauten und Erweiterungen (Art. 7 EnerG, Art. 13 EnerV);
+- Verbrauchsabhängige
+Heizkostenabrechnung
+(Art.
+8
+EnerG);
+- Erstellung von Elektrizitätserzeugungsanlagen nur bei weitgehender Nutzung der entstehenden Wärme (Art. 9 EnerG);
+- Heizen im Freien inkl. Freiluftbäder nur mit erneuerbaren
+Energien (Art. 10 / 11 EnerG);
+
+11
+
+12
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+Verbrauchsoptimierungen bei Grossverbrauchern (Art. 12
+EnerG)
+Gebäudeenergienachweis (Art. 12a EnerG).
+
+Im Weiteren sind auch die folgenden Bestimmungen Ausdruck
+der strategischen Ausrichtung des Kantons:
+- Finanzhilfen für Massnahmen betreffend sparsamer und rationeller Energienutzung sowie betreffend Nutzung von erneuerbaren Energien und Abwärme (Art. 13 f. EnerG);
+- Bezeichnung von Netzgebieten in Verbindung mit einem
+Leistungsauftrag und Anschlusspflichten (Art. 16 / 17.
+EnerG).
+1.4.2
+
+Kantonaler Richtplan
+In den Grundzügen zur räumlichen Entwicklung des kantonalen
+Richtplans wird bezüglich Energieversorgung auf das Entwicklungskonzept von 1996 Bezug genommen, welches folgende
+Ziele formuliert:
+- umweltverträgliche Energieversorgung;
+- sparsamer Energieverbrauch;
+- den lokalen Handlungsspielraum (Private, Bezirk, Zweckverband) ausbauen mit dem Zweck, eine umweltverträgliche
+Energieversorgung, einen sparsamen Energieverbrauch und
+den Ausbau einer dezentralen Versorgung mit alternativen
+und erneuerbaren Energien zu fördern.
+Die Ziele sollen in erster Linie im Rahmen der Energiepolitik realisiert werden. Im Rahmen der Raumplanung können sie namentlich durch eine konzentrierte bauliche Entwicklung unterstützt werden.
+Behördenverbindliche Festlegungen in Form von Karteninhalten
+oder Massnahmen beinhaltet der kantonale Richtplan nicht.
+
+1.5
+
+Zielsetzung
+Alle erneuerbaren Energieformen (Umweltwärme, Windenergieanlagen, Wasserkraftwerke, Sonnenenergieanlagen und Biomasse verwertende Energieerzeugungsanlagen) haben ihre
+Vor- und Nachteile und tangieren Raum und Umwelt. Im Sinne
+einer nachhaltigen Energiepolitik gilt es den wirtschaftlich, ökologisch und sozial optimalen Weg der Energie- bzw. Wärmeerzeugung zu definieren (Abwägung zwischen Nutzungs- und
+Schutzaspekten, Prioritätensetzung).
+Es gilt die Energiepotenziale abzuschätzen und die Frage zu
+klären, welche Energieformen in welchem Umfang, in welcher
+Priorität und wo in Appenzell I.Rh. – insbesondere wirtschaftlich
+und ökologisch nachhaltig – genutzt werden können bzw. sollen.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Zur Schaffung von Rechtssicherheit sollen die strategischen
+Leitideen betreffend erneuerbare Energieproduktionsanlagen
+soweit sie räumlich relevant bzw. räumlich darstellbar sind, auf
+Stufe kantonaler Richtplan festgelegt werden.
+
+13
+
+14
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+2.
+
+AKTUELLE ENERGIESITUATION IM KANTON
+
+2.1
+
+Energieverbrauch
+Im Kanton gibt es aktuell keine genauen statistischen Angaben
+über den Verbrauch von verschiedenen Energieträgern. Es
+existieren lediglich Umsatzzahlen zur Elektrizität der Feuerschaugemeinde Appenzell und der SAK.
+Die Verbrauchszahlen für die Energieträger Biomasse und fossile Brennstoffe müssen daher geschätzt werden. Dazu werden
+die Anzahl beheizter Gebäude sowie Bestände an verschiedenen Heizsystemen herangezogen.
+
+2.1.1
+
+Elektrische Energie
+
+a)
+
+Bedarfsabschätzung gemäss Gesamtenergiestatistik CH
+Anhand der Schweizerischen Gesamtenergiestatistik 2011 des
+Bundesamtes für Energie (BFE) lässt sich der durchschnittliche
+Stromverbrauch im Kanton Appenzell I.Rh. abschätzen:
+- Der durchschnittliche Stromverbrauch pro Kopf betrug 2010
+insgesamt rund 7.59 MWh. Der Verbrauch im Haushalt
+macht dabei rund 30 % vom Gesamtverbrauch aus
+(2.36 MWh).
+- Im Jahr 2011 sank der durchschnittliche Stromverbrauch pro
+Kopf insgesamt auf rund 7.41 MWh, der Verbrauch im
+Haushalt auf 2.27 MWh.
+Bei einer Gesamteinwohnerzahl von 15'730 Einwohnern im
+Jahr 2010 lässt sich mit den durchschnittlichen Verbrauchszahlen 2011 ein Gesamtverbrauch von rund 117 GWh errechnen.
+Der Stromverbrauch im Haushalt beträgt dabei ca. 36 GWh.
+
+b)
+
+Bedarfsabschätzung gemäss Verkaufszahlen / Eigenproduktion
+Die elektrische Energie wird zum überwiegenden Teil von der
+SAK bezogen. Die SAK bezieht elektrische Energie ihrerseits
+zum überwiegenden Teil von der AXPO. Der Energiemix der
+AXPO besteht heute zu rund 75 % aus Kernenergie und zu
+25 % aus Wasserkraft.
+Das Wasserkraftwerk Seealpsee produziert rund 7 GWh/a an
+elektrischer Energie. Kleinere Anlagen wie das Wasserrad Hofersäge sowie das Trinkwasserkraftwerk Sonne produzieren je
+0.03 GWh/a Strom.
+Photovoltaik steht erst seit dem Jahr 2008 in grösserem Stil im
+Einsatz. Insgesamt wurden bislang Anlagen mit einer GesamtPanelfläche von rund 8'800 m2 bewilligt. Bei einem Jahresertrag
+von ca. 110 KWh pro Quadratmeter, generieren diese Photovoltaikanlagen zusammen rund 1 GWh Strom.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Das Blockheizkraftwerk (BHKW) der ARA Appenzell produziert
+mit Klärgas 0.3 GWh/a Strom und 0.7 GWh/a Wärme.
+Somit ergibt sich für den Kanton Appenzell Innerrhoden folgendes Bild:
+
+Kernenergie
+
+75 % von 81.5 GWh
+
+61.1 GWh
+
+Wasserkraft
+
+25 % von 81.5 GWh
+
+20.4 GWh
+
+Wasserkraft Seealpsee
+
+7.0 GWh
+
+Wasserrad Hofersäge
+
+0.03 GWh
+
+Trinkwasserkraftwerk Sonne
+
+0.03 GWh
+
+Photovoltaik
+
+1.0 GWh
+
+BHKW Klärgas ARA Appenzell
+
+0.3 GWh
+
+Dieselgeneratoren
+
+0.2 GWh
+
+Total rund
+
+90 GWh
+
+2.1.2
+
+Wärmebedarf
+
+a)
+
+Bedarfsabschätzung gemäss Gesamtenergiestatistik CH
+Basierend auf dem Verbrauch der Erdölbrennstoffe gemäss der
+Schweizerischen Gesamtenergiestatistik 2011 des Bundesamtes für Energie (BFE) lässt sich der durchschnittliche Wärmebedarf im Kanton Appenzell I.Rh. abschätzen:
+- Der schweizerische Gesamtbedarf an Erdölbrennstoffen betrug im Jahr 2010 55.42 TWh. Der Verbrauch sank im Jahr
+2011 auf 44.28 TWh.
+- Der Anteil des Kantons Appenzell I.Rh. beträgt daran
+109.7 GWh im Jahr 2010 bzw. 87.7 GWh im Jahr 2011.
+
+b)
+
+Bedarfsabschätzung über Gebäudepark und spezifischen
+Energiebedarf
+Eine Abschätzung des Energiebedarfs für Raumwärme kann
+über den Gebäudepark erfolgen. Die Einteilung der Gebäude
+und deren Anzahl basieren auf den Daten des kantonalen
+Schatzungsamtes. Die geschätzten Energiebezugsflächen
+(EBF) und der spezifische Energiebedarf je Fläche bilden wesentliche Annahmen für die Abschätzung des Energiebedarfs.
+Diese sind mit einiger Unsicherheit behaftet.
+
+15
+
+16
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Die vorgenommene Abschätzung liefert einen Gesamtwärmebedarf von jährlich rund 98 GWh.
+2.1.3
+
+Vergleich zur CH
+Gemessen am schweizerischen Durchschnitt besteht im Kanton
+Appenzell Innerrhoden ein etwas tieferer Pro-Kopf-Bedarf an
+Energie für Raumwärme und an elektrischer Energie. Dies dürfte auf den kleinen Anteil an energieintensiven Industriebetrieben im Kanton zurückzuführen sein.
+
+2.2
+
+Organisation der Energieversorgung
+Die Energieversorgung Feuerschaugemeinde Appenzell beliefert den Kanton Appenzell I.Rh. ohne die Gebiete Gonten, Haslen, Meistersrüte und Oberegg mit elektrischer Energie.
+Die lokalen Energieversorger beziehen ihre Energie von den
+St.Gallisch Appenzellischen Kraftwerken SAK. Weitere Lieferanten sind die Elektra Oberegg und diverse Elektrizitätswerke
+aus dem Appenzeller Vorderland und dem St. Galler Rheintal.
+Die Energieversorgung Feuerschaugemeinde Appenzell verteilt
+fast 80 % der im Kanton Appenzell I.Rh. benötigten elektrischen
+Energie.
+Die geografische Organisation der Elektrizitätsversorgung
+ergibt sich aus der Netzgebietszuteilung, welche im Elektrizitätsbereich rechtskräftig verfügt ist. Damit ist die Erschliessungspflicht festgelegt und an die Energieversorger zugeteilt.
+
+Strategie Energie AI:
+
+3.
+
+ABSEHBARE ENTWICKLUNGEN
+
+a)
+
+Dezentralisierung der Energieproduktion
+
+Bericht zu den Grundlagen
+
+Energie und dabei v. a. Elektrizität wird heute von grossen Einheiten bereitgestellt. Die Energiebereitstellung ist – auch aus
+Gründen der technischen Einfachheit – zentral organisiert. Der
+Ausstieg aus der Kernenergie rückt die Dezentralität der Energieerzeugung in den Vordergrund. Die Energieversorgung erfolgt damit auch näher beim Verbraucher. Dies wird auch auf
+die Netzstruktur wesentlichen Einfluss haben.
+b)
+
+Ausbau Erdgasnetz
+Die GRAVAG investiert aktuell in den Ausbau des Erdgasnetzes insbesondere im Dorf Appenzell, beim Sammelplatz und in
+Oberegg. Die Transportleitungen bis 5 bar sind erstellt und die
+Versorgungsgebiete bezeichnet.
+Damit wird ein fossiler Energieträger (Erdöl) durch einen anderen (Erdgas) ersetzt. Die Investitionen ins Leitungsnetz konkurrenzieren allfällige erneuerbare Energieträger (z. B. Wärmeverbund). Was sich schliesslich wo durchsetzen wird, regelt der
+Markt über Angebot und Nachfrage.
+Der Einsatz von Mikro-WKK-Anlagen stellt in Zukunft für eine
+kleine fossile Stromproduktion eine Option dar. Insbesondere
+im Einfamilienhaus-Bereich kann die Bedeutung im Zusammenhang mit dem Ausbau des Erdgasnetzes stark zunehmen.
+Das vor allem deshalb, weil der Strom dann produziert werden
+kann, wenn er gebraucht wird.
+
+c)
+
+Perspektiven Kleinwindanlagen
+Kleinwindanlagen gewinnen im Schatten von Grossanlagen anzahlmässig zunehmend an Bedeutung. Die erbrachte Leistung
+ist allerdings im Vergleich zu den Grossanlagen nach wie vor
+gering. Je nach Rahmenbedingungen werden Kleinwindanlagen vor allem für die folgenden Anwendungsbereiche eingesetzt:
+- Elektrische Grundversorgung für Einzelbauten oder in netzfernen Gebieten;
+- Zeichen für eine nachhaltige Energieversorgung bei Firmen
+oder Privatpersonen;
+- Nutzung von guten Standorten für Windenergie.
+
+d)
+
+Nutzung Holzenergie / Wärmeverbund
+Im Gebiet Rinkenbach, Appenzell, plant die Firma Holzin AG
+aktuell die Erstellung einer Holzheizzentrale mit einer Holzschnitzel- und Altholzfeuerung, welche allein rund 6.8 GWh
+Wärme im Jahr liefern soll. Die Wärmebezüger (insbesondere
+
+17
+
+18
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+das Gymnasium St. Antonius) sollen über ein Fernwärmenetz
+versorgt werden.
+Der Kanton hat weitere Wärmeverbünde insbesondere im Zusammenhang mit dem Spital und dem Neubau Alters- und Pflegeheim geprüft (Ausweitung auf das Hallenbad). Da das Investitionsrisiko in diesen Fällen als zu hoch eingeschätzt wurde,
+wird vorläufig auf die Realisierung eines Wärmeverbunds verzichtet. Die Prüfung von weiteren potenziellen Wärmeverbünden wird dadurch jedoch nicht generell in Frage gestellt.
+e)
+
+Wasserkraftnutzung
+Momentan ist die Erarbeitung einer Machbarkeitsstudie für ein
+neues Wasserkraftwerk an der Sitter in Erarbeitung. Die Ergebnisse bleiben vorbehalten.
+Die heute bereits bestehende Wassernutzung der Sitter im Gebiet List für das Kraftwerk Kubel, St. Gallen (Sitterstollen des
+Kubelkraftwerks), ist mit Fragestellungen zur Restwassermenge
+verbunden, von welchen auch der Kanton Appenzell A.Rh. betroffen ist. Gestützt auf das Bundesgesetz über den Gewässerschutz (Art. 29 ff. GSchG, Sicherung angemessener Restwassermengen) ist die Restwassermenge grundsätzlich zu gewährleisten. Im Sinne einer Ausnahme kann allenfalls darauf verzichtet werden, wenn z. B. im Rahmen einer Schutz- und Nutzungsplanung für ein begrenztes, topographisch zusammenhängendes Gebiet, ein entsprechender Ausgleich durch geeignete Massnahmen, wie Verzicht auf andere Wasserentnahmen,
+im gleichen Gebiet stattfindet (Art. 32 lit. c GSchG). Entsprechende Optionen sind gegebenenfalls zu prüfen.
+
+Strategie Energie AI:
+
+POTENZIALE DER ERNEUERBAREN ENERGIEN
+
+Für die Beurteilung der Potenziale der erneuerbaren Energien
+wird auf die bekannten Potenziale je Energieträger abgestellt.
+Was realistischer Weise erschlossen werden kann bzw. soll,
+ergibt sich aufgrund einer umfassenden Interessenabwägung.
+Dabei spielen die Grösse des jeweiligen Potenzials, die Rahmenbedingungen (rechtlich, wirtschaftlich, technisch, gesellschaftlich / sozial im Sinne der Akzeptanz) sowie das Konfliktpotenzial (Landschaft, Ökologie, Umfeld / Siedlung etc.) eine
+wesentliche Rolle.
+Die Grobbeurteilung erfolgt dabei nach folgendem Raster:
+- Energiepotenzial (in Abstimmung zum Kanton SG:
+- Klein: Jährliche Energieproduktion: < 1 GWh
+- Mittel: Jährliche Energieproduktion: 1 - 10 GWh
+- Gross: Jährliche Energieproduktion: > 10 GWh
+- Rahmenbedingungen: schwierig, mittel, gut
+- Konfliktträchtigkeit: hoch, mittel, tief
+- Gesamtbeurteilung: positiv, mittel, negativ
+Beispiele Gesamtbeurteilung:
+- Ein kleines Potenzial und mittlere Konfliktträchtigkeit führt zu
+einer negativen Gesamtbeurteilung, da sich auch mittlere
+Beeinträchtigungen bei kleinem Potenzial kaum rechtfertigen
+lassen.
+- Ein kleines Potenzial, das wenig konfliktträchtig ist und relativ einfach zu realisieren ist, sollte gefördert werden, weshalb
+die Gesamtbeurteilung positiv ausfällt.
+
+Anlagentyp
+
+negativ
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+gross
+
+gut
+
+tief
+
+positiv
+
+d) Gesamtbeurteilung
+
+hoch
+
+Konflikt Siedlung
+
+schwierig
+
+Konflikt Umwelt
+
+klein
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+4.
+
+Bericht zu den Grundlagen
+
+19
+
+20
+
+Strategie Energie AI:
+
+4.1
+
+Wasserkraft
+
+4.1.1
+
+Energiepotenzial Elektrizität
+
+Bericht zu den Grundlagen
+
+Bei der Energieproduktion aus Wasserkraft wird zwischen Grossanlagen
+mit einer Leistung > 10 MW und Kleinanlagen mit einer Leistung
+< 10 MW unterschieden (installierte Leistung). Diese Unterscheidung
+ergibt sich aus der „Empfehlung zur Erarbeitung kantonaler Schutz- und
+Nutzungsstrategien” im Bereich Kleinwasserkraftwerke der Bundesämter
+BAFU, BFE und ARE.
+Bei der standortbezogenen Interessenabwägung werden die in der Potenzialstudie zur Wasserkraftnutzung der Sitter ausgewiesenen Gestehungskosten der Projekte aufgeführt. Als Vergleichsgrösse dazu dient
+der Strompreis, welcher 2012 als Verbrauchspreis. inkl. Abgaben (Netznutzungsgebühren), exkl. MwSt, bei 18.01 Rp. / KWh lag.
+a)
+
+Bekannte Potenziale
+
+Annahmen:
+- Die Kleinwasserkraftwerkpotenziale auch kleinerer Bäche
+werden genutzt (Gravitations- bzw. Wirbelwasserkraftwerke).
+- Basis der Potenzialabschätzung bildet die GIS-gestützte
+Analyse im Rahmen des Forschungsprojekts "Erhebung des
+Kleinwasserkraftpotenzials der Schweiz".
+- Es kann folgende Abstufung der Potenziale für Kleinwasserkraftwerke vorgenommen werden (Quelle: BG Ingenieure
+und Berater AG, 2009):
+- 0.1 - 0.3 kW/m: geringes Potenzial
+- 0.3 - 0.6 kW/m: mittleres Potenzial
+- 0.6 - 3.0 kW/m: hohes Potenzial
+Sehr hohe Potenziale von mehr als 3.0 kW/m sind im Kanton
+AI nicht vorhanden.
+- Das Kraftwerk Schwanteren kann nur realisiert werden,
+wenn das Sitterkraftwerk nicht erstellt wird. Das Potenzial
+des KW Schwanteren von 1.9 GWh/a wird deshalb bei den
+bekannten Potenzialen nicht berücksichtigt.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+b)
+
+Rahmenbedingungen
+- Hinsichtlich Wirtschaftlichkeit sind Standorte mit grosser Höhendifferenz auf kurzer Distanz oder solche mit grossen
+Wassermengen interessant.
+- Alpstein nah gelegene Standorte verfügen über ein grösseres Gefälle mit eher kleiner Wassermenge. Alpstein fern sind
+die Verhältnisse umgekehrt.
+- Vom Bund sind verschiedene Kriterien zur Beurteilung des
+Schutzinteresses von Gewässerabschnitten formuliert, die
+zum Ausschluss der Wasserkraftnutzung im jeweiligen Abschnitt führen. Eine Nutzung ist ausgeschlossen, wenn
+bspw. bereits ein absoluter gesetzlicher Schutz besteht
+(bspw. für Moore und Moorlandschaften von besonderer
+Schönheit oder nationaler Bedeutung), ein Schutzinteresse
+von nationaler Bedeutung besteht und ein Eingriff eine
+schwerwiegende Beeinträchtigung zur Folge hätte.
+- Für potenzielle Standorte ist in jedem Fall eine Interessenabwägung von Schutz und Nutzung durchzuführen.
+
+c 1)
+
+Interessenabwägung allgemein
+- Grössere Projekte stehen in starkem Konflikt zu den übrigen
+Interessen (Natur, Umwelt, Ökologie, etc.).
+- Auch Kleinwasserkraftwerke mit einer Leistung < 10 MW
+weisen ein beträchtliches Konfliktpotenzial auf.
+- Konflikte ergeben sich unter anderem hinsichtlich Biodiversität, Gewässerökologie (Abflussregime, Restwassermenge,
+Schwall-Sunk, fehlende Dynamik), Konnektivität (= Qualität
+und Quantität eines räumlich funktionalen Biotopverbundes
+bzw. die Möglichkeit des Austauschs zwischen Populationen
+oder Teilhabitaten; Beeinträchtigung z. B. durch Talsperren)
+und Landschaftsbild (Anlagen, Abfluss).
+
+c 2)
+
+Interessenabwägung standortbezogen
+- Sitterkraftwerk: Das Sitterkraftwerk Schlatt-Haslen ist das
+Projekt mit dem grössten Potenzial. Es lässt sich mit dem
+bestehenden Wasserkraftwerk Seealp-Wasserauen vergleichen. Der Nutzung dieses Energiepotenzials steht entgegen,
+dass der betroffene Abschnitt der Sitter als weitgehend unverbaut und naturnah zu betrachten ist. Durch die vorgesehene, 3 km lange Ausleitstrecke ist das Konfliktpotenzial
+entsprechend gross. Es sind Habitatsflächen und Nährgebiete betroffen mit Auswirkungen auf die Fischbestände. Das
+Flussbett kann zuwachsen, was bei Hochwasser zu höheren
+Pegeln führt. Hinsichtlich der Gewässerökologie ist die
+Restwasserproblematik erheblich. Die Gestehungskosten
+liegen gemäss einer groben Schätzung bei 15 - 20 Rp. /
+kWh. Änderungen aufgrund der laufenden Machbarkeitsanalyse bleiben vorbehalten.
+- Schwanteren: Die Fischgängigkeit wird sich durch die Realisierung des Projekts leicht verschlechtern. Es ist eine Aus-
+
+21
+
+22
+
+Strategie Energie AI:
+
+-
+
+-
+
+-
+
+d)
+
+Bericht zu den Grundlagen
+
+leitstrecke von rund 300 m vorgesehen. Die Gestehungskosten liegen gemäss einer groben Schätzung bei 20 - 25 Rp. /
+kWh.
+Ziel linksufrig: Durch die Realisierung des Projekts sind nur
+minimale landschaftliche Auswirkungen zu erwarten. Es bietet sich die Möglichkeit zur Erstellung eines Fischaufstiegs
+an zuvor unpassierbarer Stelle. Es ist praktisch keine Ausleitstrecke notwendig. Auch ist das Gerinne im betroffenen
+Abschnitt heute bereits weitgehend künstlich. Aufgrund der
+Lage im Siedlungsgebiet sind Lärmimmissionen in den umliegenden Wohngebieten zu berücksichtigen. Die Gestehungskosten liegen gemäss einer groben Schätzung bei 40 45 Rp. / kWh.
+Felsenegg-Schäfli: Im Projekt ist eine Ausleitstrecke von
+rund 750 m vorgesehen. In diesem Abschnitt ist die Restwasser- und Schwall-Sunk-Problematik relevant. Durch Realisierung des Wasserkraftwerks ist mit einem Verlust der
+landschaftlichen Attraktivität zu rechnen. Die Lebensbedingungen der Fischbestände verändern sich nachteilig. Die
+Gestehungskosten liegen gemäss einer groben Schätzung
+bei 35 - 40 Rp. / kWh.
+Gravitationswasserkraftwerk (GWKW) Felsenegg: GWKW
+sind nicht als Fischaufstieg anerkannt, weshalb die Erstellung eines Fischaufstiegs oder Umgehungsgewässers notwendig ist. Es ist keine Ausleitstrecke nötig. Die Gestehungskosten liegen gemäss einer groben Schätzung bei 50 55 Rp. / kWh.
+
+Gesamtbeurteilung / Fazit
+- Generell ist das Wasserkraftpotenzial der Schweiz bereits
+heute zum grössten Teil ausgereizt. Aus einer Gesamtsicht
+heraus besteht somit im Bereich Wasser nur noch ein geringes Zubaupotenzial. Dieses vergleichsweise kleine Potenzial
+zu erschliessen ist relativ aufwändig, was die Frage nach der
+Wirtschaftlichkeit aufwirft.
+- Obwohl Potenziale auch für Kleinwasserkraftwerke gegeben
+sind, ist der Kanton Appenzell I.Rh. kein eigentlicher Wasserkraftkanton wie z. B. die Kantone Wallis, Bern, Uri oder
+Glarus. Vielmehr gibt es auch hier eine nachhaltige Grenze.
+Die Umweltbeeinflussung ist oftmals überdurchschnittlich
+hoch, woraus ein ungünstiges Verhältnis zwischen Nutzungs- zu Schutzaspekten resultiert.
+- Insgesamt resultieren hohe Gestehungskosten, womit die
+Wirtschaftlichkeit der Energieproduktion mit Wasserkraft
+nicht gegeben erscheint.
+- Das Verhältnis zwischen Nutzungs- und Schutzaspekten
+wird oft problematisch sein.
+- Die Grenze der Nachhaltigkeit ist bei der Wasserkraftnutzung nahezu erreicht.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+grosse Kleinanlage
+Kleinanlage
+
+4.2
+
+Energieholz
+
+4.2.1
+
+Energiepotenziale Elektrizität
+
+a)
+
+Bekannte Potenziale
+
+Annahmen:
+- Im Kanton AI ist gemäss Studie ein Gesamtpotenzial an
+Energieholz von 81.3 GWh vorhanden. Davon wird heute bereits 32.6 GWh verwendet. Das freie, bislang ungenutzte
+Energieholzpotenzial beträgt somit 48.7 GWh.
+- Dieses ausgewiesene Potenzial gilt im Grundsatz als erschlossen.
+- Für die Elektrizitätsproduktion wird ein Wirkungsgrad von
+13 % angenommen (Quelle: PSI, 2006).
+- Die Verstromung von Energieholz setzt die Nutzung der entstehenden Abwärme voraus, da ansonsten ein insgesamt
+ungenügender Wirkungsgrad resultiert.
+b)
+
+Rahmenbedingungen
+- Die Verwendung des Energieholzpotenzials zur Stromgewinnung setzt die Erstellung eines Holzheizkraftwerkes bzw.
+einer Grossanlage im Megawatt-Bereich voraus.
+- Eine Verstromung ohne gleichzeitige Ausnutzung der entstehenden Abwärme ist gemäss Art. 9 EnerG ausgeschlossen und damit nicht zweckmässig, da ein schlechter Gesamtwirkungsgrad resultiert.
+- Im Kanton AI sind aktuell in der Industrie keine Betriebe auszumachen, die ganzjährig einen so grossen Wärmebedarf
+
+23
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+aufweisen und als Abwärmeabnehmer in Frage kommen. Es
+bestehen auch keine Wohngebiete (abgesehen von der
+Feuerschaugemeinde Appenzell), welche ausreichend hohe
+Wärmebezugsdichten aufweisen und damit für die Versorgung in einem Wärmeverbund in Frage kämen.
+Mit dem Erdgasnetz der GRAVAG besteht im Dorf Appenzell
+bereits ein leitungsgebundener Energieträger, was einen
+Wärmeverbund konkurrenziert.
+
+c)
+
+Interessenabwägung
+- Da ein Holzheizkraftwerk als Grossanlage innerhalb der
+Bauzonen (Gewerbe-Industriezone) zu realisieren wäre, sind
+keine übermässigen Immissionen bezüglich Landschaft,
+Umwelt und Umgebung absehbar. Vorbehalten bleiben Vorbringen im Rahmen der ordentlichen Bewilligungsverfahren
+(z. B. nachbarrechtliche Belange).
+- Mögliche Auswirkungen bewegen sich etwa im Rahmen von
+ähnlichen industriell-gewerblichen Anlagen im Bereich Erschliessung, Transporte, Einpassung und Gestaltung von
+Ofenlinie / Kaminen oder anderen technischen Anlagen.
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Aufgrund der Grösse des Kantons und der vorhandenen Industrie- und Gewerbezonen ist ein künftiger Grossabnehmer
+nicht in Sicht.
+- Eine Stromgewinnung aus Energieholz erscheint aus den
+genannten Gründen im Kanton AI daher nicht realistisch.
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+24
+
+Holzkraftwerk
+
+4.2.2
+
+Energiepotenziale Wärme
+
+a)
+
+Bekannte Potenziale
+- Gemäss Gebäude- und Wohnungsstatistik des Bundesamtes für Statistik BfS (Stand 2010) werden von insgesamt
+6947 Wohnungen im Kanton AI 1870 (27 %) heute bereits
+mit Holz beheizt.
+- 3671 Wohnungen werden heute mit Erdöl beheizt, wobei es
+sich um rund die Hälfte aller Wohnungen handelt. Diese mit
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+Erdöl beheizten Wohnungen stellen ein Substitutionspotenzial dar.
+Im Gebiet Rinkenbach, Appenzell, plant die Firma Holzin AG
+aktuell die Erstellung einer Holzheizzentrale mit einer Holzschnitzel- und Altholzfeuerung, welche allein rund 6.8 GWh
+Wärme liefern soll. Die Wärmebezüger (bspw. Gymnasium
+St. Antonius) sollen über ein Fernwärmenetz versorgt werden. Die Umsetzung des bewilligten Projekts hängt von einer
+ausreichenden Wärmebezugsdichte, bzw. ausreichend
+Wärmeabnehmern ab. Momentan ist auch der Ausbau des
+Erdgasnetzes in Appenzell im Gange. Erdgas stellt als leitungsgebunder Energieträger eine Konkurrenz zu Wärmeverbünden dar.
+
+Annahmen:
+- Im Kanton AI ist gemäss Studie ein Gesamtpotenzial an
+Energieholz von 81.3 GWh vorhanden. Davon wird heute bereits 32.6 GWh verwendet. Das freie Energieholzpotenzial
+beträgt somit 48.7 GWh, wobei es sich um dasselbe Energieholz wie bei der Elektrizitätsgewinnung handelt (nicht additiv).
+- Der Wirkungsgrad bei Kleinfeuerungen bzw. automatischen
+Holzfeuerungen variiert zwischen 75 und 85 % (Quelle: PSI,
+2006). Für die Potenzialabschätzung wird von einem Wirkungsgrad von 80 % ausgegangen.
+- Als Alternative steht die Nutzung der bei der Verstromung
+des Energieholzes in einem Heizkraftwerk entstehenden
+Abwärme zur Verfügung. Wird mit einem Wirkungsgrad von
+70 % gerechnet (Quelle: PSI, 2006), beträgt das Wärmepotenzial 34.1 GWh.
+b)
+
+Rahmenbedingungen
+- Die Bauholznutzung hat gegenüber der Energieholznutzung
+Vorrang (Holzkette, Nutzungskaskade).
+- Bei der Nutzung von Abwärme, die bei der Verstromung von
+Energieholz in einem Holzkraftwerk entsteht, kann auf die
+Rahmenbedingungen im vorangegangenen Kapitel verwiesen werden.
+- Die Energieholznutzung steht insbesondere im Dorf Appenzell, Steinegg, Sammelplatz und Oberegg in Konkurrenz
+zum Erdgas.
+
+25
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+c)
+
+Interessenabwägung
+- Da ein Holzheizkraftwerk als Grossanlage innerhalb der
+Bauzonen (Gewerbe-Industriezone) zu realisieren wäre, sind
+keine übermässigen Immissionen bezüglich Landschaft,
+Umwelt und Umgebung absehbar. Vorbehalten bleiben Vorbringen im Rahmen der ordentlichen Bewilligungsverfahren
+(z. B. nachbarrechtliche Belange).
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Wärmeverbünde mit Energieholz stehen in Konkurrenz zum
+Erdgas. Der Markt entscheidet über die Wirtschaftlichkeit der
+zwei leitungsgebundenen Energiesysteme.
+- Das Energieholz-Potenzial wird daher nur begrenzt ausgeschöpft.
+- Die Wärmenutzung im Rahmen eines Wärmeverbundes ist
+insbesondere abhängig von einer genügenden Anzahl Wärmeabnehmer (Wärmebezugsdichte). Die Voraussetzung
+sind in Appenzell I.Rh. diesbezüglich generell als eher ungünstig zu betrachten. Konkrete Abklärungen im Zusammenhang mit dem Neubau Alters- und Pflegeheim, dem
+Neubau Hallenbad oder der Überbauung Ziel haben gezeigt,
+das grössere Wärmeverbünde nicht wirtschaftlich bzw. zu risikobehaftet sind.
+Im Einzelfall können die Rahmenbedingungen jedoch trotzdem erfüllt sein, so dass sich eine Realisation rechnet (z. B.
+Holzin AG). Eine Einzelfallbetrachtung bei der Realisation
+von Gesamtüberbauungen bzw. im Rahmen von Sondernutzungsplänen bleibt daher vorbehalten.
+- Die Potenzialnutzung wird vornehmlich über Kleinfeuerungen und automatische Holzfeuerungen erfolgen.
+
+Klein- und
+Holzfeuerungen
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+26
+
+Strategie Energie AI:
+
+4.3
+
+Sonnenenergie
+
+4.3.1
+
+Energiepotenziale Elektrizität
+
+a)
+
+Bekannte Potenziale
+
+Bericht zu den Grundlagen
+
+Für die genauere Potenzialabschätzung müssten Gebäudeerhebungen durchgeführt und detailliertere Auswertungen vorgenommen werden. Da es vorliegend um Grössenordnungen
+geht, kann darauf (vorerst) verzichtet werden.
+
+Annahmen:
+- Allfällige freistehende PV-Anlagen ausserhalb der Bauzonen
+sind in der Potenzialabschätzung nicht berücksichtigt, da
+auf solche freistehende Anlagen zu verzichten ist.
+- Seit 2008 sind PV-Anlagen mit einer Gesamt-Panelfläche
+von rund 8'800 m2 und einer jährlichen Stromproduktion von
+insgesamt 1 GWh erstellt worden.
+- Es wird mit einem Bestand von rund 3'600 Wohn- und
+Wohn- / Gewerbegebäude gemäss Gemdat (Stand 2007)
+gerechnet.
+- In der Landwirtschaft wird von einem Bestand von rund 500
+Betrieben (Quelle: Innerrhoden in Zahlen 2011) ausgegangen.
+- Gemäss Gemdat-Daten (Stand 2007) bestehen rund 200
+Gebäude in Industrie und Gewerbe sowie Gebäude der öffentlichen Hand.
+- Pro Wohn- und Wohn- / Gewerbegebäude wird mit einer
+durchschnittlichen Modulfläche von 20 m2 gerechnet.
+- Laut Bericht der Forschungsanstalt Agroscope zu PV-Anlagen auf landwirtschaftlichen Betrieben hat ein Schweizer
+Durchschnittsstall aus den 80er-Jahren (für 20 Milchkühe
+plus Jungvieh) bei einem Satteldach eine einseitige Dachfläche von ca. 250 bis 280 m2 (Quelle: Agroscope, 2008). Es ist
+davon auszugehen, dass die Dachflächen beim bestehenden Innerrhoder Bauernhaus-Typ im Durchschnitt eher kleiner ausfallen. Pro Landwirtschaftsgebäude wird daher eine
+durchschnittliche Modulfläche von 200 m2 angenommen.
+- Bei den Industrie- und Gewerbegebäuden sowie den Gebäuden der öffentlichen Hand wird mit einer durchschnittli-
+
+27
+
+28
+
+Strategie Energie AI:
+
+-
+
+-
+
+Bericht zu den Grundlagen
+
+chen Modulfläche von 80 m2 gerechnet (Quelle: eigene Annahme).
+Gemäss der Publikation „Räumliche Energieplanung“ ist von
+einem Jahresertrag von 110 bis 130 kWh pro Quadratmeter
+Modulfläche auszugehen. Gerechnet wird mit einem Jahresertrag von 110 kWh/m2.
+Ein zweiter Weg, das Potenzial der Photovoltaik in AI abzuschätzen, bietet die Arealstatistik (2004/09). Es kann angenommen werden, dass rund die Hälfte der Gebäude- bzw.
+Dachflächen genutzt werden kann (Giebeldächer), davon
+weisen rund 30 % eine optimale Exposition auf. Über die berechneten Dachflächen lassen sich mittels Photovoltaik 20 25 GWh Strom im Jahr gewinnen.
+
+b)
+
+Rahmenbedingungen
+- Die Nutzung von Sonnenenergie ist vergleichsweise einfach
+und technisch erprobt. Mit den sinkenden Preisen wird der
+Energieträger tendenziell auch wirtschaftlich immer attraktiver.
+- Photovoltaik-Anlagen dienen der dezentralen Stromproduktion auf Gebäuden in der Bauzone (Wohngebäude, Industriebauten) sowie in der Landwirtschaftszone.
+- Gemäss Art. 18a RPG sind Solaranlagen sorgfältig in Dachund Fassadenflächen zu integrieren. Es dürfen dabei keine
+Kultur- und Naturdenkmäler von kantonaler oder nationaler
+Bedeutung beeinträchtigt werden.
+- Es ist zu beachten, daß die Sonnenenergie zeitlich nicht
+gleichmässig zur Verfügung steht (Tag / Nacht, Sommer /
+Winter).
+
+c)
+
+Interessenabwägung
+- Bei PV-Anlagen in der Landwirtschaft ergeben sich in erster
+Linie Konflikte mit dem Einfluss auf das Landschaftsempfinden sowie mit dem Umgang mit geschützten Bauten / Kulturdenkmälern im Siedlungsgebiet (andere Materialisierung
+und Ästhetik). Die Vereinbarkeit hängt stark mit einer einwandfreien Gestaltung / Ausführung und einer sachgerechten Anordnung zusammen.
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Das Potenzial der Sonne ist riesig.
+- Prinzipiell ist Potenzial auch im Kanton Appenzell I.Rh. vorhanden und erschliessbar.
+- Die Erschliessung ist jedoch in hohem Mass abhängig von
+Privaten. Die Öffentlichkeit hat kaum Zugriff auf die privaten
+Dachflächen.
+- Erfahrungen zeigen, dass Hemmnisse vorhanden sind beim
+Eingehen von langfristigen Mietverträgen zur Installation von
+ungenutzten Dachflächen durch Dritte.
+
+Strategie Energie AI:
+
+-
+
+-
+
+Bericht zu den Grundlagen
+
+Um das Konfliktpotenzial zu minimieren, ist die Erarbeitung
+von Richtlinien zur sorgfältigen Integration von PV-Anlagen
+notwendig.
+Im Umgang mit Schutzzonen (Ortsbildschutzzone / Landschaftsschutzzone) sind Rahmenbedingungen zu setzen.
+Erleichterungen: Heute wird ein vereinfachtes Verfahren mit
+Hinweis auf ein Merkblatt durchgeführt. Dieses Verfahren hat
+sich bewährt. Der Verzicht auf eine Baubewilligung ist im
+Rahmen der Baugesetzrevision diskutiert und schliesslich
+explizit abgelehnt worden.
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+PV-Anlage
+
+4.3.2
+
+Energiepotenzial Wärme
+
+a)
+
+Bekannte Potenziale
+Für die genauere Potenzialabschätzung müssen Gebäudeerhebungen durchgeführt und detailliertere Auswertungen vorgenommen werden. Da es vorliegend um Grössenordnungen
+geht, kann darauf (vorerst) verzichtet werden.
+
+Annahmen:
+- Es wird mit einem Bestand von rund 3'600 Wohn- und
+Wohn- / Gewerbegebäuden gemäss Gemdat (Stand 2007)
+gerechnet.
+- Für die solarthermische Warmwasserproduktion wird eine
+Kollektorfläche von mindestens 4 bis 6 m2 benötigt (Quelle:
+Swissolar). Hinsichtlich tatsächlich realisierter Kollektorfläche
+ist eine Spannweite von 8 bis 10 m2 die Regel. Vorliegend
+wird mit einer durchschnittlichen Kollektorfläche von 10 m2
+gerechnet.
+- Der Jahresertrag pro Quadratmeter Kollektorfläche für die
+Warmwasserproduktion variiert gemäss der Broschüre
+
+29
+
+30
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+„Räumliche Energieplanung“ zwischen 400 und 550 kWh,
+bei Anlagen zur Heizungsunterstützung und Warmwassergewinnungen zwischen 250 und 300 kWh. In der Abschätzung des Potenzials wird jeweils von den tieferen Werten
+ausgegangen.
+Als Alternative stehen Solaranlagen, die sowohl zur Wassererwärmung als auch zur Heizungsunterstützung genutzt
+werden, zur Verfügung. Diese Anlagen benötigen eine Kollektorfläche von 10 bis 15 m2 (Quelle: Swissolar). Wird mit
+einer durchschnittlichen Fläche von 13 m2 gerechnet, beträgt
+das Potenzial 11.7 GWh/a.
+
+b)
+
+Rahmenbedingungen
+- Die Nutzung von Sonnenenergie ist vergleichsweise einfach
+und technisch erprobt. Mit den sinkenden Preisen wird der
+Energieträger tendenziell auch wirtschaftlich immer attraktiver.
+- Solarthermie-Anlagen dienen der dezentralen Wärmegewinnung.
+- Gemäss Art. 18a RPG sind Solaranlagen sorgfältig in Dachund Fassadenflächen zu integrieren. Es dürfen dabei keine
+Kultur- und Naturdenkmäler von kantonaler oder nationaler
+Bedeutung beeinträchtigt werden.
+
+c)
+
+Interessenabwägung
+- Konflikte ergeben sich bei Sonnenkollektoren im Umgang mit
+geschützten Bauten / Kulturdenkmälern im Siedlungsgebiet.
+(Ästhetik)
+- Im Rahmen der Interessenabwägung ist darauf hinzuweisen,
+dass die Eingriffe und Veränderungen grundsätzlich reversibel sind. Das heisst, es wird i. d. R. keine Substanz zerstört
+bei der Montage der Solaranlage. Somit können die Eingriffe
+auch wieder rückgängig gemacht werden.
+
+c)
+
+Gesamtbeurteilung / Fazit
+- Erarbeitung von Richtlinien zur sorgfältigen Integration bzw.
+Installation von Solaranlagen notwendig
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+Solaranlage
+Warmwasser
+
+4.4
+
+Biomasse
+
+4.4.1
+
+Energiepotenzial Elektrizität
+
+a)
+
+Bekannte Potenziale
+
+Annahmen:
+- Im Kanton AI gibt es einen Gesamtviehbestand von ca.
+20'000 Grossvieheinheiten (GVE). Zusammen mit der Einstreu entspricht dieser Tierbestand über Gülle und Mist einem Energieproduktionspotenzial von ca. 100 GWh.
+- Im Blockheizkraftwerk (BHKW) der ARA Appenzell wird mit
+dem anfallenden Klärgas ca. 0.3 GWh Strom und 0.7 GWh
+Wärme produziert.
+- Der Wirkungsgrad eines BHKW bei der Verstromung von Biogas beträgt 25 - 30 %.
+- Die Verstromung von Biomasse setzt die Nutzung der entstehenden Abwärme voraus, da ansonsten ein ungenügender Gesamtwirkungsgrad resultiert.
+b)
+
+Rahmenbedingungen
+- Das Potenzial fällt sehr dispers an, was eine grosse Nutzung
+erschwert. Eine wirtschaftliche Erschliessung des Potenzials
+ist an die Verfügbarkeit von anderen hochenergetischen
+Stoffen (Speisereste, Fette, etc.) gebunden. Bei der Nutzung
+von hochenergetischen Stoffen besteht grosse Konkurrenz.
+- Wie bei der Nutzung des Energieholzpotenzials stellt sich
+auch bei der Verwendung der Biomasse zur Stromgewinnung das Problem der Ausnutzung der entstehenden Abwärme.
+- Für die Verstromung ist die Nutzung der Abwärme ein wesentliches Kriterium. Als potenzielle Standorte kommen
+
+31
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+demnach solche in Frage, welche nahe bei den Verbrauchern liegen. Daraus ergeben sich Transportwege für den
+Transport der Biomasse zur Anlage und von Gärresten zurück zu den Produzenten.
+Ein wirtschaftlich rentabler Betrieb einer Biogasanlage setzt
+einen Viehbestand von 200 GVE und mehr voraus.
+Bei potenziellen Standorten in der Landwirtschaftszone besteht für Biogasanlagen mit Art. 34a RPV ein beschränkender Rahmen.
+
+c)
+
+Interessenabwägung
+- Bei der Standortwahl sind vor allem mögliche Immissionen
+auf das Siedlungsgebiet zu berücksichtigen (Auswirkungen
+des Zu- und Ablieferungsverkehrs, Lärm- und Geruchsimmissionen der Anlage).
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Eine Stromgewinnung aus Biomasse in einer Grossanlage
+erscheint im Kanton AI analog zum Energieholz generell
+nicht realistisch.
+- Biogasanlagen zur Gewinnung von Elektrizität in der Landwirtschaft sind aufgrund der fehlenden Abwärmeabnehmer
+nicht realistisch.
+
+Biogasanlage /
+BHKW
+
+4.4.2
+
+Energiepotenzial Wärme
+
+a)
+
+Bekannte Potenziale
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+32
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Annahmen:
+- Bei der Verstromung von Klärgas im Blockheizkraftwerk der
+ARA Appenzell entsteht ca. 0.7 GWh Wärme, welche für
+Prozess- und Heizzwecke verwendet wird.
+- Bei der Aufbereitung von Biogas auf Erdgasqualität zur Einspeisung in das Erdgasnetz entsteht ein Potenzialverlust von
+ca. 5 %.
+- Als Alternative steht die Nutzung der bei der Verstromung
+von Biogas in einem Blockheizkraftwerk entstehenden Abwärme zur Verfügung. Der Gesamtwirkungsgrad bei der
+Verstromung von Biogas in einem Blockheizkraftwerk mit
+gleichzeitiger Nutzung der entstehenden Abwärme beträgt
+80 bis über 90 %. Wird mit einem Wirkungsgrad von 90 %
+gerechnet beträgt das Wärmepotenzial rund 60 GWh/a.
+b)
+
+Rahmenbedingungen
+- Disperses Anfallen des Biomassen-Potenzials: Zentrales
+Zusammenführen der Biomasse, in erster Linie von Gülle
+und Mist ist mit Anforderungen hinsichtlich Transport, Verteilung, etc. verbunden.
+- Für die Standortwahl sind in erster Linie kurze Transportwege das wichtige Kriterium. Auch ist das Vorhandensein von
+Anschlussmöglichkeiten an das Erdgas-Leitungsnetz Voraussetzung, sofern die Wärme nicht vor Ort genutzt werden
+kann.
+- Es ist zwischen Biogasanlagen in der Bauzone und Anlagen
+in der Landwirtschaftszone zu unterscheiden.
+- Bei potenziellen Standorten in der Landwirtschaftszone besteht für Biogasanlagen mit Art. 34a RPV ein beschränkender Rahmen. Es stellt sich hier zudem die Frage nach den
+Möglichkeiten zur Einspeisung des Biogases in das Erdgasnetz (Leitungen).
+- Im Sinne einer Substitutionsmöglichkeit für Erdgas als fossilem Energieträger lässt sich Biomasse bzw. Biogas dennoch
+nutzen, indem das Biogas in das Erdgasnetz eingespeist
+wird. Für die Einspeisung von Biogas ins Erdgasnetz ist eine
+Aufbereitung des Biogases nötig. Die Firma Gravag Erdgas
+AG bezieht bereits heute von der Firma Rhy Biogas AG,
+Widnau, aufbereitetes Biogas.
+
+c)
+
+Interessenabwägung
+- Bei der Standortwahl in der Bauzone sind vor allem Immissionen auf das Siedlungsgebiet zu berücksichtigen (Auswirkungen des Zu- und Ablieferungsverkehrs, Lärm- und Geruchsimmissionen der Anlage).
+
+33
+
+Strategie Energie AI:
+
+d)
+
+Bericht zu den Grundlagen
+
+Gesamtbeurteilung / Fazit
+- Eine Stromgewinnung aus Biomasse in einer Grossanlage
+erscheint im Kanton AI aufgrund der fehlenden Abwärmeabnehmer in der Industrie und der nicht vorhanden Wärmebezugsdichten im Siedlungsbereich nicht realistisch.
+- Wirtschaftlichkeit des Betriebs einer Biogasanlage fraglich
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+34
+
+Biogasanlage /
+Aufbereitung
+
+4.5
+
+Windkraft
+
+4.5.1
+
+Energiepotenzial Elektrizität
+
+a)
+
+Bekannte Potenziale
+
+Annahmen:
+- Die Windpotenzialstudie hat die möglichen bzw. näher zu
+prüfenden Standorte ergeben. Im Kanton AI ist von maximal
+4 Standorten für "Windparks" auszugehen.
+b)
+
+Rahmenbedingungen
+- Windenergie ist an Standorte mit genügender durchschnittlicher Windgeschwindigkeit und hinreichender Verkehrserschliessung gebunden. Voraussetzungen sind minimale mittlere Windgeschwindigkeiten von 4.5 m/s.
+- Standorte im Wald bedürfen einer Rodungsbewilligung. Mit
+Gutheissung des Berichts "Erleichterung des Bauens von
+Windkraftanlagen in Wäldern und Waldweideflächen" ermöglicht der Bundesrat grundsätzlich den Bau von Windenergieanlagen im Wald.
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+c 1)
+
+Interessenabwägung allgemein
+- Konflikte ergeben sich vor allem aufgrund der ungünstigen
+Auswirkungen auf das Landschaftsbild und die Fauna (Gefahr für Vögel und Fledermäuse).
+- Als Konflikt mit der Siedlung können bei nicht ausreichendem Abstand störende Lärmimmissionen auftreten. Bei den
+unter den bekannten Potenzialen aufgeführten Standorten ist
+bereits ein Perimeter von 300 m als Abstand zu Siedlungsgebieten im Umfeld berücksichtigt. Auswirkungen auf Fauna
+sowie Lärmimmissionen sind in der Potenzialanalyse nicht
+im Detail geprüft.
+
+c 2)
+
+Interessenabwägung standortbezogen
+- Standort Sollegg / Chlispitz: Weist von allen Standorten das
+grösste Potenzial zur Stromgewinnung auf. Der Standort
+grenzt an ein Landschaftsschutzgebiet von nationaler Bedeutung (BLN-Gebiet Säntis), liegt in einem kantonalen Interessengebiet Landschaftsschutz und ist als touristisches
+Kerngebiet einzustufen. Der Standort liegt teilweise im Wald.
+Zur Erschliessung ist ein Strassenausbau nötig. Ein wesentliches Kriterium ist die gute Einsehbarkeit vom nahe gelegenen Hauptort Appenzell. Im Winter ist Schattenwurf im Ort zu
+erwarten.
+- Standort Ochsenhöhi: Der Standort liegt in einem kantonalen
+Interessengebiet Landschaftsschutz und ist als touristisches
+Kerngebiet einzustufen. Das Gebiet hat eine touristische Bedeutung im Sinne der Naherholung. Der Standort liegt teilweise im Wald, nahe am Ort Gonten. Zur Erschliessung ist
+ein Strassenausbau nötig.
+- Standort Brandegg / Hirschberg: Der Standort liegt in einem
+kantonalen Interessengebiet Landschaftsschutz und ist als
+touristisches Kerngebiet einzustufen. Das Gebiet des Hohen
+Hirschbergs weist eine touristische Bedeutung auf. Der
+Standort liegt teilweise im Wald, nahe an den Orten Gais
+und Eggerstanden.
+- Standort Honegg: Ist von allen Standorten am wenigsten
+konfliktträchtig. Tangiert keine Vorranggebiete Landschaft
+oder Tourismus. Weist jedoch auch das geringste Energiepotenzial auf.
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Das Potenzial der Windkraft ist von der ausreichenden
+Windkraft und der Anzahl Standorte und Anlagen sowie der
+Prioritätenfestlegung abhängig. Das Potenzial bei der Umsetzung eines Standorts variiert zwischen 7 und 19 GWh.
+Sollten vertiefte Windmessungen keine ausreichenden
+Windstärken ergeben, fällt das Potenzial auf Null.
+- Aufgrund der Grösse des Kantons und der tangierten weiteren Interessen bzw. aufgrund der räumlichen Auswirkungen,
+
+35
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+ist die Realisierung von 4 Standorten nicht realistisch und
+auch nicht anzustreben.
+Der Tourismus ist für die Innerrhoder Wirtschaft von besonderer Wichtigkeit. Es handelt sich dabei um einen sanften
+Tourismus, welcher in erster Linie auf den gegebenen Naturund Landschaftswerten und dem Landschaftsempfinden basiert. Es stellt sich daher grundsätzlich die Frage nach der
+Realisation eines Windparks in touristisch bedeutsamem
+Gebiet, wie es bei drei der vier Standorte der Fall ist.
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+36
+
+Grossanlage
+1 Standort
+Grossanlage
+4 Standorte
+Kleinanlage
+
+4.6
+
+Umweltwärme
+
+4.6.1
+
+Energiepotenzial Wärme
+
+a)
+
+Bekannte Potenziale
+
+Annahmen:
+- Es wird mit einem Bestand von rund 3'600 Wohn- und
+Wohn- / Gewerbegebäuden gemäss Gemdat (Stand 2007)
+gerechnet.
+- Der Strombedarf für den Betrieb einer Wärmepumpe beträgt
+ca. 6 MWh pro Jahr. Der Strombedarf für Wärmepumpen ist
+abhängig vom Wirkungsgrad (Jahresarbeitszahl: 3.5 bis 4).
+- Für die Beurteilung des Potenzials wird von einer Jahresarbeitszahl von 4 ausgegangen (Verhältnis Heizleistung zu
+elektrischer Leistung).
+- Im Bestand sind 500 Gebäude primär mittels Wärmepumpe
+beheizt (Gebäude- und Wohnungsstatistik BfS, 2010).
+
+Strategie Energie AI:
+
+-
+
+Bericht zu den Grundlagen
+
+Der fortwährende Ersatz von fossiler Energie mit Wärmepumpen sollte durch eine vorgängige Bedarfsminimierung
+des Gebäudes begleitet sein.
+
+b)
+
+Rahmenbedingungen
+- Die Nutzung von Umweltwärme wird aufgrund der fast unbegrenzten Verfügbarkeit und der erprobten Technologie weiter
+zunehmen.
+- Anlagen werden dezentral erstellt.
+- Grundwasserschutzzonen gelten als Ausschlussgebiete.
+- Zusätzlich könnten gespannte Arteser als Ausschlussgebiete
+gelten.
+
+c)
+
+Interessenabwägung
+- Konflikt mit Grundwasser (Verschmutzungsgefahr bei Installation, Durchstich durch bisher getrennte Grundwasserströme)
+- Im Siedlungsgebiet sind mögliche Lärmimmissionen, die
+durch den Betrieb von Wärmepumpen entstehen, zu beachten bzw. abzuklären.
+
+d)
+
+Gesamtbeurteilung / Fazit
+- Das Potenzial der Umweltwärme ist sehr gross.
+- Prinzipiell ist das Potenzial auch im Kanton Appenzell I.Rh.
+vorhanden und erschliessbar.
+- Die Erschliessung ist jedoch analog zur Sonnenenergie in
+hohem Mass abhängig von Privaten.
+- In geeigneten Gebieten ist die Nutzung von Umweltwärme,
+v. a. das Potenzial von untiefer Geothermie, zu fördern.
+- Möglichkeit zur gleichzeitigen Förderung von PV-Anlagen;
+Betrieb der Wärmepumpen mit erneuerbarer Energie.
+
+Kleinanlage /
+Wärmepumpe
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+37
+
+38
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+5.
+
+WÜRDIGUNG GESAMTPOTENZIALE
+
+5.1
+
+Elektrizität
+
+5.1.1
+
+Abdeckung des Gesamtbedarfs
+Der jährliche Strombedarf im Kanton Appenzell Innerrhoden
+wird auf rund 100 GWh geschätzt (+ / - 10 %). Werden alle bekannten Energiepotenziale (bestehendes Potenzial und Zubaupotenzial) zur Stromproduktion zusammengefasst, liesse sich
+eine Abdeckung des Gesamtbedarfs von rund 125 % mit erneuerbaren Energien erreichen.
+in GWh
+
+in Prozent des Bedarfs
+
+100
+
+100
+
+- Wasserkraft
+
+18
+
+18
+
+- Energieholz
+
+6
+
+6
+
+- Sonnenenergie
+
+22
+
+22
+
+- Biomasse
+
+30
+
+30
+
+- Windkraft
+
+51
+
+51
+
+Potenzial Total
+
+127
+
+127
+
+Gesamtbedarf
+Potenziale:
+
+5.1.2
+
+Gesamtbeurteilung
+Die Gesamtübersicht zeigt, dass im Bereich der Elektrizität unter den heute geltenden Rahmenbedingungen und den bekannten Konfliktpotenzialen lediglich die Photovoltaik-Anlagen ohne
+Ergreifen von zusätzlichen Massnahmen positiv beurteilt werden können.
+Bei den übrigen Anlagen / Energieträgern kann allenfalls durch
+eine Verbesserung der Rahmenbedingungen oder durch eine
+Reduktion des Konfliktpotenzials eine bessere Einstufung trotz
+vermeintlich geringem Potenzial angestrebt werden.
+
+Strategie Energie AI:
+
+39
+
+Bericht zu den Grundlagen
+
+Wasserkraft
+
+grosse Kleinanlage
+Kleinanlage
+
+Energieholz
+
+Holzkraftwerk
+
+Sonnenenergie
+
+PV-Anlage
+
+Biomasse
+
+Biogasanlage /
+BHKW
+
+Windkraft
+
+Grossanlage
+1 Standort
+Grossanlage
+4 Standorte
+Kleinanlage
+
+5.2
+
+Wärme
+
+5.2.1
+
+Abdeckung des Gesamtbedarfs
+Der jährliche Wärmebedarf im Kanton Appenzell Innerrhoden
+wird auf rund 100 GWh geschätzt. Werden alle bekannten
+Energiepotenziale (bestehendes Potenzial und Zubaupotenzial)
+zur Wärmeproduktion zusammengefasst, lässt sich eine Abdeckung des Gesamtbedarfs von rund 250 % mit erneuerbaren
+Energien erreichen.
+Es ist darauf hinzuweisen, das bei verschiedenen Energieträgern verschiedene technische Varianten zur Wärmeproduktion
+bestehen. Dies ist beim Energieholz, der Biomasse und der
+Sonnenenergie der Fall. Bei der Abschätzung des Gesamtpotenzials ist bei diesen Energieträgern jeweils die Produktionsform berücksichtigt worden, deren Nutzung in technischer und
+wirtschaftlicher Hinsicht plausibler erscheint.
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+in GWh
+
+in Prozent des Bedarfs
+
+100
+
+100
+
+- Umweltwärme
+
+65
+
+65
+
+- Energieholz
+
+72
+
+72
+
+- Sonnenenergie
+
+14
+
+14
+
+- Biomasse
+
+96
+
+96
+
+Potenzial Total
+
+247
+
+247
+
+Gesamtbedarf
+Potenziale:
+
+5.2.2
+
+Gesamtbeurteilung
+Im Bereich der Wärme zeigt sich, dass ausser bei der Biomasse eine bei den Kleinanlagen durchwegs positive Gesamtbeurteilung resultiert. Das Potenzial der nachhaltigen Wärmenutzung ist im Kanton daher gross. Bei verbesserten Rahmenbedingungen ist auch die Biomasse bezüglich Wärme ein interessanter Energieträger.
+
+Energieholz
+
+Klein- und Holzfeuerungen
+
+Sonnenenergie
+
+Solaranlage /
+Warmwasser
+
+Biomasse
+
+Biogasanlage /
+Aufbereitung
+
+Umweltwärme
+
+Kleinanlage /
+Wärmepumpe
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+c) Interessenabwägung
+a) Energiepotenzial
+
+40
+
+Strategie Energie AI:
+
+5.3
+
+Bericht zu den Grundlagen
+
+Schlussfolgerungen
+Das Potenzial an erneuerbaren Energien ist auch im Kanton
+Appenzell I.Rh. erheblich, aber nicht uneingeschränkt nutzbar.
+- Das bekannte Potenzial an erneuerbaren Energien (120 130 % Strombedarf, 240 - 250 % Wärmebedarf) im Kanton
+Appenzell I.Rh. kann bezogen auf den Bedarf des Kantons
+grundsätzlich als erheblich bezeichnet werden.
+- Der Kanton AI verfügt aber nicht über überregional bzw. national relevante Energieressourcen. Das "lokale, regionale,
+nationale und internationale" Kapital liegt vielmehr in der unverfälschten, weitgehend intakten Landschaft, welches es zu
+erhalten gilt (ca. 1/3 des Kantons ist BLN-Gebiet; rund 25 %
+der Wertschöpfung im Kanton werden im Tourismus erwirtschaftet).
+- Unter Beachtung von landschaftlichen, naturräumlichen sowie siedlungstechnischen und wirtschaftlichen Gegebenheiten (Einwohnerdichten, Nutzungszuordnung, Schutzziele,
+Wirtschaftlichkeit, entgegenstehende Interessen wie Tourismus etc.) sind die bekannten Potenziale aufgrund von umfassenden Interessenabwägungen und Gesamtbeurteilungen nicht uneingeschränkt realisierbar.
+Effizienzsteigerungen auf allen Produktions- und Verbrauchsstufen bzw. gesamtheitlich effiziente Lösungen sind anzustreben
+- Bei der Wärme- und Stromproduktion ist darauf hinzuwirken,
+dass die zum Betrieb der Produktionsanlagen benötigte
+Energie ebenfalls aus erneuerbaren Energien bezogen und
+damit die Effizienz erhöht werden kann.
+- Bei der Förderung von Wärmepumpen ist z. B. die gleichzeitige Förderung von PV-Anlagen zum Betrieb der Wärmepumpen anzustreben (Kombination Wärmepumpe / PV-Anlage).
+Aktuell schneiden Kleinanlagen in der Gesamtbeurteilung
+(noch) besser ab als Grossanlagen / Grosstechnologien
+- Grosstechnologien / Grossanlagen haben im Kanton AI nur
+eine schmale Basis.
+Vor allem im Bereich der Windenergie besteht ein erhebliches Potenzial, sofern ausreichende Windgeschwindigkeiten
+nachgewiesen werden können. Ansonsten geht das Potenzial gegen Null.
+Durch die Aufbereitung von Biogas in grösserem Stil, könnte
+Erdgas substituiert und die Nutzung des Erdgasnetzes langfristig gesichert werden. Die Herausforderung besteht aber
+insbesondere in der dispersen räumlichen Verteilung der Biomasse und damit einer effizienten Zusammenführung und
+Aufbereitung. Auch ist das bestehende Erdgasnetz aktuell
+erst im Auf- bzw. Ausbau.
+
+41
+
+42
+
+Strategie Energie AI:
+
+-
+
+-
+
+Bericht zu den Grundlagen
+
+Die übrigen Energieträger (Sonnenenergie, Umweltwärme,
+Energieholz) werden vor allem im Bereich von Kleinanlagen
+genutzt, welche auch Gegenstand von speziellen Förderprogrammen sind. Das Potenzial wird i. d. R. durch die Nachfrage und nicht durch das verfügbare Potenzial bestimmt.
+In der Gesamtbeurteilung schneiden diese Formen der erneuerbaren Energien positiv ab, weil sie auf bekannten und
+erprobten Technologien basieren und sowohl die Rahmenbedingungen für die Realisierung als gut zu betrachten sind
+wie auch das Konfliktpotenzial im Ganzen eher gering ist
+(ausgenommen sind allenfalls Ortsbildschutzzonen oder geschützte Einzelbauten). Dieses Potenzial erscheint aktuell
+am einfachsten und am raschesten nutzbar.
+Eine "nicht positive Gesamtbeurteilung" eines Energieträgers
+bzw. eines Anlagentyps ist nicht generell ein Ausschlussgrund. Vielmehr bedarf es für ein adäquates Verhältnis von
+Nutzungs- und Schutzaspekten, erhöhten Anstrengungen im
+Bereich der Verbesserung der Rahmenbedingungen und /
+oder der Bereinigung von Konflikten bzw. von Ersatzmassnahmen.
+Die Rahmenbedingungen, die eben noch als gegeben erschienen, können sich innert kurzer Zeit ändern. Dies durch
+nicht beeinflussbare externe Einflüsse oder durch "innenpolitische" Entscheide (Bund, Kanton).
+
+Neben ausreichender Energie ist auch die zeitgerechte Verfügbarkeit für die Versorgungssicherheit zentral (Energiespeicherung).
+- Auch unter verstärkter Nutzung von erneuerbaren Energien
+und unter Beachtung von Effizienzsteigerungen auf allen
+Produktions- und Verbrauchsstufen ist die Gewährleistung
+einer hohen Versorgungssicherheit volkswirtschaftlich von
+zentraler Bedeutung.
+Versorgungssicherheit bedeutet dabei nicht nur ausreichende, bedarfsgerechte Potenziale an erneuerbaren Energien
+zu nutzen, sondern die Energie auch zeitgerecht zur Verfügung stellen. Eine Herausforderung bildet daher der Ausgleich von unregelmässig anfallendem Strom aus erneuerbaren Energien wie Wind- oder Sonnenenergie. Dies bedarf an
+Anstrengungen im Bereich des Ausbaus der Verteilnetze
+und der Entwicklung neuer, dezentraler Speichersysteme
+(„Batterie-Systeme“).
+- Grössere geplante Infrastrukturen zur Speicherung (z. B.
+Speichersee) oder zum Transport von Energie (z.B. leitungsgebunden) sind im Kanton im Moment nicht bekannt.
+Der Umbau der Energieversorgung stellt auch bezüglich der
+Netzstruktur eine Herausforderung dar.
+- Dezentrale Strukturen führen auch zu veränderten Lieferund Abnehmerbeziehungen. Eine grosse Herausforderung
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+bildet daher in der Zukunft der Umbau bzw. die Anpassung
+der Netze, welche insbesondere bezüglich der Korridore
+auch raumrelevant sind.
+
+43
+
+44
+
+Strategie Energie AI:
+
+6.
+
+STRATEGIE ENERGIE AI
+
+6.1
+
+Allgemeines
+
+Bericht zu den Grundlagen
+
+Aufgrund des vom Bundesrat und vom Parlament beschlossenen schrittweisen Ausstiegs aus der Kernenergie und dem aktuellen Energiemix der AXPO (75 % Kernenergie, 25 % Wasserkraft) besteht auch in Appenzell I.Rh. ein Handlungsbedarf
+mit folgenden allgemeinen Zielsetzungen:
+- Die Effizienz ist auf allen Produktions- und Verbrauchsstufen
+zu steigern.
+- Auf der Energie-Angebotsseite ist der Einsatz von erneuerbaren Energieträgern zur Elektrizitäts- und Wärmeproduktion
+markant zu steigern.
+- Der Verbrauch fossiler Energieträger ist gleichzeitig zu verringern.
+Nachfolgend werden Leitideen / Strategien formuliert, mit denen
+die allgemeinen Ziele im Kanton Appenzell I.Rh. angestrebt
+werden sollen. Mit Blick auf die Umsetzung dieser Strategien
+werden als Rahmen für die konkrete Massnahmenplanung
+Handlungsfelder definiert.
+Aufgrund der vorstehenden Überlegungen zu den Potenzialabschätzungen, den kantonalen Rahmenbedingungen und zur Interessenabwägung ist der Fokus der Strategie Energie AI insbesondere auf folgende Aspekte auszurichten:
+- landschafts- und umweltschonende,
+- effiziente,
+- potenzialgerechte,
+- konfliktarme,
+- qualitativ hochwertige,
+- langfristig optimale
+Nutzung der erneuerbaren sowie Substitution der fossilen
+Energieträger.
+Dabei soll zum heutigen Zeitpunkt kein Energieträger bzw. keine Technologie grundsätzlich ausgeschlossen werden. Aufgrund der Potenzialabschätzungen, der Rahmenbedingungen
+und des Konfliktpotenzials sind aus heutiger Sicht jedoch differenzierte Aussagen zu einzelnen Energieträgern und Anlagetypen angezeigt, die es bei der strategischen Ausrichtung zu berücksichtigen gilt.
+Da sich die Technologien und Energiesysteme stetig und rasch
+weiterentwickeln, sind die strategischen Ziele und Vorgaben so
+zu formulieren, dass sie diesem Umstand Rechnung tragen.
+Über dies hinaus sind die Vorgaben regelmässig zu überprüfen
+und gegebenenfalls an veränderte Rahmenbedingungen anzupassen.
+
+Strategie Energie AI:
+
+6.2
+
+Bericht zu den Grundlagen
+
+Leitideen, Strategien (S) und Handlungsfelder (H)
+Leitidee 1:
+Das Einsparpotenzial optimieren und im Bereich der Energieeffizienz sowie des Energiesparens (Gebäude und Mobilität) weitergehende Anstrengungen unternehmen
+S1 Durch eine Vorbildfunktion der öffentlichen Hand zur Nachahmung motivieren
+H Realisierung innovativer, zukunftsweisender öffentlicher
+Neubauten und Sanierungen
+H Einsatz von Fahrzeugen der Energieeffizienzklassen A
+oder B, sofern dies betrieblich möglich ist
+H Einsatz von energieeffizienten Geräten und Beleuchtungen (z. B. Strassenbeleuchtung mit LED, etc.)
+S2 Durch Ausbau der Anreiz- und Fördersysteme die Sanierung des Gebäudeparks sowie bei Neubauten das "Nullenergie-Haus" bzw. das "Plusenergie-Haus" forcieren und
+ökologische Mobilität fördern
+H Ausweitung (z. B. auf PV-Anlagen, Kombination von
+Wärmepumpen und PV-Anlagen) und Differenzierung
+(z. B. private Haushalte, Landwirtschaftsbetriebe, Gewerbe / Industrie) des Förderprogramms Energie
+H Errichtung eines Energiefonds zur Vorfinanzierung von
+Investitionen mit Rückzahlungsklausel (Amortisation
+über Einsparungen in den Betriebskosten)
+H Schaffung von steuerlichen Anreizen
+H Bei Grossverbrauchern von fossiler Energie auf den
+Einsatz von WKK-Anlagen zur zusätzlichen Stromproduktion hinwirken
+S3 Durch gesetzliche Vorgaben zum Energiesparen und zur
+Effizienzsteigerung verpflichten
+H Verbindliche Gebäude-Standards und energetische Anforderungen (z. B. verbindliche Werte für den Wärmebedarf bei Neubauten) in den Bauvorschriften sowie in
+Quartierplänen (z. B. bezüglich Bonusregelung) festlegen
+
+45
+
+46
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Leitidee 2:
+Durch eine weitsichtige Energiepolitik die Erhaltung der appenzellischen Natur- und Kulturlandschaft als vorrangiges öffentliches Interesse sicherstellen
+S4 Neue, grössere Produktionsanlagen zur Energieerzeugung
+(z. B. Holzheizkraftwerk, Biogasanlage) prioritär auf geeignete und gut erschlossene Bauzonen ausrichten.
+(Vorbehalten bleiben Bewilligungen gestützt auf das Bundesgesetz über die Raumplanung; Art. 16a Abs. 1bis RPG:
+Energie aus Biomasse, Art. 18a RPG: Solaranlagen, Art.
+24 RPG: Standortgebundenheit, Wind, Wasser)
+H Durchführung einer kommunalen Energieplanung im
+Sinne des Moduls 7.4 der Mustervorschriften der Kantone im Energiebereich (MuKEn) mit Fokus Abstimmung
+"Angebot und Nachfrage innerhalb der Bauzonen"
+H Bezeichnung von möglichen / zweckmässigen Standorten für Energieproduktionsanlagen im Sinne einer Positivplanung
+S5 Durch Information und Absprachen mit den Nachbarkantonen, Energieversorgern und potenziellen Investoren auf
+raum- und umweltverträgliche Lösungen hinarbeiten
+H Räumliche Abstimmung über die Kantonsgrenze hinaus
+im Rahmen der Richtplanung (z. B. Windkraft, Energieholznutzung)
+H Kommunikation / Information der übergeordneten Zielsetzungen gegenüber Energieversorgern und potenziellen Investoren / Einbindung in die Planung
+S6 Durch die vorausschauende Definition der von Produktionsanlagen einzuhaltenden Anforderungen die Planbarkeit
+und Rechtssicherheit erhöhen
+H Festlegung von Richtwerten für eine effiziente Wasserkraftnutzung (z. B. Leistung im Verhältnis zur Länge der
+Ausleitstrecke min. 0.1 kW/m, Wirkungsgrad > 75 %
+etc.) in Abhängigkeit zur Ökomorphologie (je unbelasteter das Gewässer um so höher muss die minimale Leistung sein, damit der Eingriff gerechtfertigt ist)
+H Formulierung von Ausschlusskriterien
+H Formulierung von positiven und negativen Beurteilungskriterien für die Interessenabwägung (z. B. Richtwerte
+bezüglich Potenzial, Anforderungen an die Erschliessung etc.)
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Leitidee 3:
+Durch Kohärenz der strategischen Zielsetzungen des Kantons
+die erwünschten Effekte der Strategie Energie AI verstärken
+S7 Andere Politikbereiche im Kanton, wie Raumordnungs- oder Finanz- und Steuerpolitik, berücksichtigen energiepolitische Zielsetzungen bzw. sind auf diese abgestimmt.
+H Energiesparende Raumstrukturen: durch kompakte
+Siedlungsstrukturen und hohe Nutzungsdurchmischung
+die (motorisierte) Zwangsmobilität klein halten
+H Überprüfung / Anpassung Steuergesetzgebung
+
+Leitidee 4 :
+Durch eine markante Steigerung des Anteils an erneuerbaren
+Energien, die negativen Auswirkungen des Verbrauchs fossiler
+Energieträger reduzieren sowie eine hohe Versorgungssicherheit gewährleisten
+S8 Durch Schaffung guter Rahmenbedingungen und Abbau
+von Hemmnissen private Initiativen fördern
+H Bewilligungsverfahren überprüfen
+H Vorausschauende Standortplanung und Standortsicherung / Grosswindanlagen verifizieren
+H Interessenvermittlung / Dienstleistungen der öffentlichen
+Hand: Koordination Anbieter – Verbraucher (Wärmenetze, Mieter – Vermieter bei PV Anlagen), Aufarbeitung
+Grundlagendaten (Dachflächen-, Eignungskataster etc.)
+H Schaffung einer Plattform als Drehscheibe für die Nutzung von Dachflächen / Förderung von Gemeinschaftsanlagen
+H Stärkung / Ausbau der Energieberatung (z. B. Zusammenarbeit mit Energieagentur SG, Verein Energie AR)
+H Aufbau Monitoring / Erfolgskontrolle (Anzahl Installationen PV m2, Ausrichtung; Kollektoren m2; realisierte Anlagen / Leistung o. ä.)
+
+47
+
+48
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Leitidee 5:
+Durch eine auf das Potenzial, die Rahmenbedingungen und
+das Konfliktpotenzial abgestimmte Prioritätensetzung die gesamtwirtschaftlich und zeitlich optimale Nutzung der erneuerbaren Energieträger fördern
+S9 Förderung bzw. Ausbau erneuerbarer Energieträger nach
+folgender Kaskade (Priorität P; vgl. auch Herleitung Anhang):
+
+Priorität
+
+Potenzial
+
+Rahmenbedingungen
+
+1
+
+gross
+
+gut
+
+2
+
+mittel
+
+gut
+
+3
+
+klein
+
+4
+5
+
+gross
+
+gut
+gut
+
+klein
+6
+
+Gesamtbeurteilung
+
+mittel
+
+tief
+
+positiv
+
+mittel
+
+tief
+
+positiv
+
+tief
+
+positiv
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+gut
+mittel
+
+klein
+
+Konfliktpotenzial
+
+mittel
+mittel
+mittel
+
+gut
+
+tief
+
+mittel
+
+schwierig
+
+mittel
+hoch
+
+tief
+
+mittel
+
+mittel
+negativ
+negativ
+
+S10 Durch die Förderung der Energieproduktion aus erneuerbaren Energieträgern im Kanton Appenzell I.Rh. im Sinne der
+vorgeschlagenen Interessenabwägung und Gesamtbeurteilung den raschen Zubau unterstützen
+H Auf Basis der Gesamtbeurteilung prioritär die Nutzung
+der Sonnenenergie (Photovoltaik) zur Stromproduktion
+fördern
+Die übrigen Energieträger aufgrund der Interessenabwägung und Gesamtbeurteilung subsidiär nutzen; Verbesserungen der Rahmenbedingungen und Massnahmen zur Konfliktminimierung prüfen
+H Auf Basis der Gesamtbeurteilung die Nutzung der Sonnenenergie, des Energieholzes und der Umweltwärme
+zur Wärmegewinnung gleichermassen fördern
+Im Bereich der Biomasse Verbesserungen insbesondere
+im Bereich der Rahmenbedingungen (Standortwahl,
+Netz) prüfen
+H Abstimmung und Ausrichtung des Anreizsystems und
+Förderprogramms auf die Priorisierung der erneuerbaren Energieträger
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Leitidee 6:
+Die Realisierung von Bauten und Anlagen zur Energieerzeugung, zum Energietransport und zur Energiespeicherung ermöglichen, jedoch auf eine qualitativ hochwertige Ausführung
+bzw. Einpassung hinwirken
+S11 Durch eine qualitativ hochwertige Ausführung von Bauten
+und Anlagen zur Energieerzeugung insbesondere von Sonnenenergie (innerhalb und ausserhalb der Bauzonen) das
+heimatliche Orts- und Landschaftsbild respektieren
+H Erarbeitung von Qualitätsstandards zur sorgfältigen Einpassung und Integration
+H Im Rahmen von Baubewilligungsverfahren und Nutzungsplanung (Kantonaler und kommunaler Nutzungsplan sowie Quartierplan) auf eine gute Gestaltung und
+Einpassung hinwirken
+S12 Die gestützt auf eine Priorisierung der Energieträger bzw.
+der eingesetzten Energiesysteme und Technologien notwendigen Transport- und Speichersysteme vorausschauend und zeitgerecht planen bzw. räumlich sicherstellen.
+H Zusammen mit den Versorgungsunternehmen im Rahmen der Versorgungs- und Netzplanung die notwendigen Korridore und Standorte raumplanerisch sicherstellen
+
+49
+
+50
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+7.
+
+UMSETZUNG / MASSNAHMENPLANUNG
+
+7.1
+
+Allgemeines
+Die Handlungsfelder unter Kapitel 6 geben an, wo über konkrete Massnahmen der Hebel angesetzt werden kann bzw. soll,
+um den Leitideen bzw. den Strategien zum Durchbruch zu verhelfen. Gestützt auf die Gesamtbeurteilung und unter Berücksichtigung der personellen wie finanziellen Ressourcen des
+Kantons sind die konkret zu ergreifenden Massnahmen zu bestimmen. Dabei spielen folgende Aspekte eine Rolle:
+- Priorität gemäss Gesamtbeurteilung
+- Umsetzbarkeit / Umsetzungshorizont (kurz-, mittel-, langfristig)
+- Kosten / Nutzenverhältnis
+Allgemein ist es effizienter bzw. zielführender, wenn man versucht die Stärken zu stärken und nicht die Schwächen zu eliminieren, denn es wird kaum möglich sein aus einer Schwäche
+eine Stärke zu machen. Dagegen kann sich der Kanton über
+eine Stärke auch energiepolitisch positionieren bzw. profilieren.
+
+7.2
+
+Information / Beratung
+Der Umbau der Energiepolitik kann nicht nur verordnet sondern
+muss durch eine Bewusstseinsänderung schlussendlich auch
+durch die breite Bevölkerung getragen werden. Der Information
+und Beratung kommt in diesem Bereich eine tragende Rolle zu.
+Auch können durch Vermittlung von "Wissen" private Initiativen
+ausgelöst werden. Die Anstrengungen können in diesem Bereich konkret wie folgt verstärkt werden:
+- Ausweitung / Konkretisierung des Informations- und Beratungsauftrags der Fachstelle Energie AI
+- Stärkung der Energieberatung durch Kooperation (z. B. über
+Energieberatung Ostschweiz oder Verein Energie AR: Mitgliedschaft, Leistungsauftrag)
+- Aufbau eines Monitorings im Sinne eines Informationsinstruments
+
+7.3
+
+Photovoltaik und Wärmeproduktion
+Gestützt auf die Potenzialabschätzung und die Gesamtbeurteilung sind im Kanton Appenzell I.Rh. prioritär zu fördern:
+- Im Bereich Elektrizität: Photovoltaik-Anlagen
+- Im Bereich Wärme: Sonnenenergie, Energieholz, Umweltwärme
+Zur Förderung / Realisierung der Potenziale können folgende
+Massnahmen vorgesehen werden:
+
+Strategie Energie AI:
+
+-
+
+-
+
+7.4
+
+Bericht zu den Grundlagen
+
+Aufbereitung und Vermittlung von relevanten Informationen:
+> Erhebung der Solarpotenziale auf Innerrhoder Dächern
+(analog zu AR; in Anlehnung an Erdsondenkarte)
+> Einrichtung einer Dachflächen-Börse (Zusammenbringen
+von Angebot und Nachfrage übers Internet / Geoportal)
+Ausweitung des Förderprogramms Energie AI auf PVAnlagen, Umweltwärme, kombinierte Anlagen Wärmepumpen / PV-Anlagen unter der Voraussetzung, dass keine
+Mehrfachförderung erfolgt (z. B. KEV, etc.) und Überprüfung
+der Beitragssätze und Anforderungen bei den übrigen Energieerzeugungsanlagen
+
+Unterstützung durch Raumplanung
+Die Raumplanung soll insbesondere über Standortentscheide
+und die Koordination mit anderen Nutzungen einen Beitrag zur
+sinnvollen Nutzung von erneuerbaren Energien leisten. Dies
+kann konkret wie folgt erfolgen:
+- kantonale Richtplanung
+> Positivplanung für die vier Standorte für Windkraftanlagen (Zwischenergebnis: Vorhaben sind noch nicht abgestimmt, es sind aber klare Aussagen zu den weiteren
+Schritten zu machen, z. B. Erforderlichkeit von Windmessungen, Machbarkeitsabklärungen etc.)
+> Eventuell Festlegung einer maximalen Anzahl Windkraftanlagen
+> Positivplanung für die Wasserkraftnutzung (abhängig
+z.B. von einem minimalen Linienpotenzial > 0.3 kW / m,
+Wirkungsgrad > 75% o.ä.) in Kombination mit Vorgaben
+zur Interessenabwägung / Machbarkeitsstudie
+- Bezirke und Feuerschaugemeinde
+> Energierichtplanung
+auf
+"Bezirks- / Gemeindestufe"
+(Analyse, Bezeichnung / Zuordnung von Gebieten zur
+Priorisierung von bestimmten Energieträgern: Umwelt-,
+Abwärme, Nahwärme, Gas)
+
+51
+
+52
+
+Strategie Energie AI:
+
+7.5
+
+Bericht zu den Grundlagen
+
+Weitere Massnahmen
+Bei den weiteren Massnahmen erscheint es zentral, dass das
+gesamte staatliche Handeln in sich konsistent ist. Da auch beim
+Energiesparen bzw. bei der Substitution von fossilen Energieträgern vieles über den "Geldbeutel" gesteuert wird, ist es angezeigt zu prüfen, ob nicht falsche Anreize gesetzt werden:
+- Überprüfung der bestehenden Förder- und Subventionssysteme
+- Überprüfung Steuergesetzgebung
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+ANHANG
+
+1.
+
+Verwendete Grundlagen
+Gesetzliche Grundlagen
+- Entwurf Energiegesetz vom 4. September 2013 (EnG, SR
+730.0)
+- Energiegesetz (EnerG; GS 730.000)
+- Energieverordnung (EnerV; GS 730.010)
+- Baugesetz (BauG; GS 700.000)
+- Bauverordnung (BauV; GS 700.010)
+
+Potenzialstudien
+- Potenzielle Windstandorte AI / AR, Grobbeurteilung für
+Grossanlagen mit einer Höhe über 30 m, 2012
+- Wasserkraftnutzung an der Sitter in Appenzell I.Rh., Beurteilung einzelner Standorte, 2011
+- Studie Energieholzpotenzial AR + AI, Modul 1, 2012
+- Biomassenpotenziale in den Kantonen St. Gallen und Appenzell, 2008
+
+Weitere kantonale Grundlagen
+- Kantonaler Richtplan
+- Entwicklungskonzept 1996
+
+Allgemeine Grundlagen
+- Erläuternder Bericht zur Energiestrategie 2050 (Vernehmlassungsvorlage) vom 28.9.2012, Bundesamt für Energie
+BFE, 2012
+- Energiestrategie
+2050:
+Erstes
+Massnahmenpaket
+(13.9.2012), Bundesamt für Energie BFE, 2012
+- Botschaft zum ersten Massnahmenpaket der Energiestrategie 2050 (Revision des Energierechts) des Bundesrates vom
+4. September 2013
+- Schweizerische Gesamtenergiestatistik 2011, Bundesamt für
+Energie BFE, 2012
+- Schweizerische Elektrizitätsstatistik 2011, Bundesamt für
+Energie BFE, 2012
+- Schweizerische Statistik der erneuerbaren Energien – Ausgabe 2010, Bundesamt für Energie BFE, 2011
+- Unser Innerrhoden in Zahlen, Ausgabe 2011, Kanton Appenzell Innerrhoden, 2011
+
+53
+
+54
+
+Strategie Energie AI:
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Bericht zu den Grundlagen
+
+Räumliche Energieplanung – Werkzeuge für eine zukunftstaugliche Wärmeversorgung
+ART-Bericht: Photovoltaikanlagen auf landwirtschaftlichen
+Betrieben, Nr. 694, Forschungsanstalt Agroscope Reckenholz-Tänikon ART, 2008
+Praktischer Leitfaden Biogas – Leitfaden zur erfolgreichen
+Umsetzung von Projekten zur Produktion erneuerbaren
+Energien, Schweizerischer Bauernverband SBV
+Wärmenutzung aus Boden und Untergrund – Vollzugshilfe
+für Behörden und Fachleute im Bereich Erdwärmenutzung,
+Bundesamt für Umwelt BAFU, 2009
+Energiespiegel: Holz – ein wandlungsfähiger Energieträger,
+Nr.16, Paul Scherrer Institut PSI, 2006
+Arbeitsgruppe Dialog Wasserkraft der Wasser-Agenda 21:
+Klassifizierung von Fliessgewässerstrecken; Methodik zur
+Bewertung und Klassierung der Nutzungseignung von
+Fliessgewässerstrecken, BG Ingenieure und Berater AG,
+2009
+Empfehlung zur Erarbeitung kantonaler Schutz- und Nutzungsstrategien im Bereich Kleinwasserkraftwerke, Bundesamt für Umwelt BAFU, Bundesamt für Energie BFE, Bundesamt für Raumentwicklung, 2011
+
+Strategie Energie AI:
+
+2.
+
+Wasserkraftpotenziale Kanton AI
+
+Bericht zu den Grundlagen
+
+55
+
+56
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+57
+
+58
+
+Strategie Energie AI:
+
+3.
+
+Bericht zu den Grundlagen
+
+Gewässerökomorphologie Kanton AI
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+59
+
+60
+
+Strategie Energie AI:
+
+4.
+
+Bericht zu den Grundlagen
+
+Raster für Grobbeurteilung
+Überlegungen zur Prioritätensetzung
+
+Potenzial
+
+Rahmenbedingungen
+
+Konfliktpotenzial
+
+gross
+
+gut
+
+tief
+
+gross
+
+mittel
+
+tief
+
+gross
+
+schwierig
+
+tief
+
+gross
+
+gut
+
+mittel
+
+gross
+
+mittel
+
+mittel
+
+gross
+
+schwierig
+
+mittel
+
+gross
+
+gut
+
+hoch
+
+gross
+
+mittel
+
+hoch
+
+gross
+
+schwierig
+
+hoch
+
+mittel
+
+gut
+
+tief
+
+mittel
+
+mittel
+
+tief
+
+mittel
+
+schwierig
+
+tief
+
+mittel
+
+gut
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+schwierig
+
+mittel
+
+mittel
+
+gut
+
+hoch
+
+mittel
+
+mittel
+
+hoch
+
+mittel
+
+schwierig
+
+hoch
+
+klein
+
+gut
+
+tief
+
+klein
+
+mittel
+
+tief
+
+klein
+
+schwierig
+
+tief
+
+klein
+
+gut
+
+mittel
+
+klein
+
+mittel
+
+mittel
+
+klein
+
+schwierig
+
+mittel
+
+klein
+
+gut
+
+hoch
+
+klein
+
+mittel
+
+hoch
+
+klein
+
+schwierig
+
+hoch
+
+Gesamtbeurteilung
+
+Strategie Energie AI:
+
+Bericht zu den Grundlagen
+
+Potenzial
+
+Rahmenbedingungen
+
+Konfliktpotenzial
+
+gross
+
+gut
+
+tief
+
+gross
+
+mittel
+
+tief
+
+mittel
+
+gut
+
+tief
+
+mittel
+
+mittel
+
+tief
+
+klein
+
+gut
+
+tief
+
+gross
+
+gut
+
+mittel
+
+gross
+
+mittel
+
+mittel
+
+mittel
+
+gut
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+klein
+
+gut
+
+mittel
+
+klein
+
+mittel
+
+tief
+
+gross
+
+schwierig
+
+tief
+
+gross
+
+schwierig
+
+mittel
+
+gross
+
+gut
+
+hoch
+
+gross
+
+mittel
+
+hoch
+
+gross
+
+schwierig
+
+hoch
+
+mittel
+
+schwierig
+
+tief
+
+mittel
+
+schwierig
+
+mittel
+
+mittel
+
+gut
+
+hoch
+
+mittel
+
+mittel
+
+hoch
+
+mittel
+
+schwierig
+
+hoch
+
+klein
+
+mittel
+
+mittel
+
+klein
+
+schwierig
+
+tief
+
+klein
+
+schwierig
+
+mittel
+
+klein
+
+gut
+
+hoch
+
+klein
+
+mittel
+
+hoch
+
+klein
+
+schwierig
+
+hoch
+
+Gesamtbeurteilung
+
+Hinweise:
+- Das Konfliktpotenzial wird tendenziell etwas stärker gewichtet als die Rahmenbedingungen.
+- Das Konfliktpotenzial ist unterteilt in Konflikte bezüglich
+Landschaft, Umwelt und Siedlung. Für die Gesamteinschätzung des Konfliktpotenzials gilt jeweils der negativste Wert
+als massgebend.
+- Es ist darauf hinzuweisen, dass eine negative Beurteilung
+der Rahmenbedingungen (schwierig) oder des Konfliktpotenzials (hoch) nicht mit einem Killerkriterium gleichzusetzen
+ist. Auch führt eine negative Gesamtbeurteilung nicht zum
+Ausschluss des Energiepotenzials.
+
+61
+
+Kantonaler Richtplan AI
+
+Teil Energie
+Objektblätter / Karten
+Von der Standeskommission erlassen am:
+
+02. September 2014 / 27. Januar 2015
+
+Vom Grossen Rat genehmigt am:
+
+30. März 2015
+
+Vom Bundesrat genehmigt am:
+
+04. September 2015
+
+Januar 2015
+
+Kantonaler Richtplan, Teil Energie
+
+INHALTSVERZEICHNIS
+
+Objektblatt Nr. E 1
+
+Energieversorgung (Grundsätze)
+
+Objektblatt Nr. E 2
+
+Priorisierung und Grundsätze für die Beurteilung von Energieanlagen
+
+Objektblatt Nr. E 3
+
+Verfahren (Grundsätze / Anforderungen)
+
+Objektblatt Nr. E 4
+
+Energie in Nutzungs- und Quartierplanung
+
+Objektblatt Nr. E 5
+
+Solarenergie (Photovoltaik, Solarthermie)
+
+Objektblatt Nr. E 6
+
+Windenergie (Grossanlagen mit Nabenhöhe > 30 m)
+
+Objektblatt Nr. E 7
+
+Windenergie (Kleinanlagen mit Nabenhöhe < 30 m)
+
+Objektblatt Nr. E 8
+
+Wasserkraft
+
+Objektblatt Nr. E 9
+
+Weitere Massnahmen
+
+ENERGIE
+
+Energieversorgung (Grundsätze)
+
+Ganzer Kanton
+Nr. E 1
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Es ist Aufgabe des Kantons, günstige Rahmenbedingungen für die Energieversorgung zu schaffen. Im kantonalen Richtplan sind betreffend raumrelevante Energieaspekte die kantonalen Leitplanken für einen rationellen Energieverbrauch und eine nachhaltige Nutzung der verschiedenen
+Energiepotenziale festzulegen sowie die raumrelevanten Aspekte aus der Strategie Energie AI
+zu verankern und mit den übrigen Nutzungen zu koordinieren.
+Durch die kantonale Richtplanung soll keine Technologie bzw. kein Energieträger im Grundsatz
+ausgeschlossen werden. Im Sinne einer "Momentaufnahme" sind aus übergeordneter kantonaler
+Sicht und gestützt auf die konkreten, aktuellen Rahmenbedingungen im Kanton Appenzell Innerrhoden jedoch Prioritäten zu setzen. Die kantonale Richtplanung ist bei geänderten Verhältnissen (z. B. Weiterentwicklung von Technologien und Energiesystemen) im Sinne einer rollenden
+Planung zu überprüfen und gegebenenfalls an geänderte (z. B. technische) Verhältnisse anzupassen.
+
+AUSGANGSLAGE
+Der jährliche Strombedarf und der jährliche Wärmebedarf im Kanton Appenzell Innerrhoden
+werden auf je rund 100 GWh geschätzt (+ / - 10 %). Werden alle bekannten Energiepotenziale
+(bestehendes Potenzial und Zubaupotenzial) zur Strom- und Wärmeproduktion zusammengefasst, lässt sich eine Abdeckung des Gesamtbedarfs von rund 125 % im Bereich Elektrizität und
+von rund 215 % im Bereich Wärme mit erneuerbaren Energien erreichen. Das bekannte Potenzial an erneuerbaren Energien (Strom und Wärme) im Kanton Appenzell I.Rh. kann, bezogen
+auf den Bedarf des Kantons, grundsätzlich als erheblich bezeichnet werden. Unter Beachtung
+von landschaftlichen, naturräumlichen sowie siedlungstechnischen und wirtschaftlichen Gegebenheiten (Einwohnerdichten, Nutzungszuordnung, Schutzziele, Wirtschaftlichkeit, entgegenstehende Interessen wie Tourismus, etc.) sind die bekannten Potenziale jedoch nicht uneingeschränkt realisierbar.
+Der Ausstieg aus der Kernenergie rückt die Dezentralität der Energieerzeugung in den Vordergrund. Dies wird auf die Netzstruktur und die Energiespeicherung wesentlichen Einfluss haben.
+Der Umbau bzw. die Anpassung der Netze ist dabei insbesondere bezüglich der Korridore raumrelevant. Was sich wo durchsetzt, regelt im Grundsatz der Markt über Angebot und Nachfrage.
+Mit der Strategie Energie AI ist eine für den Kanton Appenzell I.Rh. umsetzbare sowie wirtschaftlich und ökologisch sinnvolle Energiestrategie formuliert.
+
+2
+
+BESCHLÜSSE
+Richtungweisende Festlegung:
+Die künftige Energieversorgung im Kanton Appenzell I.Rh. richtet sich aufgrund der Potenzialabschätzungen, den kantonalen Rahmenbedingungen und den tangierten Interessen auf eine
+- landschafts- und umweltschonende,
+- effiziente,
+- potenzialgerechte,
+- konfliktarme,
+- qualitativ hochwertige,
+- langfristig optimale
+Nutzung der erneuerbaren sowie Substitution der nicht erneuerbaren bzw. endlichen Energieträger, aus.
+Die weitere Entwicklung der Energieversorgung orientiert sich an folgenden Leitideen:
+1. Das Einsparpotenzial ist möglichst zu nutzen und im Bereich der Energieeffizienz sowie des
+Energiesparens (Gebäude und Mobilität) sind weitergehende Anstrengungen zu unternehmen.
+2. Durch eine weitsichtige Energiepolitik ist die Erhaltung der appenzellischen Natur- und Kulturlandschaft als vorrangiges öffentliches Interesse sicherzustellen.
+3. Durch die Abstimmung der strategischen Zielsetzungen des Kantons in allen Politikbereichen
+sind die erwünschten Effekte der Strategie Energie AI zu verstärken.
+4. Durch eine markante Steigerung des Anteils an erneuerbaren Energien sind die negativen
+Auswirkungen des Verbrauchs fossiler Energieträger zu reduzieren sowie eine hohe Versorgungssicherheit zu gewährleisten.
+5. Durch eine auf das Potenzial, die Rahmenbedingungen und das Konfliktpotenzial abgestimmte Prioritätensetzung ist die gesamtwirtschaftliche und dem Stand der Technik entsprechende
+Nutzung der erneuerbaren Energieträger zu fördern.
+6. Die Realisierung von Bauten und Anlagen zur Energieerzeugung, zum Energietransport und
+zur Energiespeicherung ist zu ermöglichen; die räumliche Umsetzung ist vorausschauend
+und zeitgerecht sicherzustellen und es ist auf eine qualitativ hochwertige Ausführung bzw.
+Einpassung hinzuwirken
+Abstimmungsanweisung:
+Die Behörden richten ihr Handeln im ganzen Bereich des Verwaltungshandelns, insbesondere
+jedoch im Bereich der Planung und des Bewilligungswesens, auf die vorstehenden Grundsätze
+aus.
+Abstimmungsstand: Festsetzung
+
+3
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Standeskommission
+
+Bau- und Umweltdepartement, Amt für Raumentwicklung, Fachstelle Hochbau und Energie,
+übrige kantonale Departemente und Amtsstellen, Bezirke, Feuerschaugemeinde, Energieversorgungsunternehmen des öffentlichen Rechts
+
+Massgebliche Verfahren: Bau- und Planungsverfahren, Förderprogramm, weitere
+Realisierung: Laufende Aufgabe
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze: Weitere Hinweise: Energiegesetz (EnerG, GS 730.000)
+Energieverordnung (EnerV, GS 730.010)
+
+ENERGIE
+Ganzer Kanton
+
+Priorisierung und Grundsätze für die Beurteilung von Energieanlagen
+
+Nr. E 2
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Der kantonale Richtplan schafft durch die Festlegung von Beurteilungskriterien und Grundsätzen
+für die Planung und Realisierung von Energieanlagen Rechts- und damit Investorensicherheit.
+Es soll dadurch jedoch keine Technologie bzw. kein Energieträger im Grundsatz ausgeschlossen werden. Es werden aus übergeordneter Sicht aber Prioritäten gesetzt. Durch diese Transparenz wird das Verwaltungshandeln vorhersehbar bzw. berechenbar, was im öffentlichen Interesse liegt.
+
+AUSGANGSLAGE
+Alle erneuerbaren Energieformen (Umweltwärme, Windenergieanlagen, Wasserkraftwerke,
+Sonnenenergieanlagen und Biomasse verwertende Energieerzeugungsanlagen) haben ihre Vorund Nachteile und tangieren Raum und Umwelt. Es gilt zwischen Nutzungs- und Schutzaspekten abzuwägen und Prioritäten zu setzen, um eine wirtschaftlich, ökologisch und sozial optimale
+Energie- bzw. Wärmeerzeugung zu gewährleisten. Im Bericht zu den Grundlagen zur Strategie
+Energie AI (2013) sind aus heutiger Sicht die Potenziale abgeschätzt, grob bewertet und priorisiert worden. Da sich die Rahmenbedingungen (Technologie, Gesetzgebung etc.) rasch wandeln können, ist eine periodische Überprüfung im Sinne einer "rollenden Planung" angezeigt.
+
+BESCHLÜSSE
+Richtungweisende Festlegung:
+Die Grobbeurteilung der Priorität der Förderung bzw. des Ausbaus erneuerbarer Energieträger
+erfolgt nach dem folgenden Raster:
+Priorität
+
+Potenzial
+
+Rahmenbedingungen
+
+1
+
+gross
+
+gut
+
+2
+
+mittel
+
+gut
+
+3
+
+klein
+
+4
+5
+
+gross
+
+Konfliktpotenzial
+
+Gesamtbeurteilung
+
+mittel
+
+tief
+
+positiv
+
+mittel
+
+tief
+
+positiv
+
+tief
+
+positiv
+
+mittel
+
+mittel
+
+mittel
+
+mittel
+
+gut
+mittel
+
+klein
+
+gut
+gut
+
+klein
+6
+
+mittel
+mittel
+mittel
+
+gut
+
+tief
+
+mittel
+
+schwierig
+
+mittel
+hoch
+
+tief
+
+Massgebend sind dabei:
+- die Grösse des jeweiligen Potenzials:
+- Klein: jährliche Energieproduktion: < 1 GWh
+- Mittel: jährliche Energieproduktion: 1 - 10 GWh
+
+mittel
+
+mittel
+negativ
+negativ
+
+2
+
+- Gross: jährliche Energieproduktion: > 10 GWh
+- die Rahmenbedingungen (rechtlich, wirtschaftlich, technisch, gesellschaftlich / sozial im Sinne
+der Akzeptanz)
+- das Konfliktpotenzial (Landschaft, Ökologie, Umfeld / Siedlung etc.).
+Sind bei einem erneuerbaren Energieträger entweder die Rahmenbedingungen als schwierig
+oder das Konfliktpotenzial als hoch einzustufen, fällt die Gesamtbeurteilung unabhängig von der
+Grösse des Potenzials negativ aus (vgl. Prioritätsstufe 6).
+Richtungweisende Festlegung:
+Grundsätzlich sind grosse Potenziale zu nutzen. Kleine Potenziale sollen v.a. dann genutzt werden, wenn sie „relativ“ Konflikt frei erschlossen werden können.
+Abstimmungsanweisungen:
+1. Durch die nachfolgende Grobbeurteilung und Prioritätensetzung wird das öffentliche Interesse an der Förderung der entsprechenden Energieträger bzw. Anlagentypen ausgewiesen. Andere Energieträger oder Technologien werden dadurch nicht ausgeschlossen. Die
+Anforderungen an die Nachweise, insbesondere der Wirtschaftlichkeit sowie der Landschafts-, Umwelt- und Siedlungsverträglichkeit, sind jedoch entsprechend hoch anzusetzen.
+Abstimmungsstand: Festsetzung
+2. Für den Bereich Elektrizität ergibt sich aufgrund einer Grobbeurteilung folgende kantonale
+Einschätzung bezüglich der verschiedenen Energieträger bzw. Anlagentypen:
+
+Wasserkraft
+
+grosse Kleinanlage
+Kleinanlage
+
+Energieholz
+
+Holzkraftwerk
+
+Sonnenenergie
+
+PV-Anlage
+
+Biomasse
+
+Biogasanlage / BHKW
+
+Windkraft
+
+Grossanlage : 1 Standort
+Grossanlage: 4 Standorte
+Kleinanlage
+
+Abstimmungsstand: Festsetzung
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+3
+
+3. Im Bereich der Elektrizität haben Photovoltaik-Anlagen kurzfristig Priorität.
+Bei den übrigen Anlagen sind Verbesserungen der Rahmenbedingungen und/oder die Bereinigung des Konfliktpotenzials (allenfalls über Ausgleichs- und Ersatzmassnahmen) erforderlich.
+Abstimmungsstand: Festsetzung
+4. Für den Bereich Wärme ergibt sich aufgrund einer Grobbeurteilung folgende kantonale
+Einschätzung bezüglich der verschiedenen Energieträger bzw. Anlagentypen:
+
+Energieholz
+
+Klein- und Holzfeuerungen
+
+Sonnenenergie
+
+Solaranlage / Warmwasser
+
+Biomasse
+
+Biogasanlage / Aufbereitung
+
+Umweltwärme
+
+Kleinanlage / Wärmepumpe
+
+d) Gesamtbeurteilung
+
+Konflikt Siedlung
+
+Konflikt Umwelt
+
+Konflikt Landschaft
+
+b) Rahmenbedingungen
+
+a) Energiepotenzial
+
+c) Interessenabwägung
+
+Abstimmungsstand: Festsetzung
+5. Im Bereich Wärme haben Kleinanlagen (Umweltwärme, Sonnenenergie, Holz) Priorität.
+Für Grossanlagen sind die Rahmenbedingungen in Appenzell I.Rh. ungünstig.
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Bezirke,
+Feuerschaugemeinde,
+Hochbau und Energie
+
+Fachstelle
+
+Massgebliche Verfahren: Förderprogramm und Bewilligungsverfahren
+Realisierung: kurzfristig / laufende Aufgabe
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze: Leitidee 5
+Weitere Hinweise: -
+
+ENERGIE
+
+Verfahren (Grundsätze / Anforderungen)
+
+Ganzer Kanton
+Nr. E 3
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Der kantonale Richtplan schafft durch Vorgaben zu den notwendigen Vorgehensschritten bei der
+Planung und Realisierung von Energieanlagen Rechts- und damit Investorensicherheit.
+
+AUSGANGSLAGE
+Alle erneuerbaren Energieformen (Umweltwärme, Windenergieanlagen, Wasserkraftwerke,
+Sonnenenergieanlagen und Biomasse verwertende Energieerzeugungsanlagen) tangieren
+Raum und Umwelt. Aufgrund der konkreten Grösse / Leistung eines Anlagetyps bzw. aufgrund
+der möglichen Umweltbelastungen bzw. zur Abwägung der öffentlichen und privaten Interessen
+sind verschiedene Verfahrensvorgaben einzuhalten (z.B. Planungspflicht gemäss RPG, Umweltverträglichkeitsprüfung gemäss USG, kantonale Vorgaben bezüglich Machbarkeit / Wirtschaftlichkeit o.ä.).
+
+BESCHLÜSSE
+Richtungweisende Festlegung:
+Die verfahrensmässige Beurteilung von Energieanlagen erfolgt aufgrund der Grösse und der
+Auswirkungen abgestuft.
+Abstimmungsanweisungen:
+1. Energieanlagen, welche der Umweltverträglichkeitsprüfungs-Pflicht gemäss Anhang zur
+UVPV (SR 814.011) unterstehen, bedürfen einer räumlichen Koordination und damit einem
+Eintrag im kantonalen Richtplan.
+Abstimmungsstand: Festsetzung
+2. Zur Realisierung von Energieanlagen, welche der Umweltverträglichkeitsprüfungs-Pflicht
+gemäss Anhang zur UVPV (SR 814.011) unterstehen, ist ausserhalb der Bauzone ein kantonaler Nutzungsplan nach Art. 12 BauG erforderlich.
+Abstimmungsstand: Festsetzung
+3. Energieanlagen, für welche keine formelle Umweltverträglichkeitsprüfung vorgeschrieben
+ist, unterstehen trotzdem der Planungspflicht, wenn aufgrund ihrer Grösse oder des Betriebs mit erheblichen Auswirkungen auf die Nutzungsordnung oder die Umwelt zu rechnen
+ist. Für solche Anlagen ist mindestens eine Machbarkeitsstudie erforderlich, in welcher die
+Umweltverträglichkeit nachzuweisen ist.
+Als solche Anlagen gelten insbesondere:
+- Wasserkraftanlagen mit einer Leistung von weniger als 3 MW, die nicht als Kleinanlage
+(z.B. Wirbelwasserkraftwerk zur Versorgung von Einzelhaushalten) gelten.
+
+2
+
+- Windenergieanlagen mit einer Nabenhöhe < 30 m und einer installierten Gesamtleistung
+von weniger als 5 MW, welche nicht als Kleinanlage (z.B. Einzelwindturbine zur Versorgung einer Einzelliegenschaft) gelten.
+Abstimmungsstand: Festsetzung
+4. Im Rahmen der Machbarkeitsstudie sind von den Anlagenbetreibern folgende Nachweise
+zu erbringen:
+- Machbarkeit
+- Wirtschaftlichkeit (Gestehungskosten, Amortisationszeit etc.)
+- Umweltverträglichkeit
+- Landschafts- und Siedlungsverträglichkeit
+Abstimmungsstand: Festsetzung
+5. Für Energieanlagen, welche im Rahmen des ordentlichen Baubewilligungsverfahrens bzw.
+im Rahmen einer Ausnahmebewilligung nach Art. 24 RPG bewilligt werden können (Kleinanlagen), ist von den Anlagenbetreibern in analoger Weise die Einhaltung des übergeordneten Rechts (USG, GSchG, NHG, etc.) zu erbringen. Die entsprechenden Nachweise
+sind den Baugesuchsunterlagen beizulegen.
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Bezirke,
+Feuerschaugemeinde,
+Hochbau und Energie
+
+Fachstelle
+
+Massgebliche Verfahren: Bau- und Planungsverfahren
+Realisierung: laufende Aufgabe
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze:
+Weitere Hinweise: Bundesgesetz über die Raumplanung ( Art. 2, Planungspflicht) und Kantonales Baugesetz (Art. 12, kantonaler Nutzungsplan)
+
+ENERGIE
+
+Energie in Nutzungs- und Quartierplanung
+
+Bezirke, Feuerschaugemeinde
+Nr. E 4
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Die räumliche Koordination von Energieangeboten mit der Energienachfrage sowie die Bezeichnung von "Prioritäts- oder Eignungsgebieten" (Abwärmenutzung, Nahwärmeverbund, Gasnutzung etc.) ist vor allem auch eine Aufgabe der Ortsplanungen der Bezirke. Um dies zu fördern
+bzw. verlangen zu können, sind dafür die entsprechenden gesetzlichen Rahmenbedingungen zu
+schaffen.
+
+AUSGANGSLAGE
+Ein erhebliches Effizienzpotenzial sowie ein Potenzial zur verstärkten Nutzung erneuerbarer
+Energien liegt in der zweckmässigen Zuordnung von Nutzungen zu standortgebundenen (Prozessabwärme) oder leitungsgebundenen Energieträgern (Gas). Einer systematischen Behandlung des Bereichs Energie im Rahmen der Nutzungsplanung wird in Zukunft daher ein höheres
+Gewicht beigemessen.
+
+BESCHLÜSSE
+Richtungweisende Festlegung:
+Die Bezirke / die Feuerschaugemeinde behandeln das Thema Energie im Rahmen der Ortsplanung sowie in den Quartierplanungen und wirken darauf hin, örtlich gebundene Abwärme und
+Umweltwärme sowie erneuerbare Energieträger vermehrt zu nutzen.
+Abstimmungsanweisung:
+1. Der Kanton prüft allfällig notwendige gesetzliche Anpassungen (BauG, BauV, EnerG,
+EnerV) im Hinblick auf eine stärkere Verpflichtung der Bezirke / Feuerschaugemeinde zur
+Behandlung des Bereichs Energie aus raumordnungspolitischer Sicht im Rahmen der
+Raumplanungsinstrumente (z.B. Erarbeitung eines Energiekonzepts ab einer minimalen
+Einwohnerzahl, Bezeichnung von Prioritäts- oder Eignungsgebieten, Anschlussverpflichtungen im Rahmen von Quartierplanungen o.ä.).
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Amt für Raumentwicklung, Fachstelle Hochbau
+und Energie
+
+Massgebliche Verfahren: Gesetzgebungsverfahren
+Realisierung: kurz - mittelfristig
+
+2
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze: Leitidee 1, Leitidee 3
+Weitere Hinweise: -
+
+ENERGIE
+
+Solarenergie (Photovoltaik, Solarthermie)
+
+Ganzer Kanton
+Nr. E 5
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Da die Sonnenenergie für die künftige Strom- und Wärmeversorgung im Kanton den höchsten
+Stellenwert einnimmt, soll ihre Nutzung im ganzen Kanton gefördert werden. Über das revidierte
+Raumplanungsgesetz (RPG, in Kraft seit 1.5.2014; Art. 18a RPG in Verbindung mit Art. 32a und
+Art. 32b RPV) erleichtert auch der Bund die Erstellung von Solaranlagen.
+Der Richtplan stellt dabei die Koordination von Nutzungsinteressen (Nutzung der Solarenergie
+zur Stromproduktion [Photovoltaik] und Wärmeproduktion [Solarthermie]) sowie der Schutzinteressen (Landschaftsempfinden, Umgang mit Kulturobjekten / geschützten Ortsbildern) im Rahmen der Vorgaben des Bundes sicher.
+
+AUSGANGSLAGE
+Photovoltaik-Anlagen dienen der dezentralen Stromproduktion auf Gebäuden in der Bauzone
+(Wohngebäude, Industrie-/Gewerbebauten) und in der Landwirtschaft (v.a. Ökonomiegebäude).
+Solarthermische Anlagen dienen der Warmwasseraufbereitung und zu Heizzwecken.
+Die Nutzung von Sonnenenergie ist vergleichsweise einfach und technisch erprobt. Im Rahmen
+der Strategie Energie AI ist die Nutzung der Sonnenenergie zur Stromproduktion insgesamt als
+positiv beurteilt worden, da sich im Sinne der Interessenabwägung nur wenige Konflikte mit
+Umwelt, Siedlung und Landschaft ergeben. Gleiches gilt auch für den Einsatz von Sonnenkollektoren zur Abdeckung des Wärmebedarfs. Die Potenzialabschätzung im Rahmen der Strategie
+Energie AI hat ergeben, dass rund ein Zehntel des Wärmebedarfs (Warmwasser, Heizung) mit
+solarthermischen Anlagen und rund ein Fünftel des Strombedarfs mit Photovoltaik-Anlagen im
+Kanton AI abgedeckt werden können.
+Hinsichtlich der Bewilligung von Solaranlagen wurde bisher ein vereinfachtes Verfahren mit Hinweis auf ein Merkblatt durchgeführt. Der generelle Verzicht auf eine Baubewilligung ist im Rahmen der letzten Baugesetzrevision diskutiert und schliesslich explizit abgelehnt worden. In der
+Zwischenzeit hat der Bund mit der Revision des Bundesgesetzes über die Raumplanung (Art.
+18a RPG) Solaranlagen auf Dächern und bestimmten Bedingungen von der Bewilligungspflicht
+ausgenommen.
+Die zentralen Aussagen des am 1. Mai 2014 in Kraft getretenen Art. 18a RPG sind, dass
+- in Bau- und Landwirtschaftszonen genügend angepasste Solaranlagen auf Dächern grundsätzlich ohne Bewilligung erstellt werden können; solche Vorhaben sind lediglich zu melden
+(Abs. 1; vgl. auch Art. 32a RPV);
+- a) das kantonale Recht bestimmte Typen von Bauzonen festlegen kann, in denen auch andere Solaranlagen ohne Baubewilligung erstellt werden können;
+b) das kantonale Recht in klar umschriebenen Typen von Schutzzonen eine Baubewilligungspflicht vorsehen kann (Abs. 2);
+- Solaranlagen auf Kultur- und Naturdenkmälern von kantonaler oder nationaler Bedeutung
+stets einer Baubewilligung bedürfen; sie solche Denkmäler aber nicht wesentlich beeinträchtigen dürfen (Abs. 3; vgl. auch Art. 32b RPV);
+- die Interessen an der Nutzung der Solarenergie auf bestehenden oder neuen Bauten den
+
+2
+
+ästhetischen Anliegen grundsätzlich vorgehen (Abs. 4).
+Der Kanton hat die Bewilligungspraxis an die neuen Bestimmungen anzupassen.
+
+BESCHLÜSSE
+Richtungweisende Festlegung:
+Die Nutzung der Sonnenenergie zur Strom- und Wärmeproduktion soll im Kanton AI grundsätzlich gefördert werden, um den Anteil an erneuerbaren Energien zu erhöhen und den Verbrauch
+fossiler Energieträger zu reduzieren.
+Abstimmungsanweisungen:
+1. Aus Gründen des im Kanton Appenzell I.Rh. vorrangigen Landschaftsschutzes (Leitidee 2)
+ist auf freistehende Photovoltaik-Anlagen grundsätzlich zu verzichten. Bei guter Einpassung kann in Wohn- und Arbeitszonen davon abgewichen werden.
+Abstimmungsstand: Festsetzung
+2. Als Schutzzone mit Bewilligungspflicht nach Art. 18a Abs. 2 lit. b RPG gelten Ortsbildschutzzonen nach Art. 40 des Baugesetzes (BauG). Das kantonale Baurecht ist entsprechend zu ergänzen.
+Abstimmungsstand: Festsetzung
+3. In der Ortsbildschutzzone und bei Kultur- und Naturdenkmälern von kantonaler und nationaler Bedeutung (Art. 18a Abs. 3) gelten erhöhte Anforderungen an die Einpassung. Damit
+eine Bewilligung in Aussicht gestellt werden kann, haben Solaranlagen folgende Gestaltungskriterien zu erfüllen:
+– Sie sind bündig in die Dach- oder Fassadenfläche einzubauen.
+
+–
+–
+–
+
+–
+–
+–
+
+Ist dies nicht möglich, darf der Aufbau die Dachfläche im rechten Winkel um max. 20 cm
+überragen.
+Sie dürfen von vorne und von oben gesehen nicht über die Dachfläche hinausragen.
+Sie müssen nach dem Stand der Technik reflexionsarm (nicht glänzend) ausgeführt
+werden.
+Sie müssen als kompakte Fläche zusammenhängen. Es ist zu prüfen, ob sich durch
+den Einsatz von Blindmodulen die gestalterische Integration in die Dach- oder Fassadenflächen optimieren lässt.
+Sie übernehmen die parallelen Flächen und Linien der Dachflächen (Integrationswirkung).
+Für die Einfassung und Panels der Solaranlagen ist ein dunkler, unbunter Farbton zu
+wählen.
+Leitungen und Armaturen haben unter Dach und im Gebäudeinnern zu verlaufen, sofern keine wesentlichen Gründe dagegen sprechen.
+
+Abstimmungsstand: Festsetzung
+4. Für meldepflichtige Solaranlagen gilt:
+– Meldepflichtige Solaranlagen sind bis spätestens 4 Wochen vor Baubeginn unter Beilage
+
+der erforderlichen Planbeilagen zu melden.
+
+– Es erfolgt eine Feststellungsverfügung durch den Bezirk mit Kopie an das Bau- und Um-
+
+weltdepartement (Meldeverfahren).
+
+3
+
+– Mit den Bauarbeiten darf erst begonnen werden, nachdem der Entscheid über die Melde-
+
+pflicht rechtskräftig ist.
+
+Abstimmungsstand: Festsetzung
+5. Der Bund hat eine flächendeckende Abschätzung des Solarpotenzials Schweiz weit in
+Aussicht gestellt. Wird diese nicht innert nützlicher Frist durchgeführt, erfolgt eine entsprechende Erhebung für das Kantonsgebiet durch den Kanton.
+Abstimmungsstand: Zwischenergebnis
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Fachstelle Hochbau und Energie, Bezirke, Feuerschaugemeinde
+
+Massgebliche Verfahren: Baubewilligungsverfahren, Meldeverfahren (Feststellungsverfügung)
+Realisierung: kurzfristig
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze: Leitidee 4
+Weitere Hinweise: Bau- und Umweltdepartement, Solaranlagen: Gesuchs- / Meldeformular
+(Version August 2014)
+
+ENERGIE
+
+Windenergie (Gross-Anlagen mit Nabenhöhe > 30 m)
+
+Ganzer Kanton
+Nr. E 6
+Datum: Januar 2015
+
+RICHTPLANAUFGABE
+Der Richtplan stellt die Koordination zwischen der Nutzung von Windenergie durch Grosswindanlagen und den berührten Schutzinteressen sicher.
+
+AUSGANGSLAGE
+Gemäss dem Konzept Windenergie Schweiz (2004) befinden sich in der Ostschweiz keine prioritären Windenergiestandorte. Infolge des strategischen Entscheides des Bundes, aus der Atomenergieproduktion auszusteigen, ist das Interesse an alternativen Energieerzeugungsformen
+jedoch massiv gestiegen. Auch die Kantone Appenzell A.Rh. und I.Rh. erarbeiteten gemeinsam
+eine Windenergiepotentialkarte, welche die aus Sicht der Energiepolitik interessanten Gebiete
+aufzeigt. Die Standorte mit erhöhtem Windpotential befinden sich meist entlang der Kreten des
+Alpsteins und der voralpinen Hügelzone und somit an landschaftlich exponierten und empfindlichen Standorten. Windenergieanlagen stehen damit im Konflikt mit dem Landschaftsschutz aber
+auch mit den wichtigen touristischen Interessen. Die Landschaft ist Teil des touristischen Kapitals des Kantons.
+Gemäss den Bundesämtern für Energie, Umwelt und Raumentwicklung werden folgende
+Grundsätze zur Planung von Windenergieanlagen empfohlen:
+-
+
+Standorte mit effizienter Windenergienutzung (mittlere Windgeschwindigkeit mind. 4.5 m/s)
+und mit möglicher Einspeisung;
+
+-
+
+Abstimmung mit Landschafts- und Naturschutz;
+
+-
+
+Neue Anlagen nur an bereits erschlossenen Standorten oder solchen, welche mit verhältnismässigem Aufwand und ohne unverhältnismässige Umweltauswirkungen erschlossen werden
+können;
+
+-
+
+Konzentration an wenigen Standorten;
+
+-
+
+Ausschlussgebiete: national geschützte Moorlandschaften, Gebiete mit Schutzstatus aufgrund eines Bundesinventars (BLN-Gebiete oder eidgenössische Jagdbanngebiete).
+
+In der Strategie Energie AI konnte auf Basis einer Grobbeurteilung der Windkraft - unter der Voraussetzung, dass sich ein Windpark realisieren lässt - ein grosses Potenzial zur Stromproduktion ausgewiesen werden. Damit liesse sich rund die Hälfte des Strombedarfs im Kanton AI abdecken. Ansonsten geht das Windpotenzial gegen Null. Der Nutzung der Windkraft mit GrosswindAnlagen ist mit grossen landschaftlichen und umwelttechnischen Konflikten verbunden. In der
+Strategie Energie AI ist die Erstellung von Grosswindanlagen im Sinne einer Gesamtbeurteilung
+kritisch beurteilt worden.
+
+2
+
+BESCHLÜSSE
+Für den Bau von Gross-Windenergieanlagen werden nachfolgende Anforderungen an die
+Standorte gestellt.
+Abstimmungsanweisungen:
+1. Windenergieanlagen sind in gut geeigneten Gebieten in Windparks zusammenzufassen.
+Im Kanton Appenzell I.Rh. sind max. 2 Windparks mit den übrigen öffentlichen Interessen
+vereinbar. Mit dem Begriff Standort wird im Folgenden ein gut geeignetes Gebiet für einen
+Windpark verstanden.
+Abstimmungsstand: Festsetzung
+2. Im Sinne des Konzentrationsgebotes und der optimalen Ausnützung der erforderlichen Erschliessung sollen an geeigneten Standorten auch Anlagen im Wald zulässig sein.
+Abstimmungsstand: Zwischenergebnis
+3. Als potentielle Standorte für Windparks werden festgesetzt:
+- Sollegg – Neuenalp – Klosterspitz
+- Ochsenhöhi
+- Hirschberg – Brandegg
+- Honegg
+Diese und weitere Standorte haben zur Festlegung als effektiver Standort für Windparks
+die Kriterien nach Punkt 4 zu erfüllen.
+Abstimmungsstand: Festsetzung
+4. Für die Festsetzung als effektiver Standort ist der Nachweis über eine mittlere Windgeschwindigkeit von mindestens 4.5 m/s zu erbringen. Die dazu erforderliche Messeinrichtung kann über ein ordentliches Baugesuchsverfahren und gestützt auf Art. 24 RPG als
+Ausnahme bewilligt werden. Im Weiteren ist in einer Machbarkeitsstudie folgendes nachzuweisen:
+- Energieproduktion: Die Windenergieanlagen sind in Windparks zu konzentrieren. Pro
+Windpark müssen mindestens zwei Anlagen realisiert werden, wobei die Summe der
+Leistung der Anlagen mindestens 3 MW betragen muss. Die Umsetzung dieser Forderung ist im Rahmen der kantonalen Nutzungsplanung zu regeln (z.B. Etappierung oder
+Zulassung von weiteren Anbietern am selben Standort, sofern innert Frist die Mindestleistung nicht realisiert wird). Sehen die Nachbarkantone angrenzend an einen Standort
+für Grosswindanlagen ebenfalls einen solchen vor (z.B. Suruggen AR angrenzend an
+Honegg AI), kann das Konzentrationsgebot grenzüberschreitend erfüllt werden.
+- Lärmimmissionen: Einhaltung der Planungswerte für Industrie- und Gewerbelärm nach
+Anhang 6 LSV unter Berücksichtigung eines Impulsgehalts von 2 dB(A).
+- Fauna: Ermittlung Kollisionsgefahr für Vögel und Fledermäuse; Beeinträchtigung weiterer störungssensibler Arten. Bei Konfliktpotenzial müssen Massnahmen (z.B. Betriebsbeschränkungen) aufgezeigt werden.
+- Nachweis des Schattenwurfs in einer Schattenstudie: Beschattungsdauer von 8 Stunden pro Jahr darf nicht überschritten werden. Der Immissionsrichtwert für die tägliche
+Beschattungsdauer beträgt 30 Minuten.
+
+3
+
+- Risikoanalyse Eisschlag: Bei Wahrscheinlichkeit für Vereisung an mehreren Tagen im
+Jahr sind Massnahmen aufzuzeigen: Abstand zu gefährdeten Objekten (1.5 mal Nabenhöhe + Durchmesser als Richtwert), betriebliche und technische Massnahmen gegen Eiswurf (De-Icing-Systeme, Anti-Icing-Massnahmen, Sensorik zur Eiserkennung
+und automatische Abschaltung).
+- Vereinbarkeit mit der Flugsicherheit
+- Wetterradar
+- Erschliessung: Erschliessbarkeit für Schwertransporte und ausreichende Stromeinspeisemöglichkeit ins Netz
+- Weitere Schutz- und Nutzungsinteressen: Umweltverträglichkeit betreffend Naturschutzflächen, Boden, Wasser, Grundwasser
+Zwecks regionaler Abstimmung ist im Rahmen der Erarbeitung der Machbarkeitsstudie
+den unmittelbar betroffenen Nachbarländern, -kantonen und -gemeinden die Mitwirkung zu
+ermöglichen. Eine Anhörung hat mindestens zweimal – vor Beginn der Studie und nach
+Vorliegen der Resultate – stattzufinden.
+Abstimmungsstand: Festsetzung
+5. Die Festsetzung im kantonalen Richtplan als effektiver Standort für Windparks ist Voraussetzung für den Erlass und die Genehmigung der Nutzungsplanung. Die planerische Voraussetzung für den Bau von grossen Windenergieanlagen ist ein kantonaler Nutzungsplan nach Art. 12 BauG.
+Abstimmungsstand: Festsetzung
+6.
+
+Im Rahmen der Nutzungsplanung ist insbesondere folgendes zu regeln:
+- Festlegung der Orte für Bauten und Anlagen (Windturbinen, technische Anlage, Erschliessungspisten);
+- Rückbau der Anlagen und dessen Finanzierung;
+- Etappierung und allfälliger Erweiterungsperimeter;
+- Dimension und Anzahl der Anlagen unter Beachtung kritischer Sichtbezüge.
+Der Planungsbericht hat sich zu folgenden Aspekten zu äussern:
+- Interessenabwägung zwischen landschaftlich-touristischen und energetischen Interessen gestützt auf eine betriebswirtschaftliche Analyse;
+- Begründung der Höhenfestlegungen bzw. -begrenzungen;
+- Erschliessungsnachweis für Bau- und Unterhalt
+- Aufzeigen von flankierende Massnahmen
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Bezirke, Kanton AR, Kanton SG, BAZL, VBS,
+
+4
+
+MeteoSchweiz, zuständige Elektrizitätswerke
+Massgebliche Verfahren: Kantonales Nutzungsplanverfahren gemäss Art. 12 BauG, UVPVerfahren
+Windenergieanlagen mit einer installierten Leistung von mehr als 5 MW sind der UVP unterstellt.
+Massgebendes Verfahren ist das Baubewilligungsverfahren. Gemäss Art. 5 Abs. 3 UVPV kann
+die UVP auch im Rahmen der kantonalen Nutzungsplanung durchgeführt werden. Die Federführung für die Koordination der Baubewilligungsverfahren (Windanlagen, Erschliessung) liegt beim
+Kanton.
+Realisierung: mittel bis langfristig
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze:
+Weitere Hinweise:
+
+Arbeitsbericht Potenzielle Windenergiestandorte AI/AR - Grobbeurteilung
+für Grosswindanlagen ab 30 m Gesamthöhe; Windkraftanlagen in der
+Schweiz, Raumplanerische Grundlagen und Auswirkungen (Juni 2008);
+Alpine Test Site Guetsch, Schlussbericht (2008); Kant. Richtplan SG (Vernehmlassungs-Entwurf 2014, Teil Windenergieanlagen)
+
+5
+
+6
+
+7
+
+8
+
+9
+
+ENERGIE
+
+Windenergie
+(Kleinanlagen mit Nabenhöhe < 30 m)
+
+Ganzer Kanton
+Nr. E 7
+Datum: Januar 2015
+
+RICHTPLANAUFGABE
+Der Richtplan stellt die Koordination von Nutzung der Windenergie mit Kleinwindanlagen und der
+Schutzinteressen sicher.
+
+AUSGANGSLAGE
+Bei Kleinwindenergieanlagen handelt es sich in der Regel um Bauten ausserhalb der Bauzone.
+Die Errichtung erfolgt heute vornehmlich als Einzelanlagen zur Versorgung von Einzelobjekten
+(z.B. Wohnhaus, Landwirtschaftsbetriebe o.ä.). Eine Positiv- bzw. Negativplanung im Rahmen
+des kantonalen Richtplans ist aufgrund dieser "Individualisierung" nicht realistisch, insbesondere
+dann, wenn eine bestimmte Technologie nicht ausgeschlossen werden soll. Auch wenn die
+Kleinwindanlagen eine Nabenhöhe < 30 m aufweisen, prägen sie die Landschaft sehr stark.
+Kleinwindanlagen sind geeignet, das Landschaftsbild erheblich zu verändern - insbesondere
+dann, wenn sie gehäuft auftreten oder an exponierter Stelle realisiert werden. Es ist daher notwendig und angezeigt, dass der Kanton die Rahmenbedingungen für die Bewilligung und die
+Einpassung in die Landschaft definiert.
+
+BESCHLÜSSE
+Für den Bau von Kleinwindanlagen gelten insbesondere nachfolgende Anforderungen:
+Abstimmungsanweisungen:
+1. Kleinwindanlagen, die nicht der Planungspflicht nach Art. 2 RPG unterstehen, können im
+Rahmen des ordentlichen Baubewilligungsverfahrens beurteilt werden (vgl. auch Objektblatt E 3).
+Abstimmungsstand: Festsetzung
+2. Eine Bewilligung kann nur erteilt werden, wenn einem Vorhaben keine überwiegenden öffentlichen oder privaten Interessen bzw. die nachfolgenden Anforderungen entgegenstehen.
+Abstimmungsstand: Festsetzung
+3. Der Kanton prüft im Baubewilligungsverfahren im Sinne der umfassenden Interessenabwägung insbesondere nachfolgende Kriterien:
+-
+
+-
+
+Der Nutzungsanspruch (insbesondere die Wirtschaftlichkeit, welche vom Gesuchstellenden nachzuweisen ist) steht in einem angemessenen Verhältnis zur Eingriffsintensität.
+Die notwendige Energieleistung kann nicht am gleichen Standort durch eine andere
+Technologie mit wesentlich geringerer Eingriffsintensität erbracht werden.
+
+2
+
+-
+
+Der Standort liegt möglichst nahe bei vorhandenen Infrastruktureinrichtungen, insbesondere bei zonenkonformen Anlagen in der Nähe von Gebäuden.
+Es sind keine neuen Infrastrukturanlagen für die Erstellung und den Unterhalt notwendig.
+Es betrifft keinen exponierten, touristisch relevanten Standort.
+Es besteht eine angemessene Distanz zu schutzwürdigen Kultur- und Denkmalschutzobjekten (ISOS-Objekten) sowie weiteren Schutzobjekten und -gebieten.
+Einhaltung von Schutzbestimmungen, keine Anlagen in Schutzgebieten (Ausschlussgebiete) und Schutzzonen (Landschaftsschutzzone)
+Nachweis der Einhaltung der Umweltschutzbestimmungen (Umweltschutz, Gewässerschutz, Natur- und Landschaftsschutz)
+Sicherheitsnachweis (Abstände zu Gebäuden, öffentlichen Verkehrswegen etc.)
+
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Bezirke, Feuerschaugemeinde
+
+Massgebliche Verfahren: Baubewilligungsverfahren
+Realisierung: laufende Aufgabe
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze:
+Weitere Hinweise: Objektblatt E 3, Verfahren (Grundsätze / Anforderungen)
+
+ENERGIE
+
+Wasserkraft
+
+Ganzer Kanton
+Nr. E 8
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Der Richtplan stellt die Koordination der Nutzung der Wasserkraft und der Schutzinteressen sicher.
+
+AUSGANGSLAGE
+Das Wasserkraftpotenzial der Schweiz wird heute bereits zu einem grossen Teil ausgeschöpft.
+Aus einer Gesamtsicht heraus besteht somit im Bereich der Energiegewinnung aus Wasserkraft
+nur noch ein beschränktes Zubaupotenzial. Dieses vergleichsweise kleine Potenzial zu erschliessen, ist relativ aufwendig, was unter anderem die Frage nach der Wirtschaftlichkeit aufwirft und oft auch mit deutlichen Umweltauswirkungen verbunden ist.
+Vom Bund sind verschiedene Kriterien zur Beurteilung des Schutzinteresses von Gewässerabschnitten formuliert worden, die zum Ausschluss der Wasserkraftnutzung im jeweiligen Abschnitt
+führen. Eine Nutzung ist ausgeschlossen, wenn bereits ein absoluter gesetzlicher Schutz besteht (Moore, Moorlandschaften), ein Schutzinteresse von nationaler Bedeutung besteht und ein
+Eingriff eine schwerwiegende Beeinträchtigung der Umweltbedingungen zur Folge hätte.
+Basierend auf einer Studie zu Kleinwasserkraftpotenzialen des Bundes ist in der Strategie Energie AI eine Abstufung der Potenziale für Kleinwasserkraftwerke im Kanton AI vorgenommen
+worden:
+– 0.1 - 0.3 kW/m: geringes Potenzial
+– 0.3 - 0.6 kW/m: mittleres Potenzial
+– 0.6 - 3.0 kW/m: hohes Potenzial
+Sehr hohe Potenziale von mehr als 3.0 kW/m sind im Kanton AI nicht vorhanden. Im Äusseren
+Land (Bezirk Oberegg) sind auch keine mittleren oder hohen Potenziale vorhanden.
+Zur Veranschaulichung folgendes Beispiel des Kraftwerks Seealpsee-Wasserauen:
+Leistung = 2‘500 kW; Distanz = 2‘000 m; Potenzial = 2‘500 kW / 2‘000 m = 1.25 kW/m; das Potenzial des Kleinwasserkraftwerks Seealpsee-Wasserauen ist hoch.
+Auf Basis der Studie zur Wasserkraftnutzung der Sitter ist in der Strategie Energie AI aufgezeigt
+worden, dass rund ein Fünftel des Strombedarfs im Kanton AI durch die Stromgewinnung mit
+Wasserkraft abgedeckt werden könnte.
+
+BESCHLÜSSE
+Für den Bau von neuen Wasserkraftanlagen werden nachfolgende Anforderungen gestellt.
+Abstimmungsanweisungen:
+1. Im Sinn einer Positivplanung werden im Richtplan Gewässerabschnitte bezeichnet, die
+über ein mittleres oder hohes Potenzial zur Wasserkraftnutzung mit Kleinwasserkraftwerken aufweisen (vgl. Karte). Nur in diesen Bereichen ist eine allfällige Wasserkraftnutzung
+denkbar.
+
+2
+
+Abstimmungsstand: Festsetzung
+2. Für potenzielle neue Standorte für Kleinwasserkraftwerke in den bezeichneten Gewässerabschnitten ist von den Gesuchstellenden eine umfassende Interessenabwägung durchzuführen. Dabei gilt die Matrix zur Interessenabwägung von Schutz und Nutzung als Richtlinie für die Beurteilung von Gesuchen oder die einzelfallweise Prüfung der Projekte bzw.
+die Einleitung des entsprechenden Planungsverfahrens:
+- Schwarze Bereiche: In den schwarz gefärbten Bereichen der Matrix ist der Bau von
+Kleinwasserkraftwerken ausgeschlossen (Projekte sind nicht bewilligungsfähig).
+- Rote Bereiche (sehr wertvolle Gewässer): In diesen Bereichen haben Schutzinteressen
+grundsätzlich Vorrang vor Nutzungsinteressen. Neue Kleinwasserkraftwerke können
+nur unter sehr hohen Auflagen bewilligt werden. Dazu gehören bspw. erhöhte Restwasserbestimmungen nach Art. 33 GSchG, Dynamisierung des Dotierregimes und Ersatzmassnahmen für die Beeinträchtigung schutzwürdiger Lebensräume im Sinn von Art. 6
+und Art. 18 Abs. 1ter Natur- und Heimatschutzgesetz (NHG) sowie Art. 14 der Verordnung über den Natur- und Heimatschutz (NHV) in der Grössenordnung von 300 Prozent
+oder Umgehungsgerinne mit hoher Dotierung.
+- Gelbe Bereiche (wertvolle Gewässer): In diesen Bereichen müssen Schutz- und Nutzungsinteressen sehr gut aufeinander abgestimmt sein. Neue Kleinwasserkraftwerke
+können nur unter erhöhten Auflagen bewilligt werden. Dazu gehören bspw. erhöhte
+Restwasserbestimmungen nach Art. 33 GSchG, Dynamisierung des Dotierregimes und
+Ersatzmassnahmen für die Beeinträchtigung schutzwürdiger Lebensräume im Sinn von
+Art. 6 und Art. 18 Abs. 1ter NHG sowie Art. 14 NHV in der Grössenordnung von 200
+Prozent.
+- Grüne Bereiche (übrige Gewässer): In diesen Bereichen haben Nutzungsinteressen
+grundsätzlich Vorrang vor Schutzinteressen. Neue Kleinwasserkraftwerke können im
+Rahmen des geltenden Rechts und in der Regel ohne erhöhte Auflagen bewilligt werden. Ersatzmassnahmen für die Beeinträchtigung schutzwürdiger Lebensräume im Sinn
+von Art. 18 Abs. 1ter NHG sowie Art. 14 NHV sind in der Grössenordnung von 100 Prozent zu realisieren.
+
+Schutzinteresse
+
+Matrix Schutzinteressen / Nutzungsinteressen:
+sämtliche für den Kt. AI relevanten Ausschlusskriterien gemäss „Empfehlung
+1)
+UVEK“ :
+Bundesinventar der Flach-, Hoch- und Übergangsmoore; Bundesinventar der
+Moorlandschaften; Bundesinventar der Amphibienlaichgebiete; BLN-Gebiete bei
+schwerwiegender Beeinträchtigung von Schutzzielen
+
+Ausschluss
+
+BLN-Gebiete ohne schwerwiegende Beeinträchtigung von Schutzzielen – Klas2)
+se I (natürlich/naturnah) nach Modul-Stufen-Konzept – Revitalisierungsstrecken
+– Laichgebiet von Bachforelle – Restwasserstrecke + Staubereich ≥ 1'000 m
+
+sehr
+wertvoll
+
+Klasse II (wenig beeinträchtigt) + Klasse III (stark beeinträchtigt) mit hohem
+ökologischen Potenzial nach Modul-Stufen-Konzept – Restwasserstrecke +
+Staubereich 100 m bis 1'000 m
+
+wertvoll
+
+Klassen II bis III (wenig bis stark beeinträchtigt) mit geringem ökologischen
+Potenzial und Klasse IV (naturfremd/künstlich) – Restwasserstrecke + Staubereich ≤ 100 m
+
+übrige
+Gewässer
+
+kleine
+Produktion
+
+mittlere
+Produktion
+
+hohe
+Produktion
+
+<1
+GWh/J.
+
+1 - 10
+GWh/J.
+
+> 10
+GWh/J.
+
+Nutzungsinteresse
+
+Ausschluss (keine Nutzung möglich)
+Schutzinteressen haben grundsätzlich Vorrang vor Nutzungsinteressen;
+eine Nutzung ist nur in Ausnahmefällen und mit sehr hohen Auflagen möglich
+Schutz- und Nutzungsinteressen müssen sehr gut aufeinander abgestimmt
+sein; eine Nutzung ist nur mit erhöhten Auflagen möglich
+Nutzungsinteressen haben grundsätzlich Vorrang vor Schutzinteressen;
+eine Nutzung ist in der Regel ohne erhöhte Auflagen möglich
+
+1)
+
+BAFU, BFE, ARE (Hrsg.): Empfehlung zur Erarbeitung kantonaler Schutz- und Nutzungsstrategien im Bereich Kleinwasserkraftwerke, Bern, 2011.
+
+2)
+
+BAFU (Hrsg.): Methoden zur Untersuchung und Beurteilung der Fliessgewässer in der Schweiz, Modul-Stufen-Konzept Ökomorphologie Stufe F, Bern 1998.
+
+Abstimmungsstand: Festsetzung
+3. Die planerischen Voraussetzungen für den Bau von Wasserkraftwerken (Planungspflicht
+und Umweltverträglichkeit) haben gestützt auf das Objektblatt E3, Verfahren (Grundsätze /
+Anforderungen) zu erfolgen. Die Machbarkeitsstudie ist Basis für die Festsetzung als definitiver Standort für ein Kleinwasserkraftwerk im Richtplan. Darin sind auch die Ersatzmassnahmen im Sinne des Leitfadens Umwelt Nr. 11, Wiederherstellung und Ersatz im Naturund Landschaftsschutz, oder einer gleichwertigen Methodik aufzuzeigen. Es ist der Nachweis der Umsetzbarkeit zu erbringen.
+Abstimmungsstand: Festsetzung
+4. Im Rahmen der kantonalen Nutzungsplanung werden die Rahmenbedingungen sowie die
+Ersatzmassnahmen grundeigentümerverbindlich festgelegt. Es hat ein Umweltverträglich-
+
+2
+
+keitsnachweis zu erfolgen. Zu folgenden Aspekten hat sich der Planungsbericht bzw. Umweltverträglichkeitsbericht unter anderem zu äussern:
+- Interessenabwägung zwischen landschaftlich-umwelttechnischen und energetischen Interessen, gestützt auf eine betriebswirtschaftliche Analyse; Nachweis der Wirtschaftlichkeit (Amortisationszeit, Gestehungskosten) und der Umweltverträglichkeit
+- Erschliessungsnachweis für Bau- und Unterhalt
+- Abstimmung mit allen relevanten Schutz- und Nutzungsinteressen; Nachweis der Landschaftsverträglichkeit der Bauten und der Erschliessung
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Bau- und Umweltdepartement
+
+Bezirke,
+Feuerschaugemeinde,
+zuständige
+Elektrizitätswerke, Kantone SG und AR
+
+Massgebliche Verfahren: Kantonales Nutzungsplanverfahren gemäss Art. 12 BauG
+Realisierung: mittel bis langfristig
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze:
+Weitere Hinweise: Objektblatt E 3, Verfahren (Grundsätze / Anforderungen)
+
+3
+
+Wasserkraftpotenziale und dazugehörige Gewässerökomorphologie: Inneres Land
+
+4
+
+Wasserkraftpotenziale und dazugehörige Gewässerökomorphologie: Äusseres Land
+
+ENERGIE
+
+Weitere Massnahmen
+
+Ganzer Kanton
+Nr. E 9
+Datum: August 2014
+
+RICHTPLANAUFGABE
+Der Richtplan ist als Führungsinstrument des Kantons geeignet, um auch weitere Massnahmen
+im Hinblick auf eine umfassende und konsistente Energiepolitik abzustimmen.
+
+AUSGANGSLAGE
+Der Kanton verfügt bereits heute über Förder- und Beratungsinstrumente. Diese sind jedoch zu
+überprüfen, allenfalls anzupassen oder zu ergänzen. Auch neue Instrumente sind zu prüfen.
+Neben den raumrelevanten Massnahmen gibt es eine grosse Spannweite von weiteren Massnahmen, welche die Strategie Energie AI positiv unterstützen können.
+
+BESCHLÜSSE
+Abstimmungsanweisungen:
+1. Der Kanton prüft eine Stärkung und Ausweitung der Energieberatung durch eigene Angebote oder durch Kooperation.
+Abstimmungsstand: Festsetzung
+2. Um die Wirksamkeit der Energiemassnahmen beurteilen zu können und um auf veränderte
+Bedürfnisse und Anforderungen rasch und adäquat reagieren zu können, führt der Kanton
+ein Monitoring bzw. eine Erfolgskontrolle ein.
+Abstimmungsstand: Festsetzung
+3. Der Kanton übernimmt im Bereich sparsamer Umgang mit Energie und Energieeffizienz
+eine Vorbildfunktion (Bau und Sanierung von öffentliche Bauten, Fahrzeug- und Maschinenpark, Geräte, Beleuchtung etc.)
+Abstimmungsstand: Festsetzung
+4. Der Kanton überprüft die bestehenden Förderprogramme und stimmt sie falls notwendig
+auf die Strategie Energie AI ab (z.B. Ausweitung des Förderprogramms-Energie auf neue
+oder kombinierte Energieanlagen wie Blockheizkraftwerke). Darüber hinaus prüft der Kanton auch die Einführung von neuen Instrumenten (z.B. Errichtung eines Energiefonds zur
+Vorfinanzierung von Investitionen, Schaffung von steuerlichen Anreizen o.ä.)
+Abstimmungsstand: Festsetzung
+
+2
+
+5. Der Kanton prüft die Möglichkeit zur Einrichtung einer Dachflächen-Börse für Solaranlagen. Damit soll das Zusammenbringen von Angebot und Nachfrage über das Internet
+(bspw. Geoportal) gefördert werden.
+Abstimmungsstand: Festsetzung
+
+ZUSTÄNDIGKEIT, VERFAHREN, REALISIERUNG
+Federführung:
+
+Weitere beteiligte Stellen:
+
+Standeskommission
+
+Bau- und Umweltdepartement, weitere Departemente
+
+Massgebliche Verfahren:
+Realisierung: kurzfristig - langfristig, laufende Aufgabe
+
+WEITERE INFORMATIONEN
+Verweis auf die Grundlagen: Strategie Energie AI, Bericht zu den Grundlagen dat. 14.08.2014
+Verweis auf die Leitsätze:
+Weitere Hinweise: -
+
+
