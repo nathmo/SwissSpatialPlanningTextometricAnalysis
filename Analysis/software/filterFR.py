@@ -11,8 +11,8 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # Reference word lists
 WORDLIST_FILES = [
-    os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesMotilite.txt")),
-    os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTemps.txt"))
+    os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesMotiliteFR.txt")),
+    os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsFR.txt"))
 ]
 
 WINDOW_MULTI = 3   # For multi-word expressions
