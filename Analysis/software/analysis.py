@@ -228,8 +228,8 @@ def generate_kwic(dataset_filtered, dataset, lang):
     for w in dataset_filtered:
         n = w["n"]
         # Safely get preceding and following context
-        before_context = dataset[max(0, n - KWIC_WINDOW):n]
-        after_context = dataset[n + 1:n + 1 + KWIC_WINDOW]
+        before_context = dataset[max(0, n - KWIC_WINDOW-1):n]
+        after_context = dataset[n:n  + KWIC_WINDOW]
 
         before = " ".join(x["form"] for x in before_context)
         hit = w["form"]
