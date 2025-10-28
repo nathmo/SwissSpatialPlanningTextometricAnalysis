@@ -79,6 +79,7 @@ facteur économique déplacement
 coût accès véhicule
 coût accès transport
 inégalité accès
+accessibilité
 mobilité contraint
 déplacement contraindre
 trajet contraindre
