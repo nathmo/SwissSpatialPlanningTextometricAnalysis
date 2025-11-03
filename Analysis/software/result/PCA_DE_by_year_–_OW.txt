@@ -1,0 +1,38 @@
+PCA RESULTS (DE) by year – OW
+============================================================
+
+Explained variance:
+  PC1: 93.97%
+  PC2: 6.03%
+  PC3: 0.00%
+
+Total variance explained (first 3 PCs): 1.0000
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+2006	-0.28748	-0.15430
+1987	-0.38364	0.14023
+2019	0.67112	0.01407
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+Erreichbarkeit	0.95244	0.10982
+Zeit	-0.20820	0.53451
+verbessern	-0.11125	-0.34294
+Kosten	-0.12181	0.44945
+optimal	-0.08457	-0.41347
+Fußweg	-0.07424	0.25999
+Verbesserung	-0.07016	0.07399
+Erwartung	-0.02838	-0.16387
+Mobilität	-0.02316	-0.19360
+Erfahrung	-0.02259	-0.11547
+wahrnehmen	-0.02202	-0.03734
+Einzugsgebiet	-0.02202	-0.03734
+Flüssigkeit	-0.02089	0.11893
+Kilometer	-0.01680	-0.06707
+Leistung	-0.01623	0.01107
+Überlastung	-0.01158	-0.09680
+Minute	-0.01101	-0.01867
+Dauer	-0.01044	0.05947
+Stunde	-0.01044	0.05947
+Entfernung	-0.01044	0.05947

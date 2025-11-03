@@ -1,0 +1,36 @@
+PCA RESULTS (FR) by year – FR
+============================================================
+
+Explained variance:
+  PC1: 100.00%
+  PC2: 0.00%
+
+Total variance explained (first 2 PCs): 1.0000
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+2002	-0.07193	0.00000
+2024	0.07193	0.00000
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+transport	-0.35698	0.62928
+desserte	-0.00730	-0.00327
+amélioration	-0.30967	-0.07486
+sécurité	0.17480	0.42142
+vélo	0.54286	0.37551
+améliorer	0.14921	0.03963
+heure	-0.48320	0.18886
+kilomètre	0.06427	-0.00063
+distance	0.11096	-0.19030
+TP	0.35162	0.05846
+optimal	0.00150	-0.09777
+temps	0.02939	0.00076
+efficacité	-0.02027	0.09363
+coût	-0.01118	-0.00175
+accessibilité	0.02431	0.10681
+durée	0.00635	0.04955
+vitesse	-0.05535	-0.00285
+réseau	-0.13966	-0.04336
+par	-0.01985	-0.05958
+et	0.05093	-0.00766

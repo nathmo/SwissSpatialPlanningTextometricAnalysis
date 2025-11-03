@@ -1,0 +1,46 @@
+PCA RESULTS (FR) by year – VD
+============================================================
+
+Explained variance:
+  PC1: 54.03%
+  PC2: 38.82%
+  PC3: 3.72%
+  PC4: 2.58%
+  PC5: 0.75%
+  PC6: 0.10%
+  PC7: 0.00%
+
+Total variance explained (first 7 PCs): 1.0000
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+2012	-0.01481	0.02185
+2011	0.02786	0.00155
+2022	-0.01216	-0.01780
+2008	0.03593	0.00495
+2018	-0.01149	-0.01929
+2016	-0.00732	-0.01666
+2013	-0.01802	0.02540
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+transport	-0.13317	-0.41055
+coût	0.19522	0.28109
+amélioration	0.11811	0.07392
+améliorer	0.61542	0.03930
+sécurité	-0.51542	0.59162
+desserte	-0.07341	-0.34426
+accessibilité	-0.16759	-0.26714
+temps	0.03286	0.03608
+vélo	-0.15202	-0.04846
+efficacité	-0.01565	-0.07453
+kilomètre	-0.05420	0.03403
+distance	0.03061	0.02018
+attente	0.04401	0.09062
+heure	0.07785	0.14003
+qualité	-0.03837	0.04622
+infrastructure	-0.15963	-0.09927
+optimal	0.34765	0.00602
+par	0.01907	-0.02098
+voiture	-0.02594	-0.01558
+vitesse	0.03399	0.03774

@@ -307,6 +307,7 @@ def run_pca(kwic_rows, lang, top_words=20):
       1) global by canton
       2) global by year
       3) per-canton by year (26 plots total, one per canton)
+    Additionally saves .txt files with coordinates and explained variance.
     """
     def _pca_and_plot(matrix_df, label_suffix, by):
         n_components = min(10, matrix_df.shape[1])
@@ -314,6 +315,8 @@ def run_pca(kwic_rows, lang, top_words=20):
         coords = pca.fit_transform(matrix_df.T)
 
         total_var = pca.explained_variance_ratio_.sum()
+        var_pc1 = pca.explained_variance_ratio_[0]
+        var_pc2 = pca.explained_variance_ratio_[1]
         print(f"\n--- PCA ({lang}) {label_suffix} ---")
         print(f"Total explained variance (first {n_components} PCs): {total_var:.4f}")
         for i, v in enumerate(pca.explained_variance_ratio_):
@@ -345,15 +348,38 @@ def run_pca(kwic_rows, lang, top_words=20):
             plt.text(x + 0.005, y + 0.005, word, fontsize=size, color="red", alpha=0.8)
 
         plt.title(f"PCA ({lang}) {label_suffix}")
-        plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.1f}% var)")
-        plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.1f}% var)")
+        plt.xlabel(f"PC1 ({var_pc1*100:.1f}% var)")
+        plt.ylabel(f"PC2 ({var_pc2*100:.1f}% var)")
         plt.grid(alpha=0.3)
         plt.tight_layout()
         safe_label = label_suffix.replace(" ", "_").replace("/", "-")
+
+        # Save figure
         png_path = os.path.join(OUTPUT_FOLDER, f"PCA_{lang}_{safe_label}.png")
         plt.savefig(png_path, dpi=600)
-        # plt.show()
         plt.close()
+
+        # --- Save textual data ---
+        txt_path = os.path.join(OUTPUT_FOLDER, f"PCA_{lang}_{safe_label}.txt")
+        with open(txt_path, "w", encoding="utf-8") as f:
+            f.write(f"PCA RESULTS ({lang}) {label_suffix}\n")
+            f.write("=" * 60 + "\n\n")
+            f.write(f"Explained variance:\n")
+            for i, v in enumerate(pca.explained_variance_ratio_):
+                f.write(f"  PC{i+1}: {v*100:.2f}%\n")
+            f.write(f"\nTotal variance explained (first {n_components} PCs): {total_var:.4f}\n\n")
+
+            f.write("--- DOCUMENT COORDINATES ---\n")
+            f.write("Label\tPC1\tPC2\n")
+            for label in doc_coords.index:
+                f.write(f"{label}\t{doc_coords.loc[label, 'PC1']:.5f}\t{doc_coords.loc[label, 'PC2']:.5f}\n")
+
+            f.write("\n--- TOP WORD LOADINGS ---\n")
+            f.write("Word\tPC1\tPC2\n")
+            for word in top_words_idx:
+                f.write(f"{word}\t{loadings.loc[word, 'PC1']:.5f}\t{loadings.loc[word, 'PC2']:.5f}\n")
+
+        print(f"Saved PCA plot and data to:\n  {png_path}\n  {txt_path}")
 
     # --- 1. Global PCA by canton ---
     df_canton = build_matrix(kwic_rows, lang, by="canton")
@@ -364,7 +390,6 @@ def run_pca(kwic_rows, lang, top_words=20):
     _pca_and_plot(df_year, label_suffix="by year", by="year")
 
     # --- 3. Per-canton PCA by year ---
-    # Group KWIC rows by canton
     canton_groups = defaultdict(list)
     for w in kwic_rows:
         canton_groups[w["canton"]].append(w)
@@ -375,6 +400,7 @@ def run_pca(kwic_rows, lang, top_words=20):
             _pca_and_plot(df_canton_year, label_suffix=f"by year – {canton}", by="year")
         else:
             print(f"Skipping {canton}: not enough yearly data for PCA")
+
 
 
 

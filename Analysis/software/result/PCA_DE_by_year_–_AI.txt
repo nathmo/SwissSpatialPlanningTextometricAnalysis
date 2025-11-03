@@ -1,0 +1,40 @@
+PCA RESULTS (DE) by year – AI
+============================================================
+
+Explained variance:
+  PC1: 70.18%
+  PC2: 22.53%
+  PC3: 7.29%
+  PC4: 0.00%
+
+Total variance explained (first 4 PCs): 1.0000
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+2011	-0.05191	-0.10900
+2002	-0.06579	-0.06653
+2017	-0.16251	0.13376
+2015	0.28021	0.04176
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+optimal	0.24691	-0.15216
+Verbesserung	0.07285	-0.43392
+Leistung	0.72960	0.20239
+verbessern	-0.30337	-0.05747
+Zeit	-0.18303	-0.06567
+Mobilität	0.31183	0.15335
+Fußweg	-0.12758	-0.30765
+Einzugsgebiet	-0.23247	0.46251
+Sicherheit	-0.17498	0.08085
+Minute	-0.12411	0.31673
+Kosten	0.05919	-0.15571
+Optimierung	-0.12808	0.32838
+Lebensqualität	-0.03954	-0.19939
+Verwurzelung	-0.03954	-0.19939
+Effizienz	0.09565	-0.01594
+Stunde	-0.02944	-0.19255
+Erreichbarkeit	-0.05587	0.04300
+Beleuchtung	0.10882	0.05052
+Verkehrsstrategie	-0.03453	-0.01173
+Fahrrad	-0.03453	-0.01173

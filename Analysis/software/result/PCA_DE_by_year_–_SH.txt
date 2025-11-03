@@ -1,0 +1,36 @@
+PCA RESULTS (DE) by year – SH
+============================================================
+
+Explained variance:
+  PC1: 100.00%
+  PC2: 0.00%
+
+Total variance explained (first 2 PCs): 1.0000
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+2021	-0.14720	-0.00000
+2004	0.14720	-0.00000
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+Verbesserung	-0.40552	-0.41136
+verbessern	-0.21620	0.15033
+Zeit	0.57139	0.15735
+Erreichbarkeit	-0.37368	0.39850
+wahrnehmen	0.41486	-0.01114
+Kosten	0.00763	0.13770
+Sicherheit	-0.24785	0.03367
+Mobilität	0.03070	-0.00401
+Leistung	0.15653	0.09916
+optimal	-0.09800	-0.03586
+Fußweg	0.02879	-0.00268
+Lebensqualität	-0.07302	-0.01856
+Einzugsgebiet	0.05376	-0.00272
+Optimierung	-0.04804	-0.01859
+Überlastung	0.07874	-0.02008
+Erfahrung	0.05281	-0.05405
+Stunde	0.05281	-0.05405
+Zugänglichkeit	-0.04900	-0.01793
+Bewegung	-0.09990	0.76481
+Wahrnehmung	0.07779	-0.01942
