@@ -1,7 +1,6 @@
 import os
 from lxml import etree
 from collections import Counter, defaultdict
-from tqdm import tqdm
 import pandas as pd
 from itertools import combinations
 from sklearn.decomposition import PCA
@@ -9,7 +8,8 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
-
+from collections import Counter
+from tqdm import tqdm
 # ----------------------
 # CONFIGURATION
 # ----------------------
@@ -101,6 +101,9 @@ def load_dataset(lang):
 # PART 2: POS STATISTICS
 # ----------------------
 def pos_statistics(dataset, lang):
+    """
+    Compute POS statistics, save per-POS CSVs, and summary CSV.
+    """
     pos_key = f"{lang.lower()}pos"
     lemma_key = f"{lang.lower()}lemma"
 
@@ -108,22 +111,43 @@ def pos_statistics(dataset, lang):
     for w in dataset:
         pos_to_lemmas[w[pos_key]].append(w[lemma_key])
 
-    all_stats = []
+    summary_stats = []
+    total_lemma_count = 0
+    total_unique_lemmas_set = set()
+
     for pos, lemmas in pos_to_lemmas.items():
         lemma_counter = Counter(lemmas)
         total_tokens = sum(lemma_counter.values())
         unique_lemmas = len(lemma_counter)
-        most_common = [f"{l}({c})" for l, c in lemma_counter.most_common(5)]
-        least_common = [f"{l}({c})" for l, c in lemma_counter.most_common()[-5:]]
 
-        all_stats.append({"POS": pos, "total_tokens": total_tokens, "unique_lemmas": unique_lemmas})
+        total_lemma_count += total_tokens
+        total_unique_lemmas_set.update(lemma_counter.keys())
+
         # Save CSV per POS
         csv_path = os.path.join(OUTPUT_FOLDER, f"{lang}_{pos}_lemmas.csv")
-        pd.DataFrame(lemma_counter.items(), columns=["lemma", "count"]).sort_values("count", ascending=False).to_csv(csv_path, index=False, encoding="utf-8")
+        pd.DataFrame(lemma_counter.items(), columns=["lemma", "count"])\
+          .sort_values("count", ascending=False)\
+          .to_csv(csv_path, index=False, encoding="utf-8")
+
+        summary_stats.append({
+            "POS": pos,
+            "total_tokens": total_tokens,
+            "unique_lemmas": unique_lemmas
+        })
+
+    # Save summary CSV
+    summary_csv_path = os.path.join(OUTPUT_FOLDER, f"{lang}_POS_summary.csv")
+    pd.DataFrame(summary_stats)\
+      .sort_values("total_tokens", ascending=False)\
+      .to_csv(summary_csv_path, index=False, encoding="utf-8")
 
     print(f"POS statistics for {lang}:")
-    for stat in all_stats:
+    for stat in summary_stats:
         print(stat)
+
+    print(f"\nTotal lemma occurrences in dataset: {total_lemma_count}")
+    print(f"Total unique lemmas in dataset: {len(total_unique_lemmas_set)}")
+
     return pos_to_lemmas
 
 
@@ -172,8 +196,7 @@ def match_multiword(lemmas, ref_expr):
     return matches
 
 
-from collections import Counter
-from tqdm import tqdm
+
 
 
 def filter_dataset(dataset, lang, wordlists):
@@ -414,8 +437,8 @@ def main():
         run_pca(kwic_rows, lang=lang)
 
         # PART 6
-        print("computing over time trend")
-        run_canton_year_plot(kwic_rows, lang=lang)
+        #print("computing over time trend")
+        #run_canton_year_plot(kwic_rows, lang=lang)
 
 if __name__ == "__main__":
     main()
