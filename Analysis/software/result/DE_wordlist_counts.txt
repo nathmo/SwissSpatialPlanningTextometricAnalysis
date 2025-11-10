@@ -1,0 +1,41 @@
+infrastruktur	1231
+kosten	638
+erreichbarkeit	269
+verkehrsnetz	156
+erfahrung	63
+minute	41
+kilometer	38
+geschwindigkeit	24
+wahrnehmung	22
+mobilitätsstrategie	19
+komfort	18
+angenehm	17
+pünktlichkeit	11
+dauern	10
+versorgungsqualität	4
+verspätung	4
+verlangsamung	3
+wartezeit	3
+bewegungsautonomie	0
+bewegungsfähigkeit	0
+bewertet zeit	0
+erreichbarkeitsgerechtigkeit	0
+fahrgastzufriedenheit	0
+fahrstress	0
+leben zeit	0
+mobilitätsbudget	0
+mobilitätshabitus	0
+mobilitätskapital	0
+mobilitätslernen	0
+mobilitätsmotivation	0
+orientierungskompetenz	0
+raumvorstellung	0
+räumlich zentralität	0
+schnelligkeit	0
+stunden	0
+symbolisch mobilität	0
+taktfrequenz	0
+verfügbarkeit von verkehrsmittel	0
+verkehrsintegration	0
+wohlfühlmobilität	0
+zeitnutzung	0

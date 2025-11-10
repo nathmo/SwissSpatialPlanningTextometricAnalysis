@@ -1,85 +1,23 @@
 lemma,list,count
-accessibilité,lemmesMotiliteFR,583
-stratégie mobilité,lemmesMotiliteFR,83
-déplacement quotidien,lemmesMotiliteFR,34
-proximité transport,lemmesMotiliteFR,16
-mobilité quotidien,lemmesMotiliteFR,16
-ressource mobilité,lemmesMotiliteFR,14
-stratégie transport,lemmesMotiliteFR,12
-proximité service,lemmesMotiliteFR,8
-déplacement contraindre,lemmesMotiliteFR,6
-trajet quotidien,lemmesMotiliteFR,6
-valeur mobilité,lemmesMotiliteFR,3
-représentation spatial,lemmesMotiliteFR,2
-adaptation spatial,lemmesMotiliteFR,2
-enclavement,lemmesMotiliteFR,2
-maîtriser transport,lemmesMotiliteFR,1
+infrastructure,lemmesAccessibilitéFR,2848
+coût,lemmesAccessibilitéFR,1738
+accessibilité,lemmesAccessibilitéFR,583
+réseau transport,lemmesAccessibilitéFR,413
+qualité desserte,lemmesAccessibilitéFR,271
+disponibilité transport,lemmesAccessibilitéFR,1
 stratégie déplacement,lemmesMotiliteFR,1
-disponibilité transport,lemmesMotiliteFR,1
-transport contraindre,lemmesMotiliteFR,1
-pouvoir mobilité,lemmesMotiliteFR,1
-pouvoir mouvement,lemmesMotiliteFR,1
-déplacement potentiel,lemmesMotiliteFR,1
-transport potentiel,lemmesMotiliteFR,1
-déplacement professionnel,lemmesMotiliteFR,1
-disposition transport,lemmesMotiliteFR,1
-confort transport,lemmesMotiliteFR,1
-culture mobilité,lemmesMotiliteFR,1
-transport public,lemmesTempsFR,2984
-coût,lemmesTempsFR,1738
-amélioration,lemmesTempsFR,1387
-desserte,lemmesTempsFR,1327
-améliorer,lemmesTempsFR,1013
-sécurité,lemmesTempsFR,890
-temps,lemmesTempsFR,655
-vélo,lemmesTempsFR,618
-optimal,lemmesTempsFR,534
-efficacité,lemmesTempsFR,524
-heure,lemmesTempsFR,514
-distance,lemmesTempsFR,457
-kilomètre,lemmesTempsFR,419
-TP,lemmesTempsFR,411
-attente,lemmesTempsFR,246
-qualité vie,lemmesTempsFR,235
-durée,lemmesTempsFR,233
-cadence,lemmesTempsFR,221
-vitesse,lemmesTempsFR,214
-boire,lemmesTempsFR,178
-voiture,lemmesTempsFR,178
-tram,lemmesTempsFR,161
-optimisation,lemmesTempsFR,157
-percevoir,lemmesTempsFR,154
-rythme,lemmesTempsFR,140
-transport collectif,lemmesTempsFR,136
-performance,lemmesTempsFR,133
-expérience,lemmesTempsFR,128
-marche,lemmesTempsFR,122
-minute,lemmesTempsFR,112
-ponctuel,lemmesTempsFR,107
-bruire,lemmesTempsFR,91
-saturation,lemmesTempsFR,75
-paiement,lemmesTempsFR,58
-tramway,lemmesTempsFR,53
-confort,lemmesTempsFR,50
-transport commun,lemmesTempsFR,47
-fiabilité,lemmesTempsFR,46
-perception,lemmesTempsFR,43
-métro,lemmesTempsFR,35
-éclairage,lemmesTempsFR,33
-retard,lemmesTempsFR,32
-fluidité,lemmesTempsFR,29
-rapidité,lemmesTempsFR,27
-favoriser usage,lemmesTempsFR,26
-gain,lemmesTempsFR,25
-fiable,lemmesTempsFR,16
-ralentissement,lemmesTempsFR,14
-congestion,lemmesTempsFR,13
-ressentir,lemmesTempsFR,10
-agréable vivre,lemmesTempsFR,9
-qualité service,lemmesTempsFR,8
-vie agréable,lemmesTempsFR,5
-satisfaction besoin,lemmesTempsFR,3
-annonce,lemmesTempsFR,2
-ponctualité,lemmesTempsFR,2
-embarquement,lemmesTempsFR,1
-faciliter usage,lemmesTempsFR,1
+heure,lemmesTempsChronoFR,514
+kilomètre,lemmesTempsChronoFR,419
+durée,lemmesTempsChronoFR,233
+cadence,lemmesTempsChronoFR,221
+vitesse,lemmesTempsChronoFR,214
+minute,lemmesTempsChronoFR,112
+retard,lemmesTempsChronoFR,32
+rapidité,lemmesTempsChronoFR,27
+ralentissement,lemmesTempsChronoFR,14
+ponctualité,lemmesTempsChronoFR,2
+attente,lemmesTempsVecueFR,246
+expérience,lemmesTempsVecueFR,128
+agréable,lemmesTempsVecueFR,55
+confort,lemmesTempsVecueFR,50
+ressentir,lemmesTempsVecueFR,10

@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import Counter
 from tqdm import tqdm
+from adjustText import adjust_text
 # ----------------------
 # CONFIGURATION
 # ----------------------
@@ -23,16 +24,20 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 WORDLIST_FILES = {
     "FR": [
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesAccessibilitéFR.txt")),
         os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesMotiliteFR.txt")),
-        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsFR.txt"))
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsChronoFR.txt")),
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsVecueFR.txt"))
     ],
     "DE": [
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesAccessibilitéDE.txt")),
         os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesMotiliteDE.txt")),
-        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsDE.txt"))
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsChronoDE.txt")),
+        os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesTempsVecueDE.txt"))
     ]
 }
 
-KWIC_WINDOW = 15
+KWIC_WINDOW = 50
 WINDOW_MULTI = 2  # max words allowed between multi-word reference words
 
 
@@ -209,7 +214,7 @@ def filter_dataset(dataset, lang, wordlists):
     """
     lemma_key = f"{lang.lower()}lemma"
     filtered = []
-    lemmas = [w[lemma_key] for w in dataset]
+    lemmas = [w[lemma_key].lower() for w in dataset]
 
     # Counter for lemma occurrences
     lemma_counter = Counter()
@@ -301,16 +306,21 @@ def build_matrix(kwic_rows, lang, by="document"):
 
 
 
-def run_pca(kwic_rows, lang, top_words=20):
+def run_pca(kwic_rows, lang, top_words=20, cutoff_radius=0.075, highlight_words=None):
     """
-    Run PCA on lemma frequency matrices:
-      1) global by canton
-      2) global by year
-      3) per-canton by year (26 plots total, one per canton)
-    Additionally saves .txt files with coordinates and explained variance.
+    Run PCA on lemma frequency matrices with options for:
+      - cutoff for words near the center (radius around 0)
+      - highlight specific words in green (hypothetical single-word documents)
     """
+
+    if highlight_words is None:
+        highlight_words = [
+            ""#"TP", "TIM", "IV"
+        ]
+    highlight_words = [w for w in highlight_words]
+
     def _pca_and_plot(matrix_df, label_suffix, by):
-        n_components = min(10, matrix_df.shape[1])
+        n_components = min(10, matrix_df.shape[0], matrix_df.shape[1])
         pca = PCA(n_components=n_components)
         coords = pca.fit_transform(matrix_df.T)
 
@@ -327,34 +337,64 @@ def run_pca(kwic_rows, lang, top_words=20):
         loadings = pd.DataFrame(pca.components_.T, index=matrix_df.index,
                                 columns=[f"PC{i+1}" for i in range(n_components)])
 
-        # top words
+        # --- Top words ---
         word_counts = matrix_df.sum(axis=1)
         top_words_idx = word_counts.sort_values(ascending=False).head(top_words).index
         freq_scaled = np.log1p(word_counts.loc[top_words_idx])
-        freq_scaled = 5 + 3 * (freq_scaled - freq_scaled.min()) / (freq_scaled.max() - freq_scaled.min())
+        freq_scaled = 5 + 10 * (freq_scaled - freq_scaled.min()) / (freq_scaled.max() - freq_scaled.min())
 
-        # plot
-        plt.figure(figsize=(12, 9))
+        # --- Plot ---
+        plt.figure(figsize=(9, 6))
         plt.scatter(doc_coords["PC1"], doc_coords["PC2"], alpha=0.6,
                     label=f"{by.capitalize()}s", color="steelblue")
 
+        texts = []  # collect all text objects
+
+        # Documents
         for label in doc_coords.index:
             x, y = doc_coords.loc[label, "PC1"], doc_coords.loc[label, "PC2"]
-            plt.text(x, y, label, fontsize=8, alpha=0.7, color="blue")
+            texts.append(plt.text(x, y, label, fontsize=8, alpha=0.7, color="blue"))
 
+        # Top words (red), apply cutoff radius
         for word, size in zip(top_words_idx, freq_scaled):
             x, y = loadings.loc[word, "PC1"], loadings.loc[word, "PC2"]
-            plt.scatter(x, y, color="red", s=20)
-            plt.text(x + 0.005, y + 0.005, word, fontsize=size, color="red", alpha=0.8)
+            if np.hypot(x, y) >= cutoff_radius:
+                plt.scatter(x, y, color="red", s=20)
+                texts.append(plt.text(x + 0.005, y + 0.005, word, fontsize=size, color="red", alpha=0.8))
 
+        # Hypothetical single-word documents (green)
+        for word in highlight_words:
+            #print("------------------------------")
+            #print(matrix_df.index)
+            #print("------------------------------")
+            if word in matrix_df.index:
+                v = np.zeros(matrix_df.shape[0])
+                idx = matrix_df.index.get_loc(word)
+                v[idx] = 1
+                coord = pca.transform(v.reshape(1, -1))
+                x, y = coord[0, 0], coord[0, 1]
+                plt.scatter(x, y, color="green", s=40, alpha=0.8)
+                texts.append(plt.text(x + 0.005, y + 0.005, word, fontsize=8, color="green", alpha=0.9))
+
+        # --- Adjust text to prevent overlap ---
+        adjust_text(texts, only_move={'points': 'y', 'texts': 'xy'},
+                    arrowprops=dict(arrowstyle='-', color='gray', alpha=0.3))
+
+        # --- Axes, grid, and 0 lines ---
         plt.title(f"PCA ({lang}) {label_suffix}")
         plt.xlabel(f"PC1 ({var_pc1*100:.1f}% var)")
         plt.ylabel(f"PC2 ({var_pc2*100:.1f}% var)")
+        plt.xlim(-0.9, 0.9)
+        plt.ylim(-0.9, 0.9)
+        plt.xticks(np.arange(-0.9, 0.91, 0.1))
+        plt.yticks(np.arange(-0.9, 0.91, 0.1))
+        plt.axhline(0, color='black', linewidth=1.5)
+        plt.axvline(0, color='black', linewidth=1.5)
         plt.grid(alpha=0.3)
         plt.tight_layout()
         safe_label = label_suffix.replace(" ", "_").replace("/", "-")
 
-        # Save figure
+        # --- Save figure ---
         png_path = os.path.join(OUTPUT_FOLDER, f"PCA_{lang}_{safe_label}.png")
         plt.savefig(png_path, dpi=600)
         plt.close()
@@ -378,6 +418,16 @@ def run_pca(kwic_rows, lang, top_words=20):
             f.write("Word\tPC1\tPC2\n")
             for word in top_words_idx:
                 f.write(f"{word}\t{loadings.loc[word, 'PC1']:.5f}\t{loadings.loc[word, 'PC2']:.5f}\n")
+
+            f.write("\n--- HIGHLIGHT WORDS (green) ---\n")
+            f.write("Word\tPC1\tPC2\n")
+            for hw in highlight_words:
+                if hw in matrix_df.index:
+                    idx = matrix_df.index.get_loc(hw)
+                    v = np.zeros(matrix_df.shape[0])
+                    v[idx] = 1
+                    coord = pca.transform(v.reshape(1, -1))
+                    f.write(f"{hw}\t{coord[0,0]:.5f}\t{coord[0,1]:.5f}\n")
 
         print(f"Saved PCA plot and data to:\n  {png_path}\n  {txt_path}")
 
@@ -404,7 +454,6 @@ def run_pca(kwic_rows, lang, top_words=20):
 
 
 
-
 def run_canton_year_plot(kwic_rows, lang):
     """Visualize trend of cantons across years based on top lemma occurrence."""
     # Build canton x year frequency
@@ -412,7 +461,7 @@ def run_canton_year_plot(kwic_rows, lang):
     canton_year = df.groupby(["canton", "year"]).size().unstack(fill_value=0)
     canton_year_norm = canton_year.div(canton_year.sum(axis=1), axis=0)
 
-    canton_year_norm.T.plot(kind='line', figsize=(12, 8), marker='o')
+    canton_year_norm.T.plot(kind='line', figsize=(9, 6), marker='o')
     plt.title(f"{lang}: Canton trends over years (normalized counts)")
     plt.xlabel("Year")
     plt.ylabel("Normalized occurrence")
@@ -422,7 +471,59 @@ def run_canton_year_plot(kwic_rows, lang):
     plt.savefig(png_path, dpi=600)
     #plt.show()
 
+# ----------------------
+# PART 6: TABLE COUNTS EXPORT
+# ----------------------
 
+def count_wordlist_occurrences(dataset, lang):
+    """
+    Count occurrences of every lemma appearing in WORDLIST_FILES for a given language.
+    Supports multiword lemmas: all words must occur within WINDOW_MULTI words.
+    Returns a dictionary {lemma: count}, including 0 for unseen lemmas.
+    """
+    lemma_key = f"{lang.lower()}lemma"
+    all_wordlists = load_wordlist(lang)
+    target_lemmas = set(word for words in all_wordlists.values() for word in words)
+
+    counter = Counter()
+
+    # Preprocess dataset into a list of lemmas for easier multiword search
+    dataset_lemmas = [w[lemma_key].lower() for w in dataset]
+
+    for lemma in target_lemmas:
+        words = lemma.split()  # Split multiword lemmas into components
+        if len(words) == 1:
+            # Single-word lemma: simple count
+            counter[lemma] = dataset_lemmas.count(lemma)
+        else:
+            # Multiword lemma: check if all words occur within WINDOW_MULTI in sequence
+            count = 0
+            for i, w in enumerate(dataset_lemmas):
+                if w == words[0]:
+                    # Look ahead WINDOW_MULTI+len(words)-1 positions
+                    end_idx = min(i + len(words) + WINDOW_MULTI - 1, len(dataset_lemmas))
+                    window = dataset_lemmas[i:end_idx]
+                    if all(word in window for word in words[1:]):
+                        count += 1
+            counter[lemma] = count
+
+    # Add unseen lemmas explicitly with count = 0
+    for lemma in target_lemmas:
+        counter.setdefault(lemma, 0)
+
+    return dict(counter)
+
+
+def export_wordlist_counts(dataset, lang):
+    """
+    Export the counts of all wordlist lemmas for a language into a .txt file.
+    """
+    counts = count_wordlist_occurrences(dataset, lang)
+    txt_path = os.path.join(OUTPUT_FOLDER, f"{lang}_wordlist_counts.txt")
+    with open(txt_path, "w", encoding="utf-8") as f:
+        for lemma, count in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
+            f.write(f"{lemma}\t{count}\n")
+    print(f"✅ Exported {len(counts)} word counts for {lang} to {txt_path}")
 
 # ----------------------
 # MAIN EXECUTION
@@ -437,6 +538,9 @@ def main():
         print("Computing Stat on POS")
         pos_statistics(dataset, lang)
 
+        # PART 2.5
+        print("Counting all target word occurrences for table export")
+        export_wordlist_counts(dataset, lang)
 
         # PART 3
         print("filter dataset by keyword")

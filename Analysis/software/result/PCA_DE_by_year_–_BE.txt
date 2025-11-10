@@ -2,47 +2,25 @@ PCA RESULTS (DE) by year – BE
 ============================================================
 
 Explained variance:
-  PC1: 56.43%
-  PC2: 35.09%
-  PC3: 6.44%
-  PC4: 1.52%
-  PC5: 0.39%
-  PC6: 0.08%
-  PC7: 0.04%
-  PC8: 0.00%
+  PC1: 100.00%
+  PC2: 0.00%
 
-Total variance explained (first 8 PCs): 1.0000
+Total variance explained (first 2 PCs): 1.0000
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-2010	0.02785	-0.01957
-2008	0.01439	-0.00241
-2002	-0.01416	0.04220
-2004	-0.01033	0.04049
-2006	0.02122	-0.00226
-2013	0.01074	-0.00780
-2012	0.02649	-0.02076
-2024	-0.07619	-0.02989
+2010	-0.20203	0.00000
+2008	-0.20203	0.00000
+2002	-0.20203	0.00000
+2004	-0.20203	0.00000
+2006	-0.20203	0.00000
+2012	-0.20203	0.00000
+2024	1.21218	0.00000
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-optimal	-0.22063	0.65294
-verbessern	-0.22383	-0.16715
-Kosten	0.61296	0.01983
-wahrnehmen	0.22611	-0.02077
-Verbesserung	-0.14399	0.45798
-Leistung	0.33378	0.16152
-Zeit	0.24759	-0.18561
-Sicherheit	-0.04391	-0.05683
-Optimierung	-0.22568	-0.09477
-Mobilität	-0.05678	-0.18938
-Erreichbarkeit	-0.16838	-0.23895
-Lebensqualität	-0.05158	-0.11599
-Rhythmus	0.07541	0.11110
-Erwartung	0.21381	0.05144
-Effizienz	0.12270	-0.03693
-Erfahrung	0.03113	0.08732
-Einzugsgebiet	-0.00799	-0.21586
-Auto	0.05190	0.08706
-Verkehrsfluss	-0.23435	-0.07184
-Kilometer	0.04432	0.01964
+kosten	-0.70711	0.70711
+angenehm	0.70711	0.70711
+
+--- HIGHLIGHT WORDS (green) ---
+Word	PC1	PC2

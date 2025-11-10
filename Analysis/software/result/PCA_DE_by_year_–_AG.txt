@@ -9,28 +9,13 @@ Total variance explained (first 2 PCs): 1.0000
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-1996	-0.11589	-0.00000
-2025	0.11589	-0.00000
+1996	0.70711	0.00000
+2025	-0.70711	0.00000
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-optimal	-0.19196	-0.42365
-verbessern	-0.29197	0.62222
-Zeit	-0.50791	0.07068
-Optimierung	0.02911	-0.00529
-Verbesserung	-0.27844	-0.09272
-Mobilität	0.54661	0.18202
-Einzugsgebiet	0.25738	-0.15411
-Erreichbarkeit	0.29522	0.09831
-Leistung	-0.01233	-0.22893
-Sicherheit	-0.10874	0.26356
-Kosten	-0.01353	-0.23683
-Lebensqualität	-0.07209	0.03595
-wahrnehmen	0.00240	0.11883
-Bewegung	-0.15138	-0.38342
-Überlastung	-0.01712	0.00929
-Fußweg	0.04024	-0.01658
-Fahrrad	-0.11353	0.02215
-Erfahrung	0.09761	-0.02745
-Mobilitätsstrategie	0.07809	-0.03395
-Minute	0.07809	-0.03395
+dauern	0.70711	0.70711
+angenehm	-0.70711	0.70711
+
+--- HIGHLIGHT WORDS (green) ---
+Word	PC1	PC2

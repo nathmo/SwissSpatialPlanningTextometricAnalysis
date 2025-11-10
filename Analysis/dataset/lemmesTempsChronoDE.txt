@@ -1,0 +1,10 @@
+minute
+stunden
+dauern
+geschwindigkeit
+schnelligkeit
+pünktlichkeit
+verspätung
+kilometer
+verlangsamung
+taktfrequenz

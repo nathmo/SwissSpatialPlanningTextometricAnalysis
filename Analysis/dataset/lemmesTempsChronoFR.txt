@@ -1,0 +1,10 @@
+minute
+heure
+durée
+vitesse
+rapidité
+ponctualité
+retard
+kilomètre
+ralentissement
+cadence

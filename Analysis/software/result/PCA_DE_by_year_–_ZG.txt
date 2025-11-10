@@ -2,37 +2,25 @@ PCA RESULTS (DE) by year – ZG
 ============================================================
 
 Explained variance:
-  PC1: 82.80%
-  PC2: 17.20%
+  PC1: 86.92%
+  PC2: 13.08%
   PC3: 0.00%
 
 Total variance explained (first 3 PCs): 1.0000
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-2025	0.29037	-0.00958
-2004	-0.12697	0.11939
-1987	-0.16340	-0.10980
+1987	-0.25458	-0.06683
+2004	-0.02188	0.11895
+2025	0.27646	-0.05213
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-verbessern	-0.00419	0.48272
-Mobilität	0.90347	-0.17868
-Zeit	-0.34723	-0.38009
-optimal	0.05668	0.12482
-Verbesserung	-0.11675	0.17707
-Kosten	-0.08657	0.30221
-Lebensqualität	-0.03127	0.26873
-Fußweg	0.02121	-0.01377
-Leistung	-0.00449	-0.06945
-Erreichbarkeit	-0.00449	-0.06945
-Zugänglichkeit	-0.11176	-0.36164
-Optimierung	0.03771	0.17331
-Zahlung	-0.05588	-0.18082
-wahrnehmen	-0.05588	-0.18082
-Fahrrad	-0.05588	-0.18082
-Komfort	-0.05588	-0.18082
-Verkehrsstrategie	-0.04104	0.18583
-Auto	-0.04162	-0.02847
-Sicherheit	-0.02736	0.12389
-Dauer	-0.02794	-0.09041
+Infrastruktur	0.88212	-0.12101
+Kosten	-0.08428	0.77695
+Erreichbarkeit	-0.05440	-0.30228
+Verkehrsnetz	-0.37421	-0.08690
+Komfort	-0.23952	-0.41768
+Dauer	-0.11976	-0.20884
+Verspätung	-0.00498	0.17987
+Kilometer	-0.00498	0.17987

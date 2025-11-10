@@ -2,58 +2,31 @@ PCA RESULTS (DE) by canton
 ============================================================
 
 Explained variance:
-  PC1: 43.87%
-  PC2: 19.41%
-  PC3: 12.45%
-  PC4: 8.83%
-  PC5: 3.81%
-  PC6: 2.72%
-  PC7: 2.20%
-  PC8: 2.02%
-  PC9: 1.71%
-  PC10: 1.02%
+  PC1: 49.34%
+  PC2: 44.78%
+  PC3: 5.88%
+  PC4: 0.00%
 
-Total variance explained (first 10 PCs): 0.9803
+Total variance explained (first 4 PCs): 1.0000
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-BE	0.03640	0.00282
-LU	-0.18051	0.08962
-GL	-0.01351	-0.10499
-BS	-0.13237	0.03963
-ZG	-0.02822	0.02040
-SH	0.05411	-0.10281
-AG	-0.04515	-0.02099
-TG	-0.07531	0.04288
-AR	0.26162	0.10424
-NW	0.03914	-0.09165
-AI	-0.00048	-0.07132
-SO	-0.07777	0.07131
-OW	0.12501	-0.01316
-UR	-0.15337	0.08345
-SZ	0.03041	-0.07249
-BL	0.19994	0.11555
-ZH	-0.03994	-0.09249
+BE	0.68470	-0.17674
+SO	0.51360	-0.21481
+OW	0.69598	-0.35103
+BS	-0.07666	0.67405
+SZ	-0.58892	-0.50513
+LU	-0.58892	-0.50513
+SH	-0.40109	-0.07277
+AG	-0.21326	0.35960
+ZH	-0.02543	0.79196
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-verbessern	0.01836	-0.06225
-Verbesserung	0.10485	-0.34602
-optimal	-0.25765	0.16127
-Mobilität	-0.59004	0.60154
-Kosten	0.67874	0.63177
-Zeit	0.27821	-0.06088
-Erreichbarkeit	0.00259	-0.10145
-Optimierung	-0.11142	-0.03631
-Sicherheit	-0.02330	-0.13324
-Leistung	-0.06916	-0.16355
-Einzugsgebiet	-0.08923	-0.04622
-wahrnehmen	-0.00631	-0.02306
-Lebensqualität	-0.02127	-0.07760
-Fußweg	0.03700	-0.09525
-Zugänglichkeit	-0.01967	-0.04472
-Erfahrung	0.03096	-0.02469
-Auto	-0.00150	-0.02860
-Stunde	-0.01193	-0.02178
-Minute	0.02783	-0.00783
-Kilometer	-0.00576	-0.02865
+dauern	-0.69213	-0.46944
+angenehm	-0.12865	0.82766
+kosten	0.69984	-0.30249
+infrastruktur	0.12093	-0.05573
+
+--- HIGHLIGHT WORDS (green) ---
+Word	PC1	PC2
