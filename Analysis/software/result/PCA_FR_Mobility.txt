@@ -1,8 +1,8 @@
 PCA RESULTS FR_Mobility
 ============================================================
 
-  PC1: 95.00%
-  PC2: 4.15%
+  PC1: 94.87%
+  PC2: 4.27%
   PC3: 0.65%
   PC4: 0.17%
   PC5: 0.04%
@@ -11,24 +11,24 @@ PCA RESULTS FR_Mobility
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-FR_BE	416.33927	-126.50271
-FR_FR	-106.11450	0.10231
-FR_GE	-146.24961	33.19153
-FR_JU	-280.82376	-7.22716
-FR_NE	-266.55271	4.42658
-FR_VD	524.21802	105.56328
-FR_VS	-140.81671	-9.55383
+FR_BE	415.79279	-128.80707
+FR_FR	-105.87156	1.50165
+FR_GE	-146.04512	33.95544
+FR_JU	-281.24233	-7.70247
+FR_NE	-266.99576	3.55011
+FR_VD	525.28839	106.86842
+FR_VS	-140.92640	-9.36608
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-infrastructure	0.86515	-0.14983
-coût	0.41573	-0.08611
-accessibilité	0.17994	0.73878
-réseau transport	0.18024	0.47259
-qualité desserte	0.11752	-0.44829
-disponibilité transport	0.00064	-0.00445
-stratégie déplacement	0.00064	-0.00445
-intégration transport	0.00000	0.00000
+infrastructure	0.86442	-0.15191
+coût	0.41533	-0.09065
+accessibilité	0.18000	0.72531
+réseau transport	0.18429	0.49370
+qualité desserte	0.11794	-0.44587
+intégration transport	0.00145	0.00734
+disponibilité transport	0.00064	-0.00439
+stratégie déplacement	0.00064	-0.00439
 inégalité accès	-0.00000	0.00000
 budget mobilité	-0.00000	0.00000
 aptitude mobilité	-0.00000	0.00000
