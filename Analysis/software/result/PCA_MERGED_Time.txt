@@ -1,0 +1,63 @@
+PCA RESULTS MERGED_Time
+============================================================
+
+  PC1: 92.55%
+  PC2: 4.92%
+  PC3: 1.03%
+  PC4: 0.57%
+  PC5: 0.29%
+  PC6: 0.25%
+  PC7: 0.19%
+  PC8: 0.10%
+  PC9: 0.05%
+  PC10: 0.03%
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+FR_FR_BE	97.81113	52.84687
+FR_FR_FR	42.99006	15.49234
+FR_FR_GE	13.29779	12.62814
+FR_FR_JU	-23.11205	-0.93977
+FR_FR_NE	-2.74326	13.35562
+FR_FR_VD	254.80424	-28.53602
+FR_FR_VS	-19.35990	-0.97575
+DE_DE_AG	-22.36820	-3.69245
+DE_DE_AI	-20.04329	-7.47202
+DE_DE_AR	-17.56267	-3.57469
+DE_DE_BE	-12.86043	-12.32435
+DE_DE_BL	-23.21993	-2.53597
+DE_DE_BS	-19.64511	-4.71676
+DE_DE_GL	-23.54093	-2.05216
+DE_DE_LU	-21.92646	-3.27601
+DE_DE_NW	-23.49392	-2.34978
+DE_DE_OW	-21.42008	-3.74144
+DE_DE_SH	-21.79496	-3.59078
+DE_DE_SO	-23.10121	-2.26291
+DE_DE_SZ	-19.51152	-2.85436
+DE_DE_TG	-22.45292	-3.45734
+DE_DE_UR	-24.34866	-1.36982
+DE_DE_ZG	-23.68573	-1.85111
+DE_DE_ZH	-22.71198	-2.74947
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+kilomètre | kilometer	0.63700	-0.45833
+heure | stunden	0.49589	0.50294
+vitesse | geschwindigkeit	0.31736	0.21007
+cadence | taktfrequenz	0.35308	0.32245
+minute | minute	0.25015	-0.43512
+expérience | erfahrung	0.07258	-0.17388
+durée | dauern	0.11590	0.25166
+attente | wartezeit	0.17074	-0.22402
+agréable | angenehm	0.10460	-0.11208
+confort | komfort	0.02654	-0.02356
+ressentir | wahrnehmung	0.00283	0.02356
+rapidité | schnelligkeit	0.01964	0.20089
+ralentissement | verlangsamung	0.02171	0.04223
+ponctualité | pünktlichkeit	-0.00118	0.00196
+retard | verspätung	-0.00061	0.00059
+stress | fahrstress	-0.00000	-0.00000
+satisfaction usager | fahrgastzufriedenheit	0.00000	-0.00000
+temps réappropriable | zeitnutzung	0.00000	-0.00000
+temps valoriser | bewertet zeit	0.00000	-0.00000
+temps vivre | leben zeit	0.00000	-0.00000

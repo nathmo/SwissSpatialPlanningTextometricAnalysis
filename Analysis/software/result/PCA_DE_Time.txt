@@ -1,0 +1,56 @@
+PCA RESULTS DE_Time
+============================================================
+
+  PC1: 58.57%
+  PC2: 20.59%
+  PC3: 9.82%
+  PC4: 5.73%
+  PC5: 3.04%
+  PC6: 0.89%
+  PC7: 0.59%
+  PC8: 0.40%
+  PC9: 0.19%
+  PC10: 0.09%
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+DE_AG	-0.16511	1.57299
+DE_AI	-4.06835	6.69319
+DE_AR	-0.53934	12.09570
+DE_BE	28.49519	-1.11863
+DE_BL	-2.87286	-0.90967
+DE_BS	-0.35841	6.98654
+DE_GL	-3.81268	-3.34055
+DE_LU	-1.48197	-2.50665
+DE_NW	-1.52673	-2.78554
+DE_OW	-0.01085	-1.51048
+DE_SH	0.97775	-1.38145
+DE_SO	-3.33778	-3.53713
+DE_SZ	0.29832	0.81477
+DE_TG	-1.49852	-1.82679
+DE_UR	-4.24583	-3.19628
+DE_ZG	-3.80893	-3.22205
+DE_ZH	-2.04389	-2.82798
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+erfahrung	0.75989	0.17912
+minute	-0.07514	0.70273
+kilometer	0.43944	-0.12662
+geschwindigkeit	-0.01582	0.61387
+wahrnehmung	0.46978	-0.05336
+komfort	-0.02917	0.08762
+angenehm	0.02141	0.19446
+pünktlichkeit	0.02839	0.17921
+dauern	0.00091	0.00851
+verspätung	0.02663	0.01323
+verlangsamung	-0.00357	0.01432
+wartezeit	-0.00629	-0.01766
+stunden	-0.00000	0.00000
+schnelligkeit	0.00000	0.00000
+taktfrequenz	-0.00000	-0.00000
+fahrstress	-0.00000	0.00000
+fahrgastzufriedenheit	0.00000	-0.00000
+zeitnutzung	-0.00000	0.00000
+bewertet zeit	-0.00000	0.00000
+leben zeit	-0.00000	0.00000

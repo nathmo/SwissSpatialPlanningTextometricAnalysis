@@ -2,7 +2,7 @@ erreichbarkeit
 versorgungsqualität
 verkehrsintegration
 kosten
-verfügbarkeit von verkehrsmittel
+verfügbarkeit verkehrsmittel
 infrastruktur
 räumlich zentralität
 erreichbarkeitsgerechtigkeit

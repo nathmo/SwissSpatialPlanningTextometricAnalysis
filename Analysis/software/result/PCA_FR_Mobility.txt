@@ -1,0 +1,43 @@
+PCA RESULTS FR_Mobility
+============================================================
+
+  PC1: 95.00%
+  PC2: 4.15%
+  PC3: 0.65%
+  PC4: 0.17%
+  PC5: 0.04%
+  PC6: 0.00%
+  PC7: 0.00%
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+FR_BE	416.33927	-126.50271
+FR_FR	-106.11450	0.10231
+FR_GE	-146.24961	33.19153
+FR_JU	-280.82376	-7.22716
+FR_NE	-266.55271	4.42658
+FR_VD	524.21802	105.56328
+FR_VS	-140.81671	-9.55383
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+infrastructure	0.86515	-0.14983
+coût	0.41573	-0.08611
+accessibilité	0.17994	0.73878
+réseau transport	0.18024	0.47259
+qualité desserte	0.11752	-0.44829
+disponibilité transport	0.00064	-0.00445
+stratégie déplacement	0.00064	-0.00445
+intégration transport	0.00000	0.00000
+inégalité accès	-0.00000	0.00000
+budget mobilité	-0.00000	0.00000
+aptitude mobilité	-0.00000	0.00000
+centralité spatial	-0.00000	0.00000
+capital mobilité	-0.00000	0.00000
+habitus mobilité	-0.00000	0.00000
+autonomie déplacement	-0.00000	0.00000
+apprentissage mobilité	-0.00000	0.00000
+compétence orientation	-0.00000	0.00000
+représentation espace	-0.00000	0.00000
+motivation mobilité	-0.00000	0.00000
+symbolique mobilité	-0.00000	0.00000

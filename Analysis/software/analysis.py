@@ -11,6 +11,7 @@ import numpy as np
 from collections import Counter
 from tqdm import tqdm
 from adjustText import adjust_text
+import csv
 # ----------------------
 # CONFIGURATION
 # ----------------------
@@ -22,6 +23,7 @@ DATA_FOLDERS = {
 OUTPUT_FOLDER = os.path.normpath(os.path.join(BASE_DIR, "result"))
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
+WHITELIST_FILE = os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "ContextMobiliteWhitelist.csv"))
 WORDLIST_FILES = {
     "FR": [
         os.path.normpath(os.path.join(BASE_DIR, "..", "dataset", "lemmesAccessibilitéFR.txt")),
@@ -37,15 +39,16 @@ WORDLIST_FILES = {
     ]
 }
 
-KWIC_WINDOW = 50
-WINDOW_MULTI = 2  # max words allowed between multi-word reference words
+WINDOW_MULTI = 3  # max words allowed between multi-word reference words
 
+# smoothing / segmentation params (tweakable)
+SMOOTH_SIGMA = 50.0   # gaussian kernel std (in tokens) for smoothing density
+THRESH_QUANTILE = 0.8  # retain regions above this percentile of density Quantiles must be in the range [0, 1]
 
 # ----------------------
 # PART 1: LOAD XML DATA
 # ----------------------
 def parse_xml_file(file_path, lang):
-    """Parse a single XML file and return list of word dictionaries."""
     ns = {"tei": "http://www.tei-c.org/ns/1.0", "txm": "http://textometrie.org/1.0"}
     words = []
     if lang == "DE":
@@ -56,7 +59,7 @@ def parse_xml_file(file_path, lang):
         tree = etree.parse(file_path)
         w_elements = tree.xpath("//tei:w", namespaces=ns)
         for w in w_elements:
-            w_id = w.get("id")  # e.g., w_FR_BE_2002
+            w_id = w.get("id")
             n = int(w.get("n"))
             document_name = "_".join(w_id.split("_")[1:3])
             language = w_id.split("_")[1]
@@ -87,7 +90,6 @@ def parse_xml_file(file_path, lang):
         print(f"Error parsing {file_path}: {e}")
     return words
 
-
 def load_dataset(lang):
     folder = DATA_FOLDERS[lang]
     xml_files = [f for f in os.listdir(folder) if f.endswith(".xml")]
@@ -95,20 +97,15 @@ def load_dataset(lang):
     for filename in tqdm(xml_files, desc=f"Loading {lang} files"):
         file_path = os.path.join(folder, filename)
         dataset.extend(parse_xml_file(file_path, lang))
-    # count UNK
     unk_count = sum(1 for w in dataset if w[f"{lang.lower()}pos"] == "UNK")
     if unk_count > 0:
         print(f"⚠️ {unk_count} words with UNK {lang} POS")
     return dataset
 
-
 # ----------------------
-# PART 2: POS STATISTICS
+# PART 2: POS STATISTICS (unchanged)
 # ----------------------
 def pos_statistics(dataset, lang):
-    """
-    Compute POS statistics, save per-POS CSVs, and summary CSV.
-    """
     pos_key = f"{lang.lower()}pos"
     lemma_key = f"{lang.lower()}lemma"
 
@@ -128,7 +125,6 @@ def pos_statistics(dataset, lang):
         total_lemma_count += total_tokens
         total_unique_lemmas_set.update(lemma_counter.keys())
 
-        # Save CSV per POS
         csv_path = os.path.join(OUTPUT_FOLDER, f"{lang}_{pos}_lemmas.csv")
         pd.DataFrame(lemma_counter.items(), columns=["lemma", "count"])\
           .sort_values("count", ascending=False)\
@@ -140,7 +136,6 @@ def pos_statistics(dataset, lang):
             "unique_lemmas": unique_lemmas
         })
 
-    # Save summary CSV
     summary_csv_path = os.path.join(OUTPUT_FOLDER, f"{lang}_POS_summary.csv")
     pd.DataFrame(summary_stats)\
       .sort_values("total_tokens", ascending=False)\
@@ -155,9 +150,8 @@ def pos_statistics(dataset, lang):
 
     return pos_to_lemmas
 
-
 # ----------------------
-# PART 3: FILTER DATASET BY WORDLIST
+# PART 3: WORDLISTS & MULTIWORD MATCH
 # ----------------------
 def load_wordlist(lang):
     words = {}
@@ -171,15 +165,12 @@ def load_wordlist(lang):
             print(f"⚠️ File not found: {path}")
     return words
 
-
 def match_multiword(lemmas, ref_expr):
-    """Return index positions where multiword expression matches with up to WINDOW_MULTI words in between."""
     ref_tokens = ref_expr.split()
     matches = []
     i = 0
     while i <= len(lemmas) - len(ref_tokens):
         idx_list = [i]
-        j = 0
         k = i
         success = True
         for token in ref_tokens:
@@ -200,375 +191,461 @@ def match_multiword(lemmas, ref_expr):
             i += 1
     return matches
 
+# ----------------------
+# NEW: load whitelist CSV -> lemma -> score
+# ----------------------
+def load_context_whitelist(path=WHITELIST_FILE):
+    mapping = {}
+    if not os.path.exists(path):
+        print(f"⚠️ Whitelist CSV not found at {path}. All scores will be zero.")
+        return mapping
+    with open(path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        if 'lemma' not in reader.fieldnames or 'score' not in reader.fieldnames:
+            print(f"Found Header : {reader.fieldnames}")
+            raise ValueError("ContextMobiliteWhitelist.csv must have 'lemma' and 'score' columns")
+        for r in reader:
+            try:
+                lemma = r['lemma'].strip().lower()
+                score = float(r['score'])
+                mapping[lemma] = score
+            except Exception as e:
+                # skip malformed lines but warn
+                print(f"⚠️ Skipping whitelist line {r}: {e}")
+    return mapping
 
+# ----------------------
+# PART 4: token-level scoring, smoothing, segmentation
+# ----------------------
+def compute_token_scores(dataset, mapping, lang):
+    lemma_key = f"{lang.lower()}lemma"
+    # Build list of token lemmas aligned with dataset
+    lemmas = [w[lemma_key].lower() for w in dataset]
+    scores = [mapping.get(l, 0.0) for l in lemmas]
+    return np.array(scores, dtype=float), lemmas
 
+def gaussian_kernel(sigma, radius_factor=4):
+    # radius_factor*sigma on each side
+    radius = max(1, int(radius_factor * sigma))
+    x = np.arange(-radius, radius+1)
+    kernel = np.exp(-0.5 * (x / sigma)**2)
+    kernel /= kernel.sum()
+    return kernel
 
+def smooth_scores(scores, sigma=SMOOTH_SIGMA):
+    if sigma <= 0 or len(scores) == 0:
+        return scores
+    kernel = gaussian_kernel(sigma)
+    smoothed = np.convolve(scores, kernel, mode='same')
+    return smoothed
 
-def filter_dataset(dataset, lang, wordlists):
+def plot_density_histogram(density, lang):
+    plt.figure(figsize=(8,4))
+    plt.hist(density, bins=100)
+    plt.title(f"{lang} mobility concept density histogram")
+    plt.xlabel("Density (smoothed score)")
+    plt.ylabel("Frequency")
+    out = os.path.join(OUTPUT_FOLDER, f"{lang}_mobility_density_hist.png")
+    plt.tight_layout()
+    plt.savefig(out, dpi=300)
+    plt.close()
+    print(f"Saved density histogram to {out}")
+
+def segment_by_threshold(density, quantile=THRESH_QUANTILE, min_segment_len=5):
+    thresh = float(np.quantile(density, quantile))
+    mask = density >= thresh
+    segments = []
+    if not mask.any():
+        return segments, thresh
+    # get runs of True in mask
+    start = None
+    for i, val in enumerate(mask):
+        if val and start is None:
+            start = i
+        elif not val and start is not None:
+            if i - start >= min_segment_len:
+                segments.append((start, i-1))
+            start = None
+    if start is not None and len(mask) - start >= min_segment_len:
+        segments.append((start, len(mask)-1))
+    return segments, thresh
+
+# helper to extract subcorpus
+def extract_subcorpus(dataset, segments):
+    # dataset is list of token dicts aligned with segments indices
+    kept = []
+    for s,e in segments:
+        kept.extend(dataset[s:e+1])
+    return kept
+
+# ----------------------
+# PART 5: filtering + counts per document for each wordlist (on subcorpus)
+# ----------------------
+def count_wordlist_per_document(subcorpus, lang, wordlist_entries):
     """
-    Filter dataset by wordlists (single and multiword) and also compute lemma occurrence counts.
-
-    Returns:
-        filtered: list of dicts for matched tokens (like before)
-        lemma_counts: list of dicts {"lemma": ..., "list": ..., "count": ...} for CSV export
+    wordlist_entries: list of lemma expressions (could be multiword)
+    Returns DataFrame rows=lemmas (in the given order), cols=documents, with counts
     """
     lemma_key = f"{lang.lower()}lemma"
-    filtered = []
-    lemmas = [w[lemma_key].lower() for w in dataset]
+    # Build per-document list of lemmas (and original indexes)
+    docs = defaultdict(list)  # doc -> list of (index_in_subcorpus, lemma)
+    for idx, w in enumerate(subcorpus):
+        docs[w['document']].append((idx, w[lemma_key].lower()))
 
-    # Counter for lemma occurrences
-    lemma_counter = Counter()
+    # We'll produce a DataFrame with rows = wordlist_entries (in given order)
+    all_docs = sorted(docs.keys())
+    df = pd.DataFrame(0, index=wordlist_entries, columns=all_docs, dtype=int)
 
-    # Outer tqdm for lists
-    for list_name, expressions in wordlists.items():
-        # Inner tqdm for expressions
-        for expr in tqdm(expressions, desc=f"Filtering {lang} wordlists, {list_name} "):
-            if " " not in expr:  # single word
-                for w in dataset:
-                    if w[lemma_key] == expr:
-                        w_copy = w.copy()
-                        w_copy["list"] = list_name
-                        filtered.append(w_copy)
-                        lemma_counter[(expr, list_name)] += 1
-            else:  # multiword
-                matches = match_multiword(lemmas, expr)
-                for idx_list in matches:
-                    hit_words = [dataset[i].copy() for i in idx_list]
-                    for hw in hit_words:
-                        hw["list"] = list_name
-                        filtered.append(hw)
-                    # Count the multiword occurrence only once
-                    lemma_counter[(expr, list_name)] += 1
-
-    # Convert counter to a list of dicts for CSV export
-    lemma_counts = [{"lemma": lemma, "list": list_name, "count": count}
-                    for (lemma, list_name), count in lemma_counter.items()]
-
-    return filtered, lemma_counts
-
-# ----------------------
-# PART 4: KWIC GENERATION
-# ----------------------
-def generate_kwic(dataset_filtered, dataset, lang):
-    """Generate KWIC (keyword-in-context) rows from dataset_filtered."""
-
-    kwic_rows = []
-    for w in dataset_filtered:
-        n = w["n"]
-        # Safely get preceding and following context
-        before_context = dataset[max(0, n - KWIC_WINDOW-1):n]
-        after_context = dataset[n:n  + KWIC_WINDOW]
-
-        before = " ".join(x["form"] for x in before_context)
-        hit = w["form"]
-        after = " ".join(x["form"] for x in after_context)
-
-        kwic_rows.append({
-            "before": before,
-            "hit": hit,
-            "after": after,
-            "lemma": w.get(f"{lang.lower()}lemma", w.get("lemma", "")),
-            "list": w["list"],
-            "n": n,
-            "lang": w["lang"],
-            "document": w["document"],
-            "year": w["year"],
-            "canton": w["canton"]
-        })
-
-    return kwic_rows
-
-
-
-# ----------------------
-# PART 5: PCA / AFC
-# ----------------------
-
-def build_matrix(kwic_rows, lang, by="document"):
-    """Create lemma vs document/year/canton matrix, filtered by language."""
-    rows = defaultdict(lambda: defaultdict(int))
-
-    for w in kwic_rows:
-        # Filter to only include rows matching the requested language
-        #print(w.get("lang", "").lower())
-        if w.get("lang", "").lower() == lang.lower():
-            key = w[by]
-            rows[key][w["lemma"]] += 1
-
-    if not rows:
-        print(f"⚠️ No data found for language '{lang}' in kwic_rows.")
-        return pd.DataFrame()
-
-    df = pd.DataFrame(rows).fillna(0)
-    # Normalize per column
-    df = df.div(df.sum(axis=0), axis=1)
+    # For efficiency, prebuild per-document lemma list plain
+    for doc in all_docs:
+        indices, lemmas = zip(*docs[doc]) if docs[doc] else ([], [])
+        lemmas = list(lemmas)
+        # for each entry (could be multiword)
+        for entry in wordlist_entries:
+            if " " not in entry:
+                cnt = lemmas.count(entry)
+                df.at[entry, doc] = cnt
+            else:
+                # multiword: find matches using the same algorithm
+                matches = match_multiword(lemmas, entry)
+                df.at[entry, doc] = len(matches)
     return df
 
-
-
-def run_pca(kwic_rows, lang, top_words=20, cutoff_radius=0.075, highlight_words=None):
+# ----------------------
+# PART 6: helper to build concept matrices and merge bilingual sets
+# ----------------------
+def build_concept_matrices(subcorpus, lang, wordlists):
     """
-    Run PCA on lemma frequency matrices with options for:
-      - cutoff for words near the center (radius around 0)
-      - highlight specific words in green (hypothetical single-word documents)
+    wordlists: dict with keys as filenames -> list of lemmas
+    we expect keys containing 'Access' or 'Motil' or 'TempsChrono' or 'TempsVecue'
+    Returns a dict:
+      {
+        'time': dataframe (rows words, cols documents)  # time = chrono + vecue
+        'mobility': dataframe (rows words, cols documents) # mobility = access + motil
+        'by_list': {list_key: df}
+      }
     """
+    # detect lists
+    time_keys = [k for k in wordlists.keys() if 'Temps' in k or 'temps' in k or 'Chrono' in k or 'chrono' in k or 'Temps' in k]
+    vecue_keys = [k for k in wordlists.keys() if 'Vecue' in k or 'vecue' in k]
+    # but simpler: use exact base filenames if provided in WORDLIST_FILES; we'll assume four lists per language as before:
+    # Accessibilité -> index 0, Motilité -> index 1, TempsChrono -> index 2, TempsVecue -> index 3 (this was your original order)
+    list_order = list(wordlists.keys())
+    # flatten groups:
+    access = []
+    motil = []
+    chrono = []
+    vecue = []
+    for k in list_order:
+        lname = k.lower()
+        if 'access' in lname or 'accessibilité' in lname or 'accessibilit' in lname:
+            access.extend(wordlists[k])
+        elif 'motil' in lname:
+            motil.extend(wordlists[k])
+        elif 'chrono' in lname or 'tempschrono' in lname:
+            chrono.extend(wordlists[k])
+        elif 'vecue' in lname or 'tempsvecue' in lname:
+            vecue.extend(wordlists[k])
+        else:
+            # fallback add to appropriate buckets by presence of key words
+            if 'temps' in lname:
+                chrono.extend(wordlists[k])
+            else:
+                # as fallback append to access
+                access.extend(wordlists[k])
 
-    if highlight_words is None:
-        highlight_words = [
-            ""#"TP", "TIM", "IV"
-        ]
-    highlight_words = [w for w in highlight_words]
+    # prepare lists lowercased and keep order and uniqueness
+    def norm_list(lst):
+        seen = set()
+        out = []
+        for w in lst:
+            ww = w.lower()
+            if ww not in seen:
+                seen.add(ww)
+                out.append(ww)
+        return out
 
-    def _pca_and_plot(matrix_df, label_suffix, by):
-        n_components = min(10, matrix_df.shape[0], matrix_df.shape[1])
-        pca = PCA(n_components=n_components)
+    access = norm_list(access)
+    motil = norm_list(motil)
+    chrono = norm_list(chrono)
+    vecue = norm_list(vecue)
+
+    time_list = chrono + vecue
+    mob_list = access + motil
+
+    results = {'by_list': {}}
+    # compute per-list DF
+    for key, entries in [('Accessibilité', access), ('Motilité', motil), ('TempsChrono', chrono), ('TempsVecue', vecue),
+                         ('Time', time_list), ('Mobility', mob_list)]:
+        if not entries:
+            df = pd.DataFrame()
+        else:
+            df = count_wordlist_per_document(subcorpus, lang, entries)
+        results['by_list'][key] = df
+        if key == 'Time':
+            results['time'] = df
+        if key == 'Mobility':
+            results['mobility'] = df
+    return results
+
+def save_matrix_csv(df, name):
+    if df is None or df.empty:
+        print(f"Matrix {name} is empty; skipping CSV save.")
+        return
+    path = os.path.join(OUTPUT_FOLDER, f"{name}.csv")
+    df.to_csv(path, encoding='utf-8')
+    print(f"Saved matrix CSV: {path}")
+
+# ----------------------
+# PART 7: PCA / AFC on the six matrices
+# ----------------------
+def pca_and_save(matrix_df, label_suffix):
+    if matrix_df is None or matrix_df.empty:
+        print(f"Skipping PCA {label_suffix}: empty matrix")
+        return
+    # rows = words, cols = documents
+    # to be consistent with previous PCA code: transpose and run PCA on columns
+    try:
+        matrix_df = matrix_df.astype(float)
+        safe_label = label_suffix.replace(" ", "_").replace("/", "-")
+        # save CSV
+        save_matrix_csv(matrix_df, f"MATRIX_{safe_label}")
+
+        pca = PCA(n_components=min(10, matrix_df.shape[0], matrix_df.shape[1]))
         coords = pca.fit_transform(matrix_df.T)
 
-        total_var = pca.explained_variance_ratio_.sum()
-        var_pc1 = pca.explained_variance_ratio_[0]
-        var_pc2 = pca.explained_variance_ratio_[1]
-        print(f"\n--- PCA ({lang}) {label_suffix} ---")
-        print(f"Total explained variance (first {n_components} PCs): {total_var:.4f}")
-        for i, v in enumerate(pca.explained_variance_ratio_):
-            print(f"  PC{i+1}: {v*100:.2f}%")
-
         doc_coords = pd.DataFrame(coords, index=matrix_df.columns,
-                                  columns=[f"PC{i+1}" for i in range(n_components)])
+                                  columns=[f"PC{i+1}" for i in range(coords.shape[1])])
         loadings = pd.DataFrame(pca.components_.T, index=matrix_df.index,
-                                columns=[f"PC{i+1}" for i in range(n_components)])
+                                columns=[f"PC{i+1}" for i in range(coords.shape[1])])
 
-        # --- Top words ---
-        word_counts = matrix_df.sum(axis=1)
-        top_words_idx = word_counts.sort_values(ascending=False).head(top_words).index
-        freq_scaled = np.log1p(word_counts.loc[top_words_idx])
-        freq_scaled = 5 + 10 * (freq_scaled - freq_scaled.min()) / (freq_scaled.max() - freq_scaled.min())
+        var_pc1 = pca.explained_variance_ratio_[0] if pca.explained_variance_ratio_.size > 0 else 0.0
+        var_pc2 = pca.explained_variance_ratio_[1] if pca.explained_variance_ratio_.size > 1 else 0.0
 
-        # --- Plot ---
+        # --- NORMALIZE DOCS AND WORDS TO [-1, 1] ---
+        def normalize_axis(df):
+            df_norm = df.copy()
+            for axis in ["PC1", "PC2"]:
+                min_val = df[axis].min()
+                max_val = df[axis].max()
+                if max_val > min_val:
+                    df_norm[axis] = 2 * (df[axis] - min_val) / (max_val - min_val) - 1
+                else:
+                    df_norm[axis] = 0.0
+            return df_norm
+
+        doc_coords_norm = normalize_axis(doc_coords)
+        loadings_norm = normalize_axis(loadings)
+
+        # --- PLOTTING ---
         plt.figure(figsize=(9, 6))
-        plt.scatter(doc_coords["PC1"], doc_coords["PC2"], alpha=0.6,
-                    label=f"{by.capitalize()}s", color="steelblue")
+        # draw black lines at 0.0 for reference
+        plt.axhline(0, color='black', linewidth=1, linestyle='--', alpha=0.7)
+        plt.axvline(0, color='black', linewidth=1, linestyle='--', alpha=0.7)
 
-        texts = []  # collect all text objects
-
-        # Documents
-        for label in doc_coords.index:
-            x, y = doc_coords.loc[label, "PC1"], doc_coords.loc[label, "PC2"]
+        # plot documents
+        plt.scatter(doc_coords_norm["PC1"], doc_coords_norm["PC2"], alpha=0.6, color="steelblue")
+        texts = []
+        for label in doc_coords_norm.index:
+            x, y = doc_coords_norm.loc[label, "PC1"], doc_coords_norm.loc[label, "PC2"]
             texts.append(plt.text(x, y, label, fontsize=8, alpha=0.7, color="blue"))
 
-        # Top words (red), apply cutoff radius
-        for word, size in zip(top_words_idx, freq_scaled):
-            x, y = loadings.loc[word, "PC1"], loadings.loc[word, "PC2"]
-            if np.hypot(x, y) >= cutoff_radius:
-                plt.scatter(x, y, color="red", s=20)
-                texts.append(plt.text(x + 0.005, y + 0.005, word, fontsize=size, color="red", alpha=0.8))
+        # plot top words
+        word_counts = matrix_df.sum(axis=1)
+        top_words_idx = word_counts.sort_values(ascending=False).head(
+            20).index if not word_counts.empty else matrix_df.index
+        for word in top_words_idx:
+            x, y = loadings_norm.loc[word, "PC1"], loadings_norm.loc[word, "PC2"]
+            plt.scatter(x, y, color="red", s=20)
+            texts.append(plt.text(x + 0.02, y + 0.02, str(word), fontsize=7, color="red", alpha=0.8))
 
-        # Hypothetical single-word documents (green)
-        for word in highlight_words:
-            #print("------------------------------")
-            #print(matrix_df.index)
-            #print("------------------------------")
-            if word in matrix_df.index:
-                v = np.zeros(matrix_df.shape[0])
-                idx = matrix_df.index.get_loc(word)
-                v[idx] = 1
-                coord = pca.transform(v.reshape(1, -1))
-                x, y = coord[0, 0], coord[0, 1]
-                plt.scatter(x, y, color="green", s=40, alpha=0.8)
-                texts.append(plt.text(x + 0.005, y + 0.005, word, fontsize=8, color="green", alpha=0.9))
-
-        # --- Adjust text to prevent overlap ---
         adjust_text(texts, only_move={'points': 'y', 'texts': 'xy'},
                     arrowprops=dict(arrowstyle='-', color='gray', alpha=0.3))
-
-        # --- Axes, grid, and 0 lines ---
-        plt.title(f"PCA ({lang}) {label_suffix}")
-        plt.xlabel(f"PC1 ({var_pc1*100:.1f}% var)")
-        plt.ylabel(f"PC2 ({var_pc2*100:.1f}% var)")
-        plt.xlim(-0.9, 0.9)
-        plt.ylim(-0.9, 0.9)
-        plt.xticks(np.arange(-0.9, 0.91, 0.1))
-        plt.yticks(np.arange(-0.9, 0.91, 0.1))
-        plt.axhline(0, color='black', linewidth=1.5)
-        plt.axvline(0, color='black', linewidth=1.5)
+        plt.title(f"PCA {label_suffix}")
+        plt.xlabel(f"PC1 ({var_pc1 * 100:.1f}% var)")
+        plt.ylabel(f"PC2 ({var_pc2 * 100:.1f}% var)")
         plt.grid(alpha=0.3)
         plt.tight_layout()
-        safe_label = label_suffix.replace(" ", "_").replace("/", "-")
 
-        # --- Save figure ---
-        png_path = os.path.join(OUTPUT_FOLDER, f"PCA_{lang}_{safe_label}.png")
+        png_path = os.path.join(OUTPUT_FOLDER, f"PCA_{safe_label}.png")
         plt.savefig(png_path, dpi=600)
         plt.close()
 
-        # --- Save textual data ---
-        txt_path = os.path.join(OUTPUT_FOLDER, f"PCA_{lang}_{safe_label}.txt")
-        with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(f"PCA RESULTS ({lang}) {label_suffix}\n")
-            f.write("=" * 60 + "\n\n")
-            f.write(f"Explained variance:\n")
+        txt_path = os.path.join(OUTPUT_FOLDER, f"PCA_{safe_label}.txt")
+        with open(txt_path, "w", encoding='utf-8') as f:
+            f.write(f"PCA RESULTS {label_suffix}\n")
+            f.write("="*60 + "\n\n")
             for i, v in enumerate(pca.explained_variance_ratio_):
                 f.write(f"  PC{i+1}: {v*100:.2f}%\n")
-            f.write(f"\nTotal variance explained (first {n_components} PCs): {total_var:.4f}\n\n")
-
-            f.write("--- DOCUMENT COORDINATES ---\n")
+            f.write("\n--- DOCUMENT COORDINATES ---\n")
             f.write("Label\tPC1\tPC2\n")
             for label in doc_coords.index:
                 f.write(f"{label}\t{doc_coords.loc[label, 'PC1']:.5f}\t{doc_coords.loc[label, 'PC2']:.5f}\n")
-
             f.write("\n--- TOP WORD LOADINGS ---\n")
             f.write("Word\tPC1\tPC2\n")
             for word in top_words_idx:
                 f.write(f"{word}\t{loadings.loc[word, 'PC1']:.5f}\t{loadings.loc[word, 'PC2']:.5f}\n")
-
-            f.write("\n--- HIGHLIGHT WORDS (green) ---\n")
-            f.write("Word\tPC1\tPC2\n")
-            for hw in highlight_words:
-                if hw in matrix_df.index:
-                    idx = matrix_df.index.get_loc(hw)
-                    v = np.zeros(matrix_df.shape[0])
-                    v[idx] = 1
-                    coord = pca.transform(v.reshape(1, -1))
-                    f.write(f"{hw}\t{coord[0,0]:.5f}\t{coord[0,1]:.5f}\n")
-
-        print(f"Saved PCA plot and data to:\n  {png_path}\n  {txt_path}")
-
-    # --- 1. Global PCA by canton ---
-    df_canton = build_matrix(kwic_rows, lang, by="canton")
-    _pca_and_plot(df_canton, label_suffix="by canton", by="canton")
-
-    # --- 2. Global PCA by year ---
-    df_year = build_matrix(kwic_rows, lang, by="year")
-    _pca_and_plot(df_year, label_suffix="by year", by="year")
-
-    # --- 3. Per-canton PCA by year ---
-    canton_groups = defaultdict(list)
-    for w in kwic_rows:
-        canton_groups[w["canton"]].append(w)
-
-    for canton, rows in canton_groups.items():
-        df_canton_year = build_matrix(rows, lang, by="year")
-        if df_canton_year.shape[1] >= 2:
-            _pca_and_plot(df_canton_year, label_suffix=f"by year – {canton}", by="year")
-        else:
-            print(f"Skipping {canton}: not enough yearly data for PCA")
-
-
-
-
-def run_canton_year_plot(kwic_rows, lang):
-    """Visualize trend of cantons across years based on top lemma occurrence."""
-    # Build canton x year frequency
-    df = pd.DataFrame(kwic_rows)
-    canton_year = df.groupby(["canton", "year"]).size().unstack(fill_value=0)
-    canton_year_norm = canton_year.div(canton_year.sum(axis=1), axis=0)
-
-    canton_year_norm.T.plot(kind='line', figsize=(9, 6), marker='o')
-    plt.title(f"{lang}: Canton trends over years (normalized counts)")
-    plt.xlabel("Year")
-    plt.ylabel("Normalized occurrence")
-    plt.legend(title="Canton")
-    plt.tight_layout()
-    png_path = os.path.join(OUTPUT_FOLDER, f"Canton{lang}TrendOverYears.png")
-    plt.savefig(png_path, dpi=600)
-    #plt.show()
+        print(f"Saved PCA outputs: {png_path}, {txt_path}")
+    except Exception as e:
+        print(f"Error in PCA {label_suffix}: {e}")
 
 # ----------------------
-# PART 6: TABLE COUNTS EXPORT
-# ----------------------
-
-def count_wordlist_occurrences(dataset, lang):
-    """
-    Count occurrences of every lemma appearing in WORDLIST_FILES for a given language.
-    Supports multiword lemmas: all words must occur within WINDOW_MULTI words.
-    Returns a dictionary {lemma: count}, including 0 for unseen lemmas.
-    """
-    lemma_key = f"{lang.lower()}lemma"
-    all_wordlists = load_wordlist(lang)
-    target_lemmas = set(word for words in all_wordlists.values() for word in words)
-
-    counter = Counter()
-
-    # Preprocess dataset into a list of lemmas for easier multiword search
-    dataset_lemmas = [w[lemma_key].lower() for w in dataset]
-
-    for lemma in target_lemmas:
-        words = lemma.split()  # Split multiword lemmas into components
-        if len(words) == 1:
-            # Single-word lemma: simple count
-            counter[lemma] = dataset_lemmas.count(lemma)
-        else:
-            # Multiword lemma: check if all words occur within WINDOW_MULTI in sequence
-            count = 0
-            for i, w in enumerate(dataset_lemmas):
-                if w == words[0]:
-                    # Look ahead WINDOW_MULTI+len(words)-1 positions
-                    end_idx = min(i + len(words) + WINDOW_MULTI - 1, len(dataset_lemmas))
-                    window = dataset_lemmas[i:end_idx]
-                    if all(word in window for word in words[1:]):
-                        count += 1
-            counter[lemma] = count
-
-    # Add unseen lemmas explicitly with count = 0
-    for lemma in target_lemmas:
-        counter.setdefault(lemma, 0)
-
-    return dict(counter)
-
-
-def export_wordlist_counts(dataset, lang):
-    """
-    Export the counts of all wordlist lemmas for a language into a .txt file.
-    """
-    counts = count_wordlist_occurrences(dataset, lang)
-    txt_path = os.path.join(OUTPUT_FOLDER, f"{lang}_wordlist_counts.txt")
-    with open(txt_path, "w", encoding="utf-8") as f:
-        for lemma, count in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
-            f.write(f"{lemma}\t{count}\n")
-    print(f"✅ Exported {len(counts)} word counts for {lang} to {txt_path}")
-
-# ----------------------
-# MAIN EXECUTION
+# MAIN EXECUTION (implements pipeline you asked for)
 # ----------------------
 def main():
-    for lang in ["FR", "DE"]:
-        # PART 1
-        print("Loading dataset")
-        dataset = load_dataset(lang)
+    # 0) load whitelist mapping
+    whitelist = load_context_whitelist(WHITELIST_FILE)
 
-        # PART 2
-        print("Computing Stat on POS")
-        pos_statistics(dataset, lang)
+    # 1) load datasets and compute POS stats
+    datasets = {}
+    for lang in ["FR","DE"]:
+        print(f"Loading dataset {lang}")
+        datasets[lang] = load_dataset(lang)
+        print(f"Computing POS stats for {lang}")
+        pos_statistics(datasets[lang], lang)
 
-        # PART 2.5
-        print("Counting all target word occurrences for table export")
-        export_wordlist_counts(dataset, lang)
+    # 2) For each language: compute token-level scores, smooth, plot histogram, segment
+    subcorpora = {}
+    for lang in ["FR","DE"]:
+        print(f"Scoring tokens for {lang}")
+        scores, lemmas = compute_token_scores(datasets[lang], whitelist, lang)
+        print("Smoothing scores...")
+        smooth = smooth_scores(scores, sigma=SMOOTH_SIGMA)
+        # plot histogram
+        plot_density_histogram(smooth, lang)
+        # segment by threshold
+        segments, thresh = segment_by_threshold(smooth, quantile=THRESH_QUANTILE)
+        print(f"{lang}: threshold (quantile {THRESH_QUANTILE}) = {thresh:.6f}, segments found: {len(segments)}")
+        # optionally save segments summary
+        seg_path = os.path.join(OUTPUT_FOLDER, f"{lang}_segments.txt")
+        with open(seg_path, "w", encoding='utf-8') as f:
+            f.write(f"threshold\t{thresh}\n")
+            for s,e in segments:
+                f.write(f"{s}\t{e}\n")
+        # build subcorpus = tokens in those segments
+        sub = extract_subcorpus(datasets[lang], segments)
+        subcorpora[lang] = sub
+        print(f"{lang}: kept {len(sub)} tokens out of {len(datasets[lang])}")
 
-        # PART 3
-        print("filter dataset by keyword")
+    # 3) For each language compute detailed counts per document for each list (on subcorpus)
+    matrices = {}  # matrices[lang][listkey] = DataFrame
+    for lang in ["FR","DE"]:
+        print(f"Building concept matrices for {lang}")
         wordlists = load_wordlist(lang)
-        filtered, lemma_counts = filter_dataset(dataset, lang, wordlists)
+        res = build_concept_matrices(subcorpora[lang], lang, wordlists)
+        matrices[lang] = res['by_list']
+        # save CSVs for each list
+        for k, df in res['by_list'].items():
+            save_matrix_csv(df, f"{lang}_{k}")
+        # also save Time and Mobility matrices
+        save_matrix_csv(res.get('time', pd.DataFrame()), f"{lang}_Time")
+        save_matrix_csv(res.get('mobility', pd.DataFrame()), f"{lang}_Mobility")
 
-        # Export filtered dataset
-        filtered_csv = os.path.join(OUTPUT_FOLDER, f"{lang}_filtered_dataset.csv")
-        pd.DataFrame(filtered).to_csv(filtered_csv, index=False, encoding="utf-8")
+    # 4) Merge FR+DE for Time and Mobility (pairing lemmas by index)
+    def merge_bilingual(fr_df, de_df, fr_list, de_list, label_prefix):
+        # fr_df rows = fr_list, cols = fr_docs ; de_df rows = de_list, cols = de_docs
+        if (fr_df is None or fr_df.empty) and (de_df is None or de_df.empty):
+            return pd.DataFrame()
+        # determine min length for pairing
+        n = min(len(fr_list), len(de_list))
+        if n == 0:
+            print(f"⚠️ Cannot merge {label_prefix}: one list empty")
+            return pd.DataFrame()
+        merged_labels = [f"{fr_list[i]} | {de_list[i]}" for i in range(n)]
+        fr_docs = list(fr_df.columns) if (fr_df is not None and not fr_df.empty) else []
+        de_docs = list(de_df.columns) if (de_df is not None and not de_df.empty) else []
+        cols = [f"{d}" for d in fr_docs] + [f"{d}" for d in de_docs]
+        merged = pd.DataFrame(0, index=merged_labels, columns=cols, dtype=int)
+        # fill FR part
+        for i in range(n):
+            frw = fr_list[i]
+            for d in fr_docs:
+                if frw in fr_df.index and d in fr_df.columns:
+                    merged.at[merged_labels[i], f"{d}"] = int(fr_df.at[frw, d])
+        # fill DE part
+        for i in range(n):
+            dew = de_list[i]
+            for d in de_docs:
+                if dew in de_df.index and d in de_df.columns:
+                    merged.at[merged_labels[i], f"{d}"] = int(de_df.at[dew, d])
+        return merged
 
-        # Export lemma occurrence counts
-        lemma_counts_csv = os.path.join(OUTPUT_FOLDER, f"{lang}_filtered_lemma_counts.csv")
-        pd.DataFrame(lemma_counts).sort_values(["list", "count"], ascending=[True, False]).to_csv(lemma_counts_csv, index=False, encoding="utf-8")
+    # Prepare lists for pairing using the same logic as build_concept_matrices
+    fr_wordlists = load_wordlist("FR")
+    de_wordlists = load_wordlist("DE")
 
+    # Normalize and get ordered lists from wordlists (same normalization used earlier)
+    def flatten_and_norm(wordlists):
+        out = []
+        for k in wordlists.keys():
+            for w in wordlists[k]:
+                ww = w.lower()
+                if ww not in out:
+                    out.append(ww)
+        return out
 
-        # PART 4
-        print("computing KWIC")
-        kwic_rows = generate_kwic(filtered,dataset, lang)
-        kwic_csv = os.path.join(OUTPUT_FOLDER, f"{lang}_kwic.csv")
-        pd.DataFrame(kwic_rows).to_csv(kwic_csv, index=False, encoding="utf-8")
+    fr_all = flatten_and_norm(fr_wordlists)
+    de_all = flatten_and_norm(de_wordlists)
+    # Now construct time lists (chrono + vecue) and mobility lists (access + motil) in same manner as before
+    def extract_concept_lists(wordlists):
+        access = []
+        motil = []
+        chrono = []
+        vecue = []
+        for k in wordlists.keys():
+            lname = k.lower()
+            items = [w.lower() for w in wordlists[k]]
+            if 'access' in lname or 'accessibilit' in lname:
+                access.extend(items)
+            elif 'motil' in lname:
+                motil.extend(items)
+            elif 'chrono' in lname or 'tempschrono' in lname:
+                chrono.extend(items)
+            elif 'vecue' in lname or 'tempsvecue' in lname:
+                vecue.extend(items)
+            else:
+                if 'temps' in lname:
+                    chrono.extend(items)
+                else:
+                    access.extend(items)
+        def unique_ordered(lst):
+            seen=set(); out=[]
+            for w in lst:
+                if w not in seen:
+                    seen.add(w); out.append(w)
+            return out
+        return unique_ordered(access), unique_ordered(motil), unique_ordered(chrono), unique_ordered(vecue)
 
-        # PART 5
-        print("running AFC")
-        run_pca(kwic_rows, lang=lang)
+    fr_access, fr_motil, fr_chrono, fr_vecue = extract_concept_lists(fr_wordlists)
+    de_access, de_motil, de_chrono, de_vecue = extract_concept_lists(de_wordlists)
 
-        # PART 6
-        #print("computing over time trend")
-        #run_canton_year_plot(kwic_rows, lang=lang)
+    fr_time_list = fr_chrono + fr_vecue
+    de_time_list = de_chrono + de_vecue
+    fr_mob_list = fr_access + fr_motil
+    de_mob_list = de_access + de_motil
+
+    # get the per-list DataFrames computed earlier
+    fr_time_df = matrices['FR'].get('Time', pd.DataFrame())
+    fr_mob_df = matrices['FR'].get('Mobility', pd.DataFrame())
+    de_time_df = matrices['DE'].get('Time', pd.DataFrame())
+    de_mob_df = matrices['DE'].get('Mobility', pd.DataFrame())
+
+    merged_time = merge_bilingual(fr_time_df, de_time_df, fr_time_list, de_time_list, "Time")
+    merged_mob = merge_bilingual(fr_mob_df, de_mob_df, fr_mob_list, de_mob_list, "Mobility")
+
+    save_matrix_csv(merged_time, "MERGED_Time")
+    save_matrix_csv(merged_mob, "MERGED_Mobility")
+
+    # 5) Run PCA/AFC on the six matrices:
+    # FR Time, FR Mobility, DE Time, DE Mobility, MERGED Time, MERGED Mobility
+    pca_and_save(fr_time_df, "FR_Time")
+    pca_and_save(fr_mob_df, "FR_Mobility")
+    pca_and_save(de_time_df, "DE_Time")
+    pca_and_save(de_mob_df, "DE_Mobility")
+    pca_and_save(merged_time, "MERGED_Time")
+    pca_and_save(merged_mob, "MERGED_Mobility")
+
+    print("Pipeline finished. Check the result/ folder for CSVs, PCA plots and text outputs.")
 
 if __name__ == "__main__":
     main()

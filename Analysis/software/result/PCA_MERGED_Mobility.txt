@@ -1,0 +1,63 @@
+PCA RESULTS MERGED_Mobility
+============================================================
+
+  PC1: 93.08%
+  PC2: 3.62%
+  PC3: 2.61%
+  PC4: 0.60%
+  PC5: 0.09%
+  PC6: 0.00%
+  PC7: 0.00%
+  PC8: 0.00%
+  PC9: 0.00%
+  PC10: 0.00%
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+FR_FR_BE	569.20078	46.45556
+FR_FR_FR	47.85732	-57.07748
+FR_FR_GE	7.64806	-62.30750
+FR_FR_JU	-128.85762	-1.66469
+FR_FR_NE	-114.42944	-8.59460
+FR_FR_VD	675.99171	-41.80588
+FR_FR_VS	14.13393	-50.26550
+DE_DE_AG	-67.59439	-14.31111
+DE_DE_AI	-123.82333	4.44466
+DE_DE_AR	-53.40772	99.92269
+DE_DE_BE	274.87512	68.55265
+DE_DE_BL	-60.59203	80.74985
+DE_DE_BS	66.77578	-55.13210
+DE_DE_GL	-115.46348	-4.89846
+DE_DE_LU	-63.85093	-17.04383
+DE_DE_NW	-108.74078	-0.71008
+DE_DE_OW	-113.34851	37.53676
+DE_DE_SH	-102.13961	0.35849
+DE_DE_SO	-108.00753	1.47921
+DE_DE_SZ	-92.78121	-3.73796
+DE_DE_TG	-125.97751	3.50692
+DE_DE_UR	-65.91825	-17.11406
+DE_DE_ZG	-106.37689	1.36824
+DE_DE_ZH	-105.17346	-9.71178
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+infrastructure | infrastruktur	0.88644	-0.26320
+coût | kosten	0.37827	0.86934
+accessibilité | erreichbarkeit	0.17660	-0.31406
+réseau transport | verkehrsnetz	0.16855	-0.27125
+qualité desserte | versorgungsqualität	0.10740	0.05250
+stratégie déplacement | mobilitätsstrategie	0.00167	0.00169
+disponibilité transport | verfügbarkeit verkehrsmittel	0.00044	0.00209
+intégration transport | verkehrsintegration	-0.00000	-0.00000
+inégalité accès | erreichbarkeitsgerechtigkeit	-0.00000	-0.00000
+budget mobilité | mobilitätsbudget	-0.00000	-0.00000
+aptitude mobilité | bewegungsfähigkeit	-0.00000	-0.00000
+centralité spatial | räumlich zentralität	-0.00000	-0.00000
+capital mobilité | mobilitätskapital	-0.00000	-0.00000
+habitus mobilité | mobilitätshabitus	-0.00000	-0.00000
+autonomie déplacement | bewegungsautonomie	-0.00000	-0.00000
+apprentissage mobilité | mobilitätslernen	-0.00000	-0.00000
+compétence orientation | orientierungskompetenz	0.00000	-0.00000
+représentation espace | raumvorstellung	0.00000	-0.00000
+motivation mobilité | mobilitätsmotivation	0.00000	-0.00000
+symbolique mobilité | symbolisch mobilität	0.00000	-0.00000

@@ -31,3 +31,15 @@ TXM use the treetagger module to tag each word in the corpus. (https://www.cis.u
 I used the French and German module for the French and German dataset.
 
 From there I made a custom python script to process the data.
+
+First we compute some stat on the corpus 
+then we filter it by scoring word positively or negatively if they are close the mobility concept
+by matching them using ContextMobilityWhiltelist.csv (word, score) with score being positive or negative if its related or not to the concept of mobility)
+we then plot the concept density histogram.
+then we cluster/apply a density threshold to only keep the relevant part of the dataset that are related to mobility and exclude the one that belong to other topics like energy.
+then on that subcorpus we fill a csv/table with the count per word for each lemmes (Accessibilité / Motilité/TempsChrono/TempsVecue) and for each document. we now have a matrix of vector per document that tell us how many hit we have for each word.
+the goal being to give the count per detailled concept (timeChrono, TempsVecue) but do the AFC on the whole concept (Time) to see if there is a difference between documents.
+since the word are matched between german and french we can even make a new CSV that merge the column of the french + german CSV for the time + mobility concept.
+then we can compute the AFC on the french Time csv + french mobilité csv + german time csv + german mobility csv + the merge time csv and the merged mobility csv.
+
+

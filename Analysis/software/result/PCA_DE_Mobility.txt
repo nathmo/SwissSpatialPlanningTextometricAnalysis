@@ -1,0 +1,56 @@
+PCA RESULTS DE_Mobility
+============================================================
+
+  PC1: 84.93%
+  PC2: 14.01%
+  PC3: 0.76%
+  PC4: 0.29%
+  PC5: 0.01%
+  PC6: 0.00%
+  PC7: 0.00%
+  PC8: 0.00%
+  PC9: 0.00%
+  PC10: 0.00%
+
+--- DOCUMENT COORDINATES ---
+Label	PC1	PC2
+DE_AG	-7.36309	-22.84214
+DE_AI	-61.89317	0.30210
+DE_AR	16.38711	96.23770
+DE_BE	346.84222	17.41219
+DE_BL	7.31837	79.24121
+DE_BS	124.59041	-78.16096
+DE_GL	-53.94454	-11.55093
+DE_LU	-2.28851	-29.72082
+DE_NW	-46.09440	-9.71296
+DE_OW	-48.65473	34.97458
+DE_SH	-40.87829	-3.78515
+DE_SO	-45.72232	-6.55377
+DE_SZ	-33.44807	-5.35224
+DE_TG	-63.53229	-2.15083
+DE_UR	-3.74550	-34.12242
+DE_ZG	-44.04466	-6.33692
+DE_ZH	-43.52854	-17.87863
+
+--- TOP WORD LOADINGS ---
+Word	PC1	PC2
+infrastruktur	0.88635	-0.43947
+kosten	0.44756	0.89385
+erreichbarkeit	0.11179	-0.08228
+verkehrsnetz	0.03693	-0.02927
+mobilitätsstrategie	0.01477	-0.01653
+versorgungsqualität	-0.00127	-0.00145
+verfügbarkeit verkehrsmittel	-0.00030	0.00132
+verkehrsintegration	0.00000	0.00000
+erreichbarkeitsgerechtigkeit	-0.00000	-0.00000
+mobilitätsbudget	-0.00000	-0.00000
+bewegungsfähigkeit	-0.00000	-0.00000
+räumlich zentralität	-0.00000	-0.00000
+mobilitätskapital	-0.00000	-0.00000
+mobilitätshabitus	-0.00000	-0.00000
+bewegungsautonomie	-0.00000	-0.00000
+mobilitätslernen	-0.00000	-0.00000
+orientierungskompetenz	0.00000	-0.00000
+raumvorstellung	-0.00000	-0.00000
+mobilitätsmotivation	-0.00000	-0.00000
+symbolisch mobilität	-0.00000	-0.00000
