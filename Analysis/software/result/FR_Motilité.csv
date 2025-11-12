@@ -1,11 +1,11 @@
 ,FR_BE,FR_FR,FR_GE,FR_JU,FR_NE,FR_VD,FR_VS
-aptitude mobilité,0,0,0,0,0,0,0
+aptitude,0,1,0,0,0,2,0
 capital mobilité,0,0,0,0,0,0,0
 habitus mobilité,0,0,0,0,0,0,0
 autonomie déplacement,0,0,0,0,0,0,0
 apprentissage mobilité,0,0,0,0,0,0,0
 stratégie déplacement,1,0,0,0,0,0,0
-compétence orientation,0,0,0,0,0,0,0
+compétence,35,5,4,0,5,99,11
 représentation espace,0,0,0,0,0,0,0
 motivation mobilité,0,0,0,0,0,0,0
 symbolique mobilité,0,0,0,0,0,0,0

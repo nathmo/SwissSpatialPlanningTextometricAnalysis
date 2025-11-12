@@ -43,7 +43,7 @@ WINDOW_MULTI = 3  # max words allowed between multi-word reference words
 
 # smoothing / segmentation params (tweakable)
 SMOOTH_SIGMA = 50.0   # gaussian kernel std (in tokens) for smoothing density
-THRESH_QUANTILE = 0.8  # retain regions above this percentile of density Quantiles must be in the range [0, 1]
+THRESH_QUANTILE = 0.9  # retain regions above this percentile of density Quantiles must be in the range [0, 1]
 
 # ----------------------
 # PART 1: LOAD XML DATA
@@ -447,8 +447,15 @@ def pca_and_save(matrix_df, label_suffix):
         plt.scatter(doc_coords_norm["PC1"], doc_coords_norm["PC2"], alpha=0.6, color="steelblue")
         texts = []
         for label in doc_coords_norm.index:
+            # Extract the document name (remove language or prefixes like "FR_", "DE_", etc.)
+            short_label = os.path.basename(str(label))
+            # Optional: if your labels are like "FR_doc1", take only part after underscore
+            if "_" in short_label:
+                short_label = short_label.split("_")[-1]
+
             x, y = doc_coords_norm.loc[label, "PC1"], doc_coords_norm.loc[label, "PC2"]
-            texts.append(plt.text(x, y, label, fontsize=8, alpha=0.7, color="blue"))
+            texts.append(plt.text(x, y, short_label, fontsize=8, alpha=0.7, color="blue"))
+
 
         # plot top words
         word_counts = matrix_df.sum(axis=1)
@@ -526,6 +533,25 @@ def main():
         sub = extract_subcorpus(datasets[lang], segments)
         subcorpora[lang] = sub
         print(f"{lang}: kept {len(sub)} tokens out of {len(datasets[lang])}")
+        # --- Export readable segments (actual text) ---
+        seg_txt_path = os.path.join(OUTPUT_FOLDER, f"{lang}_segments_text.txt")
+        with open(seg_txt_path, "w", encoding="utf-8") as f:
+            f.write(f"# Segmented text for {lang}\n")
+            f.write(f"# Threshold (quantile {THRESH_QUANTILE}) = {thresh}\n\n")
+
+            for i, (s, e) in enumerate(segments, start=1):
+                # join lemmas into readable text
+                segment_words = " ".join(lemmas[s:e+1])
+
+                # light punctuation cleanup
+                segment_words = segment_words.replace(" ,", ",").replace(" .", ".").replace(" '", "'")
+
+                f.write(f"[SEGMENT {i}] ({s}–{e})\n")
+                f.write(segment_words.strip() + "\n\n")
+
+        print(f"Saved readable text segments for {lang} → {seg_txt_path}")
+
+
 
     # 3) For each language compute detailed counts per document for each list (on subcorpus)
     matrices = {}  # matrices[lang][listkey] = DataFrame

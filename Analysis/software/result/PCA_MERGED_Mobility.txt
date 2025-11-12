@@ -1,12 +1,12 @@
 PCA RESULTS MERGED_Mobility
 ============================================================
 
-  PC1: 92.98%
-  PC2: 3.65%
-  PC3: 2.66%
-  PC4: 0.61%
-  PC5: 0.09%
-  PC6: 0.00%
+  PC1: 92.57%
+  PC2: 4.33%
+  PC3: 1.73%
+  PC4: 1.04%
+  PC5: 0.19%
+  PC6: 0.14%
   PC7: 0.00%
   PC8: 0.00%
   PC9: 0.00%
@@ -14,50 +14,50 @@ PCA RESULTS MERGED_Mobility
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-FR_BE	568.97283	52.68798
-FR_FR	48.42143	-57.21861
-FR_GE	8.16410	-63.57575
-FR_JU	-128.94922	-1.61950
-FR_NE	-114.55031	-8.71938
-FR_VD	677.38972	-48.04554
-FR_VS	14.32906	-48.87882
-DE_AG	-67.68519	-14.23311
-DE_AI	-123.90097	4.16759
-DE_AR	-53.56290	97.86613
-DE_BE	274.47974	70.46167
-DE_BL	-60.74215	78.74814
-DE_BS	66.60010	-53.65371
-DE_GL	-115.57483	-4.70505
-DE_LU	-64.01292	-16.30080
-DE_NW	-108.86581	-0.35291
-DE_OW	-113.45331	36.58679
-DE_SH	-102.22956	0.00368
-DE_SO	-108.10453	1.61850
-DE_SZ	-92.79224	-4.59954
-DE_TG	-126.07767	3.49066
-DE_UR	-66.07572	-15.84871
-DE_ZG	-106.48460	1.48447
-DE_ZH	-105.29504	-9.36418
+FR_BE	305.04034	-71.84035
+FR_FR	42.15176	26.48058
+FR_GE	2.70672	37.93302
+FR_JU	-74.75623	2.63665
+FR_NE	-68.07002	7.75600
+FR_VD	448.91200	69.04592
+FR_VS	-11.10525	11.39539
+DE_AG	-30.72360	7.38051
+DE_AI	-77.47808	1.71474
+DE_AR	-46.77632	-17.61743
+DE_BE	167.48327	-64.68120
+DE_BL	-24.72746	-33.65028
+DE_BS	48.63609	12.12976
+DE_GL	-72.96344	0.12613
+DE_LU	-33.12743	2.92309
+DE_NW	-69.47877	-0.65520
+DE_OW	-71.29970	-6.95873
+DE_SH	-59.83874	6.30847
+DE_SO	-66.85374	-1.56850
+DE_SZ	-54.56893	6.73330
+DE_TG	-74.48324	1.04822
+DE_UR	-51.49124	-0.28215
+DE_ZG	-62.61243	0.54251
+DE_ZH	-64.57556	3.09953
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-infrastructure | infrastruktur	0.88565	-0.24395
-coût | kosten	0.37784	0.85222
-accessibilité | erreichbarkeit	0.17660	-0.33856
-réseau transport | verkehrsnetz	0.17332	-0.30823
-qualité desserte | versorgungsqualität	0.10781	0.06744
-stratégie déplacement | mobilitätsstrategie	0.00167	0.00226
-intégration transport | verkehrsintegration	0.00135	-0.00377
-disponibilité transport | verfügbarkeit verkehrsmittel	0.00044	0.00219
-inégalité accès | erreichbarkeitsgerechtigkeit	-0.00000	-0.00000
-budget mobilité | mobilitätsbudget	-0.00000	-0.00000
-aptitude mobilité | bewegungsfähigkeit	-0.00000	-0.00000
-centralité spatial | räumlich zentralität	-0.00000	-0.00000
-capital mobilité | mobilitätskapital	-0.00000	-0.00000
-habitus mobilité | mobilitätshabitus	-0.00000	-0.00000
-autonomie déplacement | bewegungsautonomie	-0.00000	-0.00000
-apprentissage mobilité | mobilitätslernen	-0.00000	-0.00000
-compétence orientation | orientierungskompetenz	0.00000	-0.00000
-représentation espace | raumvorstellung	0.00000	-0.00000
-motivation mobilité | mobilitätsmotivation	0.00000	-0.00000
-symbolique mobilité | symbolisch mobilität	0.00000	-0.00000
+infrastructure | infrastruktur	0.88314	-0.08645
+coût | kosten	0.30743	-0.56831
+accessibilité | erreichbarkeit	0.20199	0.46642
+réseau transport | verkehrsnetz	0.22811	0.60096
+qualité desserte | versorgungsqualität	0.11376	-0.14915
+compétence | orientierungskompetenz	0.14053	0.26130
+stratégie déplacement | mobilitätsstrategie	0.00185	-0.01231
+intégration transport | verkehrsintegration	0.00241	0.00902
+aptitude | bewegungsfähigkeit	0.00241	0.00902
+disponibilité transport | verfügbarkeit verkehrsmittel	0.00060	-0.00432
+inégalité accès | erreichbarkeitsgerechtigkeit	0.00000	0.00000
+centralité spatial | räumlich zentralität	-0.00000	0.00000
+capital mobilité | mobilitätskapital	-0.00000	0.00000
+budget mobilité | mobilitätsbudget	-0.00000	0.00000
+autonomie déplacement | bewegungsautonomie	-0.00000	0.00000
+habitus mobilité | mobilitätshabitus	-0.00000	0.00000
+apprentissage mobilité | mobilitätslernen	-0.00000	0.00000
+représentation espace | raumvorstellung	0.00000	0.00000
+motivation mobilité | mobilitätsmotivation	0.00000	0.00000
+symbolique mobilité | symbolisch mobilität	0.00000	0.00000

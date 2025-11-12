@@ -1,10 +1,10 @@
 ,FR_BE,FR_FR,FR_GE,FR_JU,FR_NE,FR_VD,FR_VS
-attente,6,6,9,1,1,54,3
+attente,2,4,7,0,0,13,2
 stress,0,0,0,0,0,0,0
-confort,0,10,3,0,2,9,6
-expérience,7,1,0,0,1,26,2
-ressentir,6,0,0,0,0,0,0
-agréable,8,1,6,1,0,33,1
+confort,0,10,2,0,1,4,6
+expérience,2,1,0,0,0,14,1
+ressentir,0,0,0,0,0,0,0
+agréable,7,1,5,1,1,21,1
 satisfaction usager,0,0,0,0,0,0,0
 temps réappropriable,0,0,0,0,0,0,0
 temps valoriser,0,0,0,0,0,0,0

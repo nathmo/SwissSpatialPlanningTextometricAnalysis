@@ -1,21 +1,21 @@
 ,FR_BE,FR_FR,FR_GE,FR_JU,FR_NE,FR_VD,FR_VS
-accessibilité,44.0,35.0,63.0,3.0,24.0,233.0,23.0
-qualité desserte,141.0,35.0,7.0,1.0,1.0,45.0,1.0
+accessibilité,32.0,26.0,41.0,2.0,16.0,150.0,17.0
+qualité desserte,87.0,28.0,4.0,1.0,1.0,38.0,0.0
 intégration transport,0.0,1.0,0.0,0.0,0.0,2.0,0.0
-coût,275.0,16.0,5.0,1.0,3.0,305.0,3.0
+coût,142.0,12.0,2.0,0.0,1.0,145.0,2.0
 disponibilité transport,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-infrastructure,650.0,189.0,149.0,17.0,29.0,707.0,171.0
+infrastructure,357.0,116.0,78.0,11.0,15.0,457.0,75.0
 centralité spatial,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 inégalité accès,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 budget mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-réseau transport,71.0,63.0,48.0,5.0,1.0,207.0,20.0
-aptitude mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+réseau transport,47.0,56.0,43.0,4.0,1.0,167.0,13.0
+aptitude,0.0,1.0,0.0,0.0,0.0,2.0,0.0
 capital mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 habitus mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 autonomie déplacement,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 apprentissage mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 stratégie déplacement,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-compétence orientation,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+compétence,35.0,5.0,4.0,0.0,5.0,99.0,11.0
 représentation espace,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 motivation mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 symbolique mobilité,0.0,0.0,0.0,0.0,0.0,0.0,0.0

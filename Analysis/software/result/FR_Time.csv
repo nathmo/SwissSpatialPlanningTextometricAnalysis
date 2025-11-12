@@ -1,22 +1,22 @@
-,FR_BE,FR_FR,FR_GE,FR_JU,FR_NE,FR_VD,FR_VS
-minute,7,7,4,0,5,83,0
-heure,82,48,38,0,22,125,3
-durée,32,10,3,0,3,26,6
-vitesse,52,28,12,2,6,83,0
-rapidité,17,0,1,0,0,0,0
-ponctualité,1,0,1,0,0,0,0
-retard,0,0,2,0,0,0,0
-kilomètre,53,37,14,0,2,189,3
-ralentissement,6,1,1,0,0,5,0
-cadence,65,19,7,1,16,90,0
-attente,6,6,9,1,1,54,3
-stress,0,0,0,0,0,0,0
-confort,0,10,3,0,2,9,6
-expérience,7,1,0,0,1,26,2
-ressentir,6,0,0,0,0,0,0
-agréable,8,1,6,1,0,33,1
-satisfaction usager,0,0,0,0,0,0,0
-temps réappropriable,0,0,0,0,0,0,0
-temps valoriser,0,0,0,0,0,0,0
-temps vivre,0,0,0,0,0,0,0
-bien-être mobilité,0,0,0,0,0,0,0
+,FR_BE,FR_FR,FR_GE,FR_JU,FR_NE,FR_VD,FR_VS,somme
+minute,7,7,3,0,5,78,0,100
+heure,39,18,22,0,10,101,2,192
+durée,23,7,2,0,1,12,3,48
+vitesse,47,15,13,2,1,80,0,158
+rapidité,8,0,1,0,0,0,0,9
+ponctualité,1,0,1,0,0,0,0,2
+retard,0,0,1,0,0,0,0,1
+kilomètre,16,28,10,0,2,121,3,180
+ralentissement,1,0,0,0,0,5,0,6
+cadence,62,17,4,1,5,71,0,160
+attente,2,4,7,0,0,13,2,28
+stress,0,0,0,0,0,0,0,0
+confort,0,10,2,0,1,4,6,23
+expérience,2,1,0,0,0,14,1,18
+ressentir,0,0,0,0,0,0,0,0
+agréable,7,1,5,1,1,21,1,37
+satisfaction usager,0,0,0,0,0,0,0,0
+temps réappropriable,0,0,0,0,0,0,0,0
+temps valoriser,0,0,0,0,0,0,0,0
+temps vivre,0,0,0,0,0,0,0,0
+bien-être mobilité,0,0,0,0,0,0,0,0

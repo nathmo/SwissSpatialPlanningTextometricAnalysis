@@ -1,43 +1,43 @@
 PCA RESULTS FR_Time
 ============================================================
 
-  PC1: 93.51%
-  PC2: 5.29%
-  PC3: 0.71%
-  PC4: 0.30%
-  PC5: 0.13%
-  PC6: 0.06%
+  PC1: 91.38%
+  PC2: 7.50%
+  PC3: 0.64%
+  PC4: 0.37%
+  PC5: 0.08%
+  PC6: 0.03%
   PC7: 0.00%
 
 --- DOCUMENT COORDINATES ---
 Label	PC1	PC2
-FR_BE	42.49014	49.16475
-FR_FR	-9.67596	4.13099
-FR_GE	-39.16993	-1.80499
-FR_JU	-73.84597	-15.07408
-FR_NE	-54.86866	-0.22621
-FR_VD	205.27110	-21.00366
-FR_VS	-70.20073	-15.18681
+FR_BE	22.45136	47.22642
+FR_FR	-11.53787	-5.63707
+FR_GE	-26.80828	-5.85806
+FR_JU	-50.41204	-6.31415
+FR_NE	-41.54860	-6.18809
+FR_VD	156.38696	-14.56745
+FR_VS	-48.53154	-8.66161
 
 --- TOP WORD LOADINGS ---
 Word	PC1	PC2
-heure	0.43711	0.44513
-kilomètre	0.67538	-0.38435
-cadence	0.33626	0.40537
-vitesse	0.30578	0.26248
-minute	0.28555	-0.41317
-attente	0.17960	-0.26720
-durée	0.10001	0.29110
-agréable	0.11406	-0.10093
-expérience	0.09209	-0.06846
-confort	0.01869	-0.07334
-rapidité	0.01159	0.24996
-ralentissement	0.02090	0.05763
-ressentir	0.00432	0.08841
-retard	-0.00133	-0.00108
-ponctualité	0.00006	0.01419
-stress	-0.00000	-0.00000
-satisfaction usager	-0.00000	-0.00000
-temps réappropriable	-0.00000	-0.00000
-temps valoriser	-0.00000	-0.00000
-temps vivre	-0.00000	-0.00000
+heure	0.47357	0.02291
+kilomètre	0.56919	-0.47404
+cadence	0.36793	0.65265
+vitesse	0.39778	0.32862
+minute	0.36954	-0.33573
+durée	0.06386	0.31108
+agréable	0.09728	-0.01180
+attente	0.05386	-0.06605
+confort	0.00382	-0.06932
+expérience	0.06703	-0.04651
+rapidité	0.00471	0.13974
+ralentissement	0.02480	-0.00962
+ponctualité	-0.00013	0.01554
+retard	-0.00083	-0.00220
+stress	-0.00000	0.00000
+ressentir	-0.00000	0.00000
+satisfaction usager	-0.00000	0.00000
+temps réappropriable	-0.00000	0.00000
+temps valoriser	-0.00000	0.00000
+temps vivre	-0.00000	0.00000
