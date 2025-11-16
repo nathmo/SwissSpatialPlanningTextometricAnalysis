@@ -13,16 +13,22 @@
     \item[\textbf{2025-10-16}] Script python, run against word list
     \item[\textbf{2025-10-16}] Made motilité word list
     \item[\textbf{2025-10-22}] Made german list + analysis, sent email for previous version
-    \item[\textbf{2025-09-}] scrapping missing data + reconstruction PDF
-    \item[\textbf{2025-09-}] make AFC conect
+    \item[\textbf{2025-10-24}] Writing
+    \item[\textbf{2025-10-26}] Sorting PDF + AFC setup using TXM (failure)
+    \item[\textbf{2025-10-27}] Writing, re-run analysis with new document
+    \item[\textbf{2025-10-28}] finished new script to make clean AFC in python
+    \item[\textbf{2025-10-29}] added one more document received by email, writing methodology
+    \item[\textbf{2025-11-07}] Visio avec Thomas Bühler
+    \item[\textbf{2025-11-10}] rework AFC + wordlist
+    \item[\textbf{2025-11-17}] analysis, result writing
 \end{itemize}
 
-etat de l'art, montrer qu'on sais que c'est important de prendre en compte tout les notions du temps / motilité, expliqué
-méthode, parler de l'origine du dataset, du ping pong avec confederation, de la loi
-méthode, parler de ce que j'ai trouver
-resultat : dire que le conpcet de temps est pas pris en compte
-faire recherche comparative voir si ya des différence entre version et canton / langue
+\subsection{scripts}
 
+\begin{lstlisting}[caption={Extract text content from PDFs by language}, label={lst:extract_pdfs}]
 
-Ajouter ici le calcul qui montre la surface occupé par une voiture vs vélo vs bus et peut etre l'image classique de la comparaison
+mkdir -p ../TXT && for f in *.pdf; do lang="${f:0:2}";
+mkdir -p "../TXT/$lang";
+pdftotext "$f" "../TXT/$lang/${f%.pdf}.txt"; done
 
+\end{lstlisting}

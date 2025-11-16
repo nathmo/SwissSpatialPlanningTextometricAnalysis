@@ -1,7 +1,41 @@
 \section{Methodology}
 
+\subsection{Corpus construction}
 
-I manually downloaded the PDF on each canton's website.
+The corpus analyzed in this study consists of official cantonal master plans (\textit{Richtpläne} / \textit{plans directeurs cantonaux}) collected from the websites of all Swiss cantons. When digital versions were unavailable, cantonal offices were contacted directly. Documents available only in paper format were excluded due to logistical constraints. The corpus covers French and German documents; Italian documents from Canton Ticino were excluded as they cannot be meaningfully compared with other regions. A detailed list of documents is provided in Table~\ref{table:listcantonalmasterplan}, and all PDFs are available in the public repository \cite{morand_nathmoswissspatialplanningtextometricanalysis_2025}.
+
+In the early stages of the research, the corpus was analyzed using \textbf{TXM} \cite{serge_txm_2010}, an open-source textometric platform designed for large-scale linguistic analysis. TXM was used for exploratory analysis, lemmatization, keyword frequency measurement, and correspondence analysis (AFC). However, due to limitation in filtering the corpus for the AFC and in order to improve the reproducibility and automation of the workflow, the pipeline was later reimplemented in Python. The final analysis therefore almost no longer depends on TXM with the exception of the lemmatization of the dataset, although TXM played an important role in shaping the initial methodological design.
+
+\subsection{Text extraction and preprocessing}
+
+Text was extracted from PDF documents using simple command-line tools and then annotated with metadata including canton, year, and language. All text was lemmatized using \textbf{TreeTagger} \cite{schmid_improvements_1999} and stored in XML format for structured processing.
+
+
+The corpus was subsequently parsed in Python using \texttt{lxml} to build a structured token dataset containing lemma, part-of-speech (POS), and document-level metadata. POS statistics were computed to assess coverage and the proportion of unknown tokens, providing an overview of data quality.
+
+\subsection{dataset filtering, Token-level scoring, smoothing, and segmentation}
+
+Each token was assigned a score based on a curated whitelist mapping lemmas to numeric values, capturing their relevance to mobility and time concepts and mobility as a whole. This whitelist was made using TXM and the coocurence tool to refine itterratively and find all the words that are related to our subject. To reduce noise and emphasize regions of concentrated conceptual relevance, scores were smoothed using a Gaussian kernel. High-scoring regions were then segmented based on a quantile threshold, producing subcorpora enriched in relevant lexical content. For each segment, the corresponding lemmas were exported in readable format to facilitate qualitative inspection.
+
+\newpage
+
+\subsection{Wordlist-based keyword filtering}
+
+Four custom wordlists were created for each language: one corresponding to terms related to \textbf{motility} and \textbf{accessibilty} and another to terms referring to \textbf{perceived time} and \textbf{physical time}. These lists were manually assembled and iteratively refined based on corpus exploration and where made both in french and german. Both single-word and multi-word expressions were included. One could argue that this approach is influenced by the researcher, and would be correct for individual word. But since we have a word list, the averaging get closer to the wanted concept. This is similar to psychometric test where one item in specific might not be able to predict meaningfully the presence of a disease like depression but ten items have a much stronger probability of measuring the latent concept.
+
+\subsection{Document-level counting and matrix construction}
+
+Within the extracted segments, occurrences of wordlist entries were counted per document. Counts were organized into matrices, with rows representing lemmas and columns representing documents. Separate matrices were constructed for each wordlist and aggregated into two main concept matrices: \textbf{Time} (perceived + physical) and \textbf{Mobility} (accessibility + motility). This was done for both French and German subcorpora.
+
+\subsection{Statistical analysis}
+
+Principal Component Analysis (PCA) was performed on each matrix using \texttt{scikit-learn}. PCA coordinates were normalized to a $[-1,1]$ range for both documents and words. Visualizations display documents in blue and the top-loading lemmas in red. The explained variance of the first two components is reported to assess the dimensionality captured by the PCA. PCA was performed separately for French and German, as well as on merged bilingual matrices.
+
+\subsection{Reproducibility and automation}
+
+The entire workflow is implemented in Python and fully reproducible using open-source libraries: \texttt{lxml}, \texttt{pandas}, \texttt{numpy}, \texttt{matplotlib}, \texttt{scikit-learn}, \texttt{tqdm}, and \texttt{adjustText}. From XML parsing to KWIC generation, scoring, smoothing, segmentation, and PCA, all steps are automated in a single script (\texttt{analysis.py}). All intermediate and final outputs (segment texts, matrices, PCA plots, and text summaries) are saved in the \texttt{result/} folder to facilitate verification and replication.
+
+
 {\footnotesize
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.1}
@@ -12,66 +46,75 @@ I manually downloaded the PDF on each canton's website.
 % === First half of table ===
 \begin{longtable}{|p{1cm}|p{1cm}|p{1.5cm}|p{1.5cm}|p{1cm}|}
 \hline
-\rotatebox{70}{\textbf{Canton}} &
-\rotatebox{70}{\textbf{Version}} &
-\rotatebox{70}{\textbf{Year}} &
-\rotatebox{70}{\textbf{Availability}} &
-\rotatebox{70}{\textbf{Language}} \\ 
+\rotatebox{60}{\textbf{Canton}} &
+\rotatebox{60}{\textbf{Version}} &
+\rotatebox{60}{\textbf{Year}} &
+\rotatebox{60}{\textbf{Source}} &
+\rotatebox{60}{\textbf{Language}} \\ 
 \hline
 
-\multirow{3}{*}{AG} & 3 & 2025 & \href{https://www.ag.ch/de/themen/planen-bauen/raumentwicklung/grundlagen-und-kantonalplanung/richtplan}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{2}{*}{AG} & 2 & 2025 & \href{https://www.ag.ch/media/kanton-aargau/bvu/raumentwicklung/grundlagen-und-kantonalplanung/richtplanung/richtplantext/richtplantext.pdf}{Online} & DE \\
+ & 1 & 1996 & ‡ & DE \\ \hline
 
-\multirow{3}{*}{AR} & 3 & 2025 & \href{https://ar.ch/verwaltung/departement-bau-und-volkswirtschaft/amt-fuer-raum-und-wald/abteilung-raumentwicklung/planen/kantonale-planung/}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{4}{*}{AI} & 4 & 2017 & \href{https://www.ai.ch/themen/planen-und-bauen/raumplanung/richtplanung}{Online} & DE \\
+ & 3 & 2015 & \href{https://www.ai.ch/themen/planen-und-bauen/raumplanung/richtplanung}{Online} & DE \\ 
+ & 2 & 2011 & \href{https://www.ai.ch/themen/planen-und-bauen/raumplanung/richtplanung}{Online} & DE \\ 
+ & 1 & 2002 & \href{https://www.ai.ch/themen/planen-und-bauen/raumplanung/richtplanung}{Online} & DE \\ \hline
 
-\multirow{3}{*}{AI} & 3 & 2018 & \href{https://www.ai.ch/themen/planen-und-bauen/raumplanung/richtplanung}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{5}{*}{AR} & 5 & 2025 & \href{https://ar.ch/fileadmin/user_upload/Departement_Bau_Volkswirtschaft/Amt_fuer_Raum_Wald/Raumentwicklung/Planen/Gesamter_Richtplantext.pdf}{Online} & DE \\
+ & 4 & 2012 & ‡ & DE \\
+ & 3 & 2008 & ‡ & DE \\
+ & 2 & 2002 & ‡ & DE \\
+ & 1 & 1987 & ‡ & DE \\ \hline
 
-\multirow{3}{*}{BE} & 3 & 2024 & \href{https://www.raumplanung.dij.be.ch/fr/start/kantonaler-richtplan.html}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{17}{*}{BE} & 10 & 2024 & \href{https://www.raumplanung.dij.be.ch/content/dam/raumplanung_dij/dokumente/fr/kantonaler-richtplan/richtplan%202030-fr.pdf}{Online} & FR \\
+ & 10 & 2024 & \href{https://www.raumplanung.dij.be.ch/content/dam/raumplanung_dij/dokumente/de/Kantonaler-Richtplan/richtplan%202030-de.pdf}{Online} & DE \\
 
-\multirow{3}{*}{BL} & 3 & 2009 & \href{https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/raumplanung/raumplanung/richtplanung}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+ & 8 & 2013 & ‡ & DE \\
+ & 7 & 2012 & ‡ & DE \\
+ & 6 & 2010 & ‡ & DE \\
+ & 5 & 2008 & ‡ & DE \\
+ & 4 & 2006 & ‡ & DE \\
+ & 3 & 2004 & ‡ & DE \\
+ & 2 & 2002 & ‡ & DE \\
 
-\multirow{3}{*}{BS} & 3 & 2025 & \href{https://www.bs.ch/bvd/staedtebau-architektur/raumplanung/kantonaler-richtplan}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+ & 9 & 2016 & ‡ & FR \\
+ & 8 & 2013 & ‡ & FR \\
+ & 7 & 2012 & ‡ & FR \\
+ & 6 & 2010 & ‡ & FR \\
+ & 5 & 2008 & ‡ & FR \\
+ & 4 & 2006 & ‡ & FR \\
+ & 2 & 2002 & ‡ & FR \\
 
-\multirow{3}{*}{FR} & 3 & 2020 & \href{https://www.fr.ch/dime/seca/plan-directeur-cantonal}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+ & 1 & 1987 & † & ? \\ \hline
 
-\multirow{3}{*}{GE} & 3 & 2024 & \href{https://www.ge.ch/dossier/amenager-territoire/planification-cantonale-regionale/plan-directeur-cantonal-2030}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+\multirow{2}{*}{BL} & 2 & 2025 & \href{https://bl-api.webcloud7.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/raumplanung/raumplanung/richtplanung/downloads-richtplanung/objektblatter.pdf}{Online} & DE \\
+ & 1 &  & † & DE \\ \hline
 
-\multirow{3}{*}{GL} & 3 & 2025 & \href{https://www.gl.ch/verwaltung/bau-und-umwelt/hochbau/raumentwicklung-und-geoinformation/raumentwicklung/kantonale-richtplanung.html/5046}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{7}{*}{BS} & 7 & 2025 & \href{https://www.bs.ch/bvd/staedtebau-architektur/raumplanung/kantonaler-richtplan}{Online} & DE \\
+ & 6 & 2024 & ‡ & DE \\
+ & 5 & 2019 & ‡ & DE \\
+ & 4 & 2018 & ‡ & DE \\
+ & 3 & 2012 & ‡ & DE \\
+ & 2 & 2010 & ‡ & DE \\
+ & 1 & 1986 & ‡ & DE \\ \hline
 
-\multirow{3}{*}{GR} & 3 & 2025 & \href{https://www.gr.ch/DE/institutionen/verwaltung/dvs/are/dienstleistungen/richtplanung/Seiten/Text-und-Karte.aspx}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{3}{*}{FR} & 3 & 2024 & \href{https://geo.fr.ch/PDCantC/}{Online} & FR \\
+ & 2 & 2002 & ‡ & FR \\
+ & 1 & 1987 & † & FR \\ \hline
 
-\multirow{3}{*}{JU} & 3 &  & \href{https://www.jura.ch/fr/Autorites/Administration/DEN/SDT/Plan-directeur-cantonal/Plan-directeur-cantonal.html}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+\multirow{1}{*}{GE} &  & 2024 & \href{https://www.ge.ch/dossier/amenager-territoire/planification-cantonale-regionale/plan-directeur-cantonal-2030}{Online} & FR \\ \hline
 
-\multirow{3}{*}{LU} & 3 & 2009 & \href{https://richtplan.lu.ch/}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{1}{*}{GL} &  & 2025 & \href{https://www.gl.ch/public/upload/assets/60652/20250417_Richtplantext%20revidiert.pdf?fp=1}{Online} & DE \\ \hline
 
-\multirow{3}{*}{NE} & 3 & 2011 & \href{https://www.ne.ch/autorites/DDTE/SCAT/pdc/Pages/accueil.aspx}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+\multirow{1}{*}{GR} &  & 2025 & \href{https://www.gr.ch/DE/institutionen/verwaltung/dvs/are/richtplanung/Kantonaler%20Richtplan%20de.pdf}{Online} & DE \\ \hline
 
-\caption{Cantonal master plans (part 1).}
+\multirow{1}{*}{JU} &  & 2018 & \href{https://www.jura.ch//Htdocs/Files/v/7be7ba3a987c9af38f22949c14ed12b63304341ffa562cf9262e87460d1d7ae3.pdf/20180425_CDDT_ApprouveeGVT.pdf?download=1}{Online} & FR \\ \hline
+
+
+
+
+
 \end{longtable}
 
 \end{minipage}
@@ -83,66 +126,72 @@ I manually downloaded the PDF on each canton's website.
 % === Second half of table ===
 \begin{longtable}{|p{1cm}|p{1cm}|p{1.5cm}|p{1.5cm}|p{1cm}|}
 \hline
-\rotatebox{70}{\textbf{Canton}} &
-\rotatebox{70}{\textbf{Version}} &
-\rotatebox{70}{\textbf{Year}} &
-\rotatebox{70}{\textbf{Availability}} &
-\rotatebox{70}{\textbf{Language}} \\ 
+\rotatebox{60}{\textbf{Canton}} &
+\rotatebox{60}{\textbf{Version}} &
+\rotatebox{60}{\textbf{Year}} &
+\rotatebox{60}{\textbf{Source}} &
+\rotatebox{60}{\textbf{Language}} \\ 
 \hline
 
-\multirow{3}{*}{NW} & 3 & 2002 & \href{https://www.nw.ch/raumentwdienste/2871}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{4}{*}{LU} & 4 & 2025 & \href{https://web.archive.org/web/20251025224154/https://richtplan.lu.ch/-/media/Richtplan/Dokumente/Richtplanrevision_Gesamt/OeffAuflage2025/Richtplanentwurf_2025_Text.pdf?rev=62f1f1a22ea5416eae48f97248369f0d}{Online} & DE \\
+ & 3 & 2009 & \href{https://richtplan.lu.ch/-/media/Richtplan/Dokumente/Richtplan_20250131/KRP_LU_RPText_20250131.pdf?rev=c8960fd88f7049eea1219cfa83fef946}{Online} & DE \\
+ & 2 & 1998 & † & DE \\
+ & 1 & 1986 & † & DE \\ \hline
+ 
+\multirow{1}{*}{NE} &  & 2011 & \href{https://sitn.ne.ch/web/diffusion/sat/PDC_2011_Dossier_complet.pdf}{Online} & FR \\ \hline
+ 
+\multirow{4}{*}{NW} & 4 & 2002 & \href{https://www.nw.ch/_docn/389050/Richtplantext_NW_2024_-_Kopie-komprimiert.pdf}{Online} & DE \\
+ & 3 & 2004 & † & DE \\
+ & 2 & 2000 & † & DE \\
+ & 1 & 1986 & † & DE \\ \hline
 
-\multirow{3}{*}{OW} & 3 & 2019 & \href{https://www.ow.ch/dienstleistungen/1527}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{3}{*}{OW} & 3 & 2019 & \href{https://www.ow.ch/_docn/319351/Ripla_2019_Text_Stand_Fortschreibung_Nov_2022.pdf}{Online} & DE \\
+ & 2 & 2006 & ‡ & DE \\
+ & 1 & 1987 & ‡ & DE \\ \hline
 
-\multirow{3}{*}{SG} & 3 & 2017 & \href{https://www.sg.ch/bauen/raumentwicklung/kantonaleplanung/richtplanung.html}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{1}{*}{SG} &  & 2017 & \href{https://www.sg.ch/bauen/raumentwicklung/kantonaleplanung/richtplanung/_jcr_content/Par/sgch_downloadlist_1942323361/DownloadListPar/sgch_download.ocFile/Richtplantext_Stand_Dezember_2024.pdf}{Online} & DE \\ \hline
 
-\multirow{3}{*}{SH} & 3 & 2014 & \href{https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Baudepartement/Planungs--und-Naturschutzamt/Raumplanung/Kantonale-Richtplanung-1612737-DE.html}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{3}{*}{SH} & 3 & 2021 & \href{https://sh.ch/CMS/get/file/57143567-acad-4331-a47a-a7fda8114f37}{Online} & DE \\
+ & 2 & 2004 & ‡ & DE \\
+ & 1 & 198X & † & DE \\ \hline
 
-\multirow{3}{*}{SZ} & 3 & 2003 & \href{https://www.sz.ch/behoerden/verwaltung/volkswirtschaftsdepartement/amt-fuer-raumentwicklung/kantonaler-richtplan.html/8756-8758-8802-10373-11039-12578}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{6}{*}{SZ} & 6 & 2022 & \href{https://www.sz.ch/public/upload/assets/68888/Richtplan_des_Kantons_Schwyz_Richtplantext.pdf?fp=8}{Online} & DE \\
+ & 5 & 2012 & ‡ & DE \\
+ & 4 & 2010 & ‡ & DE \\
+ & 3 & 2008 & ‡ & DE \\
+ & 2 & 2004 & ‡ & DE \\
+ & 1 & 1986 & ‡ & DE \\ \hline
 
-\multirow{3}{*}{SO} & 3 & 2017 & \href{https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-raumplanung/richtplanung/}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{3}{*}{SO} & 3 & 2023 & \href{https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-raumplanung/richtplanung/}{Online} & DE \\
+ & 2 & 2000 & † & DE \\
+ & 1 & 1984 & † & DE \\ \hline
 
-\multirow{3}{*}{TI} & 3 & 2013 & \href{https://www4.ti.ch/dt/dstm/sst/temi/piano-direttore/piano-direttore/}{Online} & IT \\
- & 2 &  & † & IT \\
- & 1 &  & ‡ & IT \\ \hline
+\multirow{3}{*}{TI} & 2 & 2009 & \href{https://www4.ti.ch/fileadmin/DT/temi/piano_direttore/rapporto_esplicativo/00_Rapporto_completo.pdf}{Online} & IT \\
+ & 1 & 1990 & † & IT \\ \hline
 
-\multirow{3}{*}{TG} & 3 & 2009 & \href{https://raumentwicklung.tg.ch/themen/kantonaler-richtplan.html/4211}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{1}{*}{TG} &  & 2018 & \href{https://raumentwicklung.tg.ch/public/upload/assets/160825/TG_Kantonaler_Richtplan_komplett_rechtskraeftig.pdf?fp=4}{Online} & DE \\ \hline
 
-\multirow{3}{*}{UR} & 3 & 2012 & \href{https://www.ur.ch/dienstleistungen/3687}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{1}{*}{UR} &  & 2023 & \href{https://www.ur.ch/_docn/375874/Richtplantext_240122.pdf}{Online} & DE \\ \hline
 
-\multirow{3}{*}{VD} & 3 & 2008 & \href{https://www.vd.ch/territoire-et-construction/amenagement-du-territoire/plan-directeur-cantonal/}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+\multirow{8}{*}{VD} & 8 & 2022 & \href{https://www.vd.ch/fileadmin/user_upload/themes/territoire/amenagement/PDCn/4quater/Version_approuvee/2022.11.11_Adaptation_PDCn_4quater.pdf}{Online} & FR \\
+ & 7 & 2018 & \href{https://www.vd.ch/fileadmin/user_upload/themes/territoire/amenagement/PDCn/PDCn4_VSO_180131.pdf}{Online} & FR \\ 
+ & 6 & 2016 & \href{https://www.vd.ch/fileadmin/user_upload/themes/territoire/amenagement/PDCn/Archives/PDCn3_VSO_151217.pdf}{Online} & FR \\
+ & 5 & 2013 & ‡ & FR \\ 
+ & 4 & 2012 & ‡ & FR \\ 
+ & 3 & 2011 & ‡ & FR \\ 
+ & 2 & 2008 & ‡ & FR \\ 
+ & 1 & 198X & † & FR \\ \hline
 
-\multirow{3}{*}{VS} & 3 & 2019 & \href{https://www.vs.ch/fr/web/sdt/plan-directeur-cantonal-2019}{Online} & FR \\
- & 2 &  & † & FR \\
- & 1 &  & ‡ & FR \\ \hline
+\multirow{1}{*}{VS} &  & 2019 & \href{https://www.vs.ch/fr/web/sdt/plan-directeur-cantonal-2019}{Online} & FR \\ \hline
 
-\multirow{3}{*}{ZG} & 3 & 2004 & \href{https://zg.ch/de/planen-bauen/raumplanung/richtplanung#archiv}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{3}{*}{ZG} & 3 & 2025 & \href{https://zg.ch/dam/jcr:f8cd851d-1bd4-4490-9ce0-75751e652747/250703_Richtplantext.pdf}{Online} & DE \\
+ & 2 & 2004 & \href{https://zg.ch/dam/jcr:b0341356-58b6-4426-8968-c4ec15a56dcc/040128_Richtplantext(1).pdf}{Online} & DE \\
+ & 1 & 1987 & \href{https://zg.ch/dam/jcr:250295b4-d37f-4f0b-bd29-bae2a3548568/00_1987_Richtplantext.pdf}{Online} & DE \\ \hline
 
-\multirow{3}{*}{ZH} & 3 & 2014 & \href{https://www.zh.ch/de/planen-bauen/raumplanung/richtplaene.html}{Online} & DE \\
- & 2 &  & † & DE \\
- & 1 &  & ‡ & DE \\ \hline
+\multirow{1}{*}{ZH} &  & 2020 & \href{https://www.zh.ch/de/planen-bauen/raumplanung/richtplaene.html}{Online} & DE \\ \hline
 
-\caption{Cantonal master plans (part 2).}
+\caption{Cantonal master plans}
+\label{table:listcantonalmasterplan}
 \end{longtable}
 
 \end{minipage}
@@ -153,32 +202,6 @@ I manually downloaded the PDF on each canton's website.
 \begin{itemize}
     \item[†] Only available in paper format (physical consultation) and thus excluded from this study
     \item[‡] Sent upon request by the cantonal service.
+    \item[*] Did not answer to the email or the document whereabout are unknown.
 \end{itemize}
 }
-
-
-
-
-
-The raw text was extracted from the pdf using a bash one liner
-
-\begin{verbatim}
-for f in *.pdf *.PDF; do
-  [ -f "$f" ] && pdftotext "$f" "${f%.*}.txt"
-done
-\end{verbatim}
-
-
-I then imported the .txt into TXM : https://txm.gitpages.huma-num.fr/textometrie/
-
-TXM use the treetagger module to tag each word in the corpus. (https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) \cite{serge_txm_2010}
-
-I used the French and German module for the French and German dataset.
-
-I used TXM to understand a bit the corpus but in an attempt to make this more reproductible, I translated the useful query into python and made a script to renegerate my result.
-
-I look at hit against a custom keyword list with word mapped to motilité and temps perçu
-
-I did an AFC on the whole corpus to see if there are differences between documents but it did not yield any useful result. the figures are in annexes
-
-I also did an AFC with the hit against time and moitilité

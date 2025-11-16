@@ -1,45 +1,43 @@
-# Analyse textométrique des plan d'aménagement du territoire suisse
 
-This repository contains the LaTeX document of my analysis, the scripts used to process the dataset, and the dataset itself.
+# Analyse textométrique des plans d'aménagement du territoire suisse
 
-My research questions are the followings :
+This repository contains all materials for a reproducible textometric analysis of Swiss spatial planning documents. It includes the code, dataset, and report so that anyone can explore, replicate, or extend the research.
 
-To what extent do Swiss territorial / spatial planning documents acknowledge the distinction
-between perceived time vs measured/travel-time objectively modelled, in relation to modal
-choice?
+## Contents
 
-How strongly do Swiss planning documents incorporate human / behavioral / motility-based
-rationales, as opposed to purely economic / efficiency rationales, in shaping transport and spatial
-policy?
+* **PDF report:** `Analyse_textométrique_des_plan_d'aménagement_du_territoire_suisse.pdf`
+  This is the full research document detailing the questions, methodology, results, and conclusions.
+  **Abstract:** The study investigates how accessibility, motility, and time are represented in Swiss spatial planning discourse. Accessibility dominates the discourse, while capability-based mobility (motility) and subjective time are largely absent, revealing a bias toward technical and operational framings. The project provides an open dataset and analysis pipeline to facilitate further research.
 
-# Methodology
+* **Dataset:** Raw and processed text data extracted from cantonal planning PDFs.
 
-I manually downloaded the PDF on each canton's website.
+* **Analysis scripts:** Main script located at:
 
-The raw text was extracted from the pdf using a bash one liner
+  ```
+  Analysis/software/analysis.py
+  ```
 
-```
-for f in *.pdf *.PDF; do [ -f "$f" ] && pdftotext "$f" "${f%.*}.txt"; done
-```
+  This script processes the text data, computes counts for mobility and time concepts, and generates matrices and visualizations for analysis.
 
-I then imported the .txt into TXM : https://txm.gitpages.huma-num.fr/textometrie/
+* **Requirements:** `requirements.txt` contains all Python dependencies.
 
-Heiden Serge. (2010). The TXM Platform: Building Open-Source Textual Analysis Software Compatible with the TEI Encoding Scheme. In 24th Pacific Asia Conference on Language, Information and Computation (pp. 389–398). Sendai, Japon. Retrieved from http://halshs.archives-ouvertes.fr/docs/00/54/97/64/PDF/paclic24_sheiden.pdf
+## Quick start
 
-TXM use the treetagger module to tag each word in the corpus. (https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/)
+1. Install dependencies:
 
-I used the French and German module for the French and German dataset.
+   ```
+   pip install -r requirements.txt
+   ```
 
-From there I made a custom python script to process the data.
+2. Run the analysis:
 
-First we compute some stat on the corpus 
-then we filter it by scoring word positively or negatively if they are close the mobility concept
-by matching them using ContextMobilityWhiltelist.csv (word, score) with score being positive or negative if its related or not to the concept of mobility)
-we then plot the concept density histogram.
-then we cluster/apply a density threshold to only keep the relevant part of the dataset that are related to mobility and exclude the one that belong to other topics like energy.
-then on that subcorpus we fill a csv/table with the count per word for each lemmes (Accessibilité / Motilité/TempsChrono/TempsVecue) and for each document. we now have a matrix of vector per document that tell us how many hit we have for each word.
-the goal being to give the count per detailled concept (timeChrono, TempsVecue) but do the AFC on the whole concept (Time) to see if there is a difference between documents.
-since the word are matched between german and french we can even make a new CSV that merge the column of the french + german CSV for the time + mobility concept.
-then we can compute the AFC on the french Time csv + french mobilité csv + german time csv + german mobility csv + the merge time csv and the merged mobility csv.
+   ```
+   python Analysis/software/analysis.py
+   ```
 
+The analysis pipeline reproduces the results presented in the PDF report. It also allows exploration of combined French and German datasets, subcorpora filtered by concept relevance, and concept-level matrices for Accessibility, Motility, and Time (both objective and subjective).
 
+## Open Science Notes
+
+* The report and datasets are released under a **CC-BY license** to encourage reuse and replication.
+* The script are release under a **MIT License** for easy reuse.
